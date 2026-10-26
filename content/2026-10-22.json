@@ -1,0 +1,1103 @@
+{
+  "date": "2026-10-22",
+  "title": "AI 日报 · 2026-10-22（周四）",
+  "window": "时间窗口：10-21 12:55 到 10-22 12:55（台北时间）。每条都打开正文核对过日期。",
+  "highlights": [
+    "今日关注：Anthropic 发布 Claude Duet，一个会主动来找你的 AI 助理。 两个多月里已经有四家公司推出同类产品，可关注 AI 助理代办任务的能力。",
+    "VibeCoding 圈今天的主题是安全。 Railway 的密钥系统被入侵，LiteLLM 安装包被投毒，PHP 曝出漏洞。使用 AI 做项目的读者可关注 API Key 风险。",
+    "生活应用：用 Claude Code 或 Codex 一键清掉电视广告。 相关开源项目 5 天涨到 2 万星。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-10-22-news-01",
+          "title": "Anthropic 发布 Claude Duet（研究预览版）。",
+          "title_md": "Anthropic 发布 Claude Duet（研究预览版）。",
+          "body_md": "它每天早上给你做简报，在后台持续干活，花钱或发邮件之前会先问你。美国的 Pro 和 Max 用户可以排队试用。[官方推文](https://x.com/claudeai/status/2112984664256241837)（10-22 03:09，4.2 万赞）｜[产品页](https://claude.com/product/claude-duet)｜[HN 讨论](https://news.ycombinator.com/item?id=50186037)（339 分，305 条评论，主要在质疑隐私和信任）",
+          "body_text": "它每天早上给你做简报，在后台持续干活，花钱或发邮件之前会先问你。美国的 Pro 和 Max 用户可以排队试用。官方推文（10-22 03:09，4.2 万赞）｜产品页｜HN 讨论（339 分，305 条评论，主要在质疑隐私和信任）",
+          "source": "X @claudeai",
+          "published": "10-22 03:09",
+          "meta": "4.2 万赞；339 分；305 条评论",
+          "annotations": [
+            "研究预览版",
+            "10-22 03:09，4.2 万赞",
+            "339 分，305 条评论，主要在质疑隐私和信任"
+          ],
+          "primary_url": "https://x.com/claudeai/status/2112984664256241837",
+          "links": [
+            {
+              "text": "官方推文",
+              "url": "https://x.com/claudeai/status/2112984664256241837"
+            },
+            {
+              "text": "产品页",
+              "url": "https://claude.com/product/claude-duet"
+            },
+            {
+              "text": "HN 讨论",
+              "url": "https://news.ycombinator.com/item?id=50186037"
+            }
+          ],
+          "summary": "Claude Duet 是能在后台持续处理任务的个人 AI 助手，会主动准备晨间简报，并在花钱或发送邮件前征求批准。目前是研究预览版，美国 Pro 和 Max 用户可申请试用；理解它的关键是区分可交给后台的日常任务与仍需本人确认的操作。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "候选图片：人工复核：只有产品标志，缺少正文信息；原文页面 HTTP 419"
+        },
+        {
+          "id": "2026-10-22-news-02",
+          "title": "宝玉总结了同类产品",
+          "title_md": "宝玉总结了同类产品：",
+          "body_md": "xAI 的 Grok Bot（8-11）、Meta 的 Muse（9-08）、OpenAI 的 Dots（9-29），加上今天的 Claude Duet。[推文](https://x.com/dotey/status/2113014531853365681)",
+          "body_text": "xAI 的 Grok Bot（8-11）、Meta 的 Muse（9-08）、OpenAI 的 Dots（9-29），加上今天的 Claude Duet。推文",
+          "source": "X @dotey",
+          "published": "",
+          "meta": "",
+          "annotations": [
+            "8-11",
+            "9-08",
+            "9-29"
+          ],
+          "primary_url": "https://x.com/dotey/status/2113014531853365681",
+          "links": [
+            {
+              "text": "推文",
+              "url": "https://x.com/dotey/status/2113014531853365681"
+            }
+          ],
+          "summary": "宝玉把 Grok Bot、Muse、Dots 与 Claude Duet 放在一起，梳理了多家公司推出个人 AI 助手的时间线。这份对照有助于认识同类产品，但发布时间集中并不能说明它们的能力或使用条件完全相同。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "推文接口未返回媒体图片"
+        },
+        {
+          "id": "2026-10-22-news-03",
+          "title": "Meta 的 Muse 用户超过 1000 万。",
+          "title_md": "Meta 的 Muse 用户超过 1000 万。",
+          "body_md": "约 25% 的用户每天都用，超过四分之一的活跃用户让 AI 代理帮自己购物。[AIbase](https://www.aibase.com/zh/news/31787)",
+          "body_text": "约 25% 的用户每天都用，超过四分之一的活跃用户让 AI 代理帮自己购物。AIbase",
+          "source": "AIbase",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://www.aibase.com/zh/news/31787",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/31787"
+            }
+          ],
+          "summary": "据 AIbase 报道，Meta 的 Muse 用户超过 1000 万，约 25% 的用户每天使用，超过四分之一的活跃用户让它协助购物。这些数据展示了 AI 助手进入日常消费场景的情况，阅读时需要区分总用户、每日用户和活跃用户这几种统计口径。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-news-03.jpg",
+            "width": 600,
+            "height": 449,
+            "credit": "图片来源：AIbase",
+            "source_url": "https://www.aibase.com/zh/news/31787",
+            "remote_url": "https://pic.chinaz.com/picmap/201811151633427930_12.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-22-news-04",
+          "title": "AI 参与发现了 PHP2Shell 漏洞，可以免登录接管服务器，大约七成网站受影响。",
+          "title_md": "AI 参与发现了 PHP2Shell 漏洞，可以免登录接管服务器，大约七成网站受影响。",
+          "body_md": "这是 OpenAI \"Patch the Planet\" 计划协调修复的。OpenAI 还提供了一个 Codex skill，可以用来自查网站。[OpenAI](https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities)｜[自查 skill 推文](https://x.com/OpenAI/status/2112945805686604033)｜[宝玉中文解读](https://x.com/dotey/status/2112934529916616991)",
+          "body_text": "这是 OpenAI \"Patch the Planet\" 计划协调修复的。OpenAI 还提供了一个 Codex skill，可以用来自查网站。OpenAI｜自查 skill 推文｜宝玉中文解读",
+          "source": "OpenAI",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+          "links": [
+            {
+              "text": "OpenAI",
+              "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+            },
+            {
+              "text": "自查 skill 推文",
+              "url": "https://x.com/OpenAI/status/2112945805686604033"
+            },
+            {
+              "text": "宝玉中文解读",
+              "url": "https://x.com/dotey/status/2112934529916616991"
+            }
+          ],
+          "summary": "PHP 是常用于网站服务端的编程语言，PHP2Shell 漏洞涉及攻击者免登录接管服务器的风险。原稿记录 OpenAI 协调修复，并提供 Codex 自查技能，即供编程助手执行检查的任务说明；维护相关网站的人可据此关注排查与修复。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-news-04.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：OpenAI",
+            "source_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+            "remote_url": "https://images.ctfassets.net/kftzwdyauwt9/xq2rRszwLvIAxOynZi2qa/b1cf094a0d095f67821bf4b8cfaba0b9/coordinated-disclosure-of-critical-vulnerabilities-social.png?w=1600&h=900&fit=fill"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-22-news-05",
+          "title": "OpenAI 的模型和 Codex 将登陆 Google Cloud Model Garden。",
+          "title_md": "OpenAI 的模型和 Codex 将登陆 Google Cloud Model Garden。",
+          "body_md": "[OpenAI](https://openai.com/index/openai-models-google-cloud)（10-21 20:00）",
+          "body_text": "OpenAI（10-21 20:00）",
+          "source": "OpenAI",
+          "published": "10-21 20:00",
+          "meta": "",
+          "annotations": [
+            "10-21 20:00"
+          ],
+          "primary_url": "https://openai.com/index/openai-models-google-cloud",
+          "links": [
+            {
+              "text": "OpenAI",
+              "url": "https://openai.com/index/openai-models-google-cloud"
+            }
+          ],
+          "summary": "Google Cloud Model Garden 是云平台上的模型选用入口，OpenAI 的模型和编程工具 Codex 将进入这一入口。对已经使用 Google Cloud 的团队，这意味着可关注新的接入选择，具体可用范围仍应以正式说明为准。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "原文页面 HTTP 403"
+        },
+        {
+          "id": "2026-10-22-news-06",
+          "title": "ChatGPT 广告扩展到 26 个新国家，已有超过 10 万广告主用过。",
+          "title_md": "ChatGPT 广告扩展到 26 个新国家，已有超过 10 万广告主用过。",
+          "body_md": "[OpenAI](https://openai.com/index/chatgpt-ads-expands-26-new-countries)",
+          "body_text": "OpenAI",
+          "source": "OpenAI",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+          "links": [
+            {
+              "text": "OpenAI",
+              "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
+            }
+          ],
+          "summary": "OpenAI 将 ChatGPT 广告扩展到 26 个新国家，并称已有超过 10 万广告主使用过相关服务。这项变化涉及 ChatGPT 的商业服务覆盖范围，广告主数量也不等同于广告触达的用户数量。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-news-06.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：OpenAI",
+            "source_url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+            "remote_url": "https://images.ctfassets.net/kftzwdyauwt9/6Fq2uj7xCpKHENjyeojn9c/d3771e7cecdfb77c28c7560de9413de1/chatgpt-ads-expands-26-new-countries-social.png?w=1600&h=900&fit=fill"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-22-news-07",
+          "title": "传闻：Anthropic 最快本周五提交招股书（S-1）。",
+          "title_md": "传闻：Anthropic 最快本周五提交招股书（S-1）。",
+          "body_md": "消息来自雅虎财经援引的知情人士，还没有得到官方确认。[AIbase](https://www.aibase.com/zh/news/31795)",
+          "body_text": "消息来自雅虎财经援引的知情人士，还没有得到官方确认。AIbase",
+          "source": "AIbase",
+          "published": "",
+          "meta": "",
+          "annotations": [
+            "S-1"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/31795",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/31795"
+            }
+          ],
+          "summary": "AIbase 转述雅虎财经知情人士消息，称 Anthropic 最快本周五提交 S-1，尚无官方确认。S-1 是企业在美国上市时用于披露业务、财务与风险的注册文件，因此这则消息仍应作为上市进程的传闻看待。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-22-news-08",
+          "title": "办公 Agent 排名：WorkBuddy、百度搭子、千问办公排在前三。",
+          "title_md": "办公 Agent 排名：WorkBuddy、百度搭子、千问办公排在前三。",
+          "body_md": "数据来自 QuestMobile。[AIbase](https://www.aibase.com/zh/news/31777)",
+          "body_text": "数据来自 QuestMobile。AIbase",
+          "source": "AIbase",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://www.aibase.com/zh/news/31777",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/31777"
+            }
+          ],
+          "summary": "QuestMobile 的办公智能体排名中，WorkBuddy、百度搭子和千问办公位居前三；智能体指能够调用工具、执行任务的 AI。这类榜单可帮助读者认识办公产品的使用情况，但名次本身不能替代对具体任务效果的比较。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-news-08.jpg",
+            "width": 694,
+            "height": 438,
+            "credit": "图片来源：AIbase",
+            "source_url": "https://www.aibase.com/zh/news/31777",
+            "remote_url": "https://pic.chinaz.com/2026/1021/2026102115343862260.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-10-22-tools-01",
+          "title": "Claude Code v2.1.307 / v2.1.308",
+          "title_md": "Claude Code v2.1.307 / v2.1.308：",
+          "body_md": "新增 `/claude-api api-version`，修复了一批 MCP、自动压缩上下文（autocompact）和权限相关的问题。Code Review 新增 `@claude review stop` 指令。[Release](https://github.com/anthropics/claude-code/releases/tag/v2.1.307)（10-22 06:17）",
+          "body_text": "新增 /claude-api api-version，修复了一批 MCP、自动压缩上下文（autocompact）和权限相关的问题。Code Review 新增 @claude review stop 指令。Release（10-22 06:17）",
+          "source": "GitHub",
+          "published": "10-22 06:17",
+          "meta": "",
+          "annotations": [
+            "autocompact",
+            "10-22 06:17"
+          ],
+          "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+          "links": [
+            {
+              "text": "Release",
+              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307"
+            }
+          ],
+          "summary": "Claude Code 这次更新增加了接口版本相关指令，并修复外部工具连接、对话内容压缩和权限问题。MCP 是让 AI 与外部工具交换信息的连接协议，相关修复值得使用这类连接的用户留意；代码审查也新增了停止指令。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-tools-01.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+            "remote_url": "https://opengraph.githubassets.com/5883b35b28246294c2eeef6473aaa5d8511eae7fd80ff51d91cec12e4362dac8/anthropics/claude-code/releases/tag/v2.1.307"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-22-tools-02",
+          "title": "Claude Security 支持持续扫描代码仓库",
+          "title_md": "Claude Security 支持持续扫描代码仓库：",
+          "body_md": "仓库有改动就自动重新扫描。目前在 Enterprise 版公测。[推文](https://x.com/claudeai/status/2112962248218148878)",
+          "body_text": "仓库有改动就自动重新扫描。目前在 Enterprise 版公测。推文",
+          "source": "X @claudeai",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://x.com/claudeai/status/2112962248218148878",
+          "links": [
+            {
+              "text": "推文",
+              "url": "https://x.com/claudeai/status/2112962248218148878"
+            }
+          ],
+          "summary": "Claude Security 可以在代码仓库发生改动后重新扫描，帮助持续检查代码中的安全问题。该能力目前在 Enterprise 版公测，关注它时需要先确认自己的套餐与试用资格。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-tools-02.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：X @claudeai",
+            "source_url": "https://x.com/claudeai/status/2112962248218148878",
+            "remote_url": "https://pbs.twimg.com/media/HVK4ttCWMAAxox-.jpg?name=orig"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-22-tools-03",
+          "title": "Codex 今天发了三个 0.164.0 alpha 版本",
+          "title_md": "Codex 今天发了三个 0.164.0 alpha 版本：",
+          "body_md": "都只是预发布版本，没有写更新说明。[Releases](https://github.com/openai/codex/releases)",
+          "body_text": "都只是预发布版本，没有写更新说明。Releases",
+          "source": "GitHub",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://github.com/openai/codex/releases",
+          "links": [
+            {
+              "text": "Releases",
+              "url": "https://github.com/openai/codex/releases"
+            }
+          ],
+          "summary": "Codex 当天发布了三个 0.164.0 alpha 版本，属于正式发布前的试用版本。由于没有更新说明，现有材料不足以判断新增功能或修复内容。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-tools-03.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/openai/codex/releases",
+            "remote_url": "https://opengraph.githubassets.com/1/openai/codex"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-22-tools-04",
+          "title": "Mistral 发布 Voxtral 3",
+          "title_md": "Mistral 发布 Voxtral 3：",
+          "body_md": "支持 50 多种语言的语音识别和语音合成，还附带一个语音 Agent SDK。[TLDR AI 10-21 期](https://tldr.tech/ai/2026-10-21)",
+          "body_text": "支持 50 多种语言的语音识别和语音合成，还附带一个语音 Agent SDK。TLDR AI 10-21 期",
+          "source": "TLDR AI",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://tldr.tech/ai/2026-10-21",
+          "links": [
+            {
+              "text": "TLDR AI 10-21 期",
+              "url": "https://tldr.tech/ai/2026-10-21"
+            }
+          ],
+          "summary": "Mistral 发布的 Voxtral 3 涉及语音识别和语音合成，支持 50 多种语言。随附的语音智能体开发工具包供开发者把语音与任务执行能力接起来，普通用户可以由此了解语音应用的构建方式。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-22-tools-05",
+          "title": "腾讯「懂了鸭」",
+          "title_md": "腾讯「懂了鸭」：",
+          "body_md": "一句话就能生成绘本、动画和小游戏，面向亲子和老师。[V2EX 讨论](https://www.v2ex.com/t/1250816)",
+          "body_text": "一句话就能生成绘本、动画和小游戏，面向亲子和老师。V2EX 讨论",
+          "source": "V2EX",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://www.v2ex.com/t/1250816",
+          "links": [
+            {
+              "text": "V2EX 讨论",
+              "url": "https://www.v2ex.com/t/1250816"
+            }
+          ],
+          "summary": "腾讯「懂了鸭」面向亲子和教学场景，可根据一句话生成绘本、动画或小游戏。它展示了用自然语言制作学习材料的方式，老师和家长可以关注这些输出是否适合具体的教学内容。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-22-tools-06",
+          "title": "红果短剧上线「小果AI」",
+          "title_md": "红果短剧上线「小果AI」：",
+          "body_md": "可以在评论区 @ 它来提问。[AIbase](https://www.aibase.com/zh/news/31792)",
+          "body_text": "可以在评论区 @ 它来提问。AIbase",
+          "source": "AIbase",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://www.aibase.com/zh/news/31792",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/31792"
+            }
+          ],
+          "summary": "红果短剧的「小果AI」提供评论区问答入口，用户可以通过 @ 它提出问题。相比另开一个聊天工具，这种入口把 AI 问答放进了观看与评论的使用流程。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG；候选图片：人工复核：应用下载推广横幅"
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-10-22-projects-01",
+          "title": "CleanYourTV",
+          "title_md": "[CleanYourTV](https://github.com/Gathin23/cleanyourtv)：",
+          "body_md": "把一份 PROMPT.md 交给 Claude Code、Codex 或 Gemini CLI，就能清掉安卓电视的广告和预装软件，不需要 Root。10-17 创建，现在 2 万星，今天还在更新。[AI工具集介绍](https://ai-bot.cn/cleanyourtv/)",
+          "body_text": "把一份 PROMPT.md 交给 Claude Code、Codex 或 Gemini CLI，就能清掉安卓电视的广告和预装软件，不需要 Root。10-17 创建，现在 2 万星，今天还在更新。AI工具集介绍",
+          "source": "GitHub",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://github.com/Gathin23/cleanyourtv",
+          "links": [
+            {
+              "text": "CleanYourTV",
+              "url": "https://github.com/Gathin23/cleanyourtv"
+            },
+            {
+              "text": "AI工具集介绍",
+              "url": "https://ai-bot.cn/cleanyourtv/"
+            }
+          ],
+          "summary": "CleanYourTV 把电视清理流程写成提示词文件，交给 Claude Code、Codex 或 Gemini CLI 执行，可处理安卓电视的广告与预装软件。原稿说明无需 Root，也就是不必取得系统最高权限；它提供了用 AI 参与家庭设备维护的具体例子。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-projects-01.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/Gathin23/cleanyourtv",
+            "remote_url": "https://opengraph.githubassets.com/5128c762bf5f0c7f16ec0f55b3360cd0849be7a72eef6fc22be784436b94eb80/Gathin23/cleanyourtv"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-22-projects-02",
+          "title": "GitHub Trending 今日榜（单日新增星数）",
+          "title_md": "GitHub Trending 今日榜（单日新增星数）：",
+          "body_md": "- [ponytail](https://github.com/DietrichGebert/ponytail)（+2079）：让 Agent 像最懒的资深工程师那样少写代码\n    - [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)（+2012）：做安全审计的 skill\n    - [orca](https://github.com/stablyai/orca)（+1541）：同时管理多个编程 Agent\n    - [graphify](https://github.com/Graphify-Labs/graphify)（+1433）：把代码库变成可以提问的知识图谱",
+          "body_text": "- ponytail（+2079）：让 Agent 像最懒的资深工程师那样少写代码\n    - cloudflare/security-audit-skill（+2012）：做安全审计的 skill\n    - orca（+1541）：同时管理多个编程 Agent\n    - graphify（+1433）：把代码库变成可以提问的知识图谱",
+          "source": "GitHub",
+          "published": "",
+          "meta": "+2079；+2012；+1541；+1433",
+          "annotations": [
+            "单日新增星数",
+            "+2079",
+            "+2012",
+            "+1541",
+            "+1433"
+          ],
+          "primary_url": "https://github.com/DietrichGebert/ponytail",
+          "links": [
+            {
+              "text": "ponytail",
+              "url": "https://github.com/DietrichGebert/ponytail"
+            },
+            {
+              "text": "cloudflare/security-audit-skill",
+              "url": "https://github.com/cloudflare/security-audit-skill"
+            },
+            {
+              "text": "orca",
+              "url": "https://github.com/stablyai/orca"
+            },
+            {
+              "text": "graphify",
+              "url": "https://github.com/Graphify-Labs/graphify"
+            }
+          ],
+          "summary": "这组热门仓库分别关注减少不必要代码、安全审计、同时管理多个编程助手，以及把代码关系整理成可查询的知识图谱。它们说明 AI 编程周边正在覆盖不同环节，挑选时可以先对应自己的实际问题，而不只看新增星数。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-projects-02.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/DietrichGebert/ponytail",
+            "remote_url": "https://repository-images.githubusercontent.com/1266797999/b20d9cb8-11f0-4db8-965a-7e22ab2b6bb6"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-22-projects-03",
+          "title": "V2EX 用户做的 Claude Code / Codex 周边小工具",
+          "title_md": "V2EX 用户做的 Claude Code / Codex 周边小工具：",
+          "body_md": "- [ccx](https://www.v2ex.com/t/1250714)：额度用完时一键带着上下文切到另一边\n    - [SessionMonitor](https://www.v2ex.com/t/1250675)：用悬浮窗查看多个会话的状态\n    - [Agent-Shit-Cleaner](https://www.v2ex.com/t/1250873)：清理 Agent 留下的依赖包和构建产物，作者的 1T 硬盘被塞满了",
+          "body_text": "- ccx：额度用完时一键带着上下文切到另一边\n    - SessionMonitor：用悬浮窗查看多个会话的状态\n    - Agent-Shit-Cleaner：清理 Agent 留下的依赖包和构建产物，作者的 1T 硬盘被塞满了",
+          "source": "V2EX",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://www.v2ex.com/t/1250714",
+          "links": [
+            {
+              "text": "ccx",
+              "url": "https://www.v2ex.com/t/1250714"
+            },
+            {
+              "text": "SessionMonitor",
+              "url": "https://www.v2ex.com/t/1250675"
+            },
+            {
+              "text": "Agent-Shit-Cleaner",
+              "url": "https://www.v2ex.com/t/1250873"
+            }
+          ],
+          "summary": "ccx 用于带着对话内容切换 Claude Code 与 Codex，SessionMonitor 显示会话状态，Agent-Shit-Cleaner 则清理依赖包与构建产物。这些工具处理的是额度、等待和磁盘占用等日常问题，可帮助读者理解编程助手之外还需要哪些管理工作。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-22-projects-04",
+          "title": "ATBGamePort",
+          "title_md": "ATBGamePort：",
+          "body_md": "把小游戏压缩包交给 Agent，就能移植成网页版。作者判断小游戏的供给会暴增。[V2EX](https://www.v2ex.com/t/1250623)",
+          "body_text": "把小游戏压缩包交给 Agent，就能移植成网页版。作者判断小游戏的供给会暴增。V2EX",
+          "source": "V2EX",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://www.v2ex.com/t/1250623",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1250623"
+            }
+          ],
+          "summary": "ATBGamePort 尝试把小游戏压缩包交给智能体，也就是能调用开发工具执行任务的 AI，再移植成网页版。它展示了 AI 参与旧项目转换的用法，作者对未来游戏供给的判断则属于个人预测。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-projects-04.jpg",
+            "width": 1200,
+            "height": 901,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1250623",
+            "remote_url": "https://i.v2ex.co/aNE91ar7.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-22-projects-05",
+          "title": "r/vibecoding 的两条",
+          "title_md": "r/vibecoding 的两条：",
+          "body_md": "- [一个人一周做出浏览器肉鸽游戏](https://www.reddit.com/r/vibecoding/comments/1xbpzxl/a_week_ago_this_was_a_tiny_ai_coded_prototype_now/)，已有 1700 人玩了 3000 局\n    - [用 Claude Code 把 1982 年的 Atari 游戏重制](https://www.reddit.com/r/vibecoding/comments/1xbn2m5/halloween_is_coming_vibecoding_a_1982_atari_game/)，做成了 NES 和 SNES 版",
+          "body_text": "- 一个人一周做出浏览器肉鸽游戏，已有 1700 人玩了 3000 局\n    - 用 Claude Code 把 1982 年的 Atari 游戏重制，做成了 NES 和 SNES 版",
+          "source": "Reddit",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://www.reddit.com/r/vibecoding/comments/1xbpzxl/a_week_ago_this_was_a_tiny_ai_coded_prototype_now/",
+          "links": [
+            {
+              "text": "一个人一周做出浏览器肉鸽游戏",
+              "url": "https://www.reddit.com/r/vibecoding/comments/1xbpzxl/a_week_ago_this_was_a_tiny_ai_coded_prototype_now/"
+            },
+            {
+              "text": "用 Claude Code 把 1982 年的 Atari 游戏重制",
+              "url": "https://www.reddit.com/r/vibecoding/comments/1xbn2m5/halloween_is_coming_vibecoding_a_1982_atari_game/"
+            }
+          ],
+          "summary": "两则社区作品分别是浏览器肉鸽游戏和旧 Atari 游戏重制，后者制作了 NES、SNES 版本。肉鸽通常指带有随机变化、可反复挑战的游戏类型；这些案例展示了 AI 编程在新作开发与旧作改造中的不同用途。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-22-projects-06",
+          "title": "歸藏把 Codex 接到了电视上，可以直接对话。",
+          "title_md": "歸藏把 Codex 接到了电视上，可以直接对话。",
+          "body_md": "[推文](https://x.com/op7418/status/2113101644334551095)",
+          "body_text": "推文",
+          "source": "X @op7418",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://x.com/op7418/status/2113101644334551095",
+          "links": [
+            {
+              "text": "推文",
+              "url": "https://x.com/op7418/status/2113101644334551095"
+            }
+          ],
+          "summary": "歸藏展示了把 Codex 接到电视上直接对话的用法。它把编程助手的交互入口延伸到了客厅设备，但原稿没有进一步说明接入步骤与适配范围。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-projects-06.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：X @op7418",
+            "source_url": "https://x.com/op7418/status/2113101644334551095",
+            "remote_url": "https://pbs.twimg.com/amplify_video_thumb/2113101522792009729/img/sOzR4BiKQOf9gN6S.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-22-projects-07",
+          "title": "向阳乔木分享了\"一天学会、每周都用得上\"的知识提问 Prompt。",
+          "title_md": "向阳乔木分享了\"一天学会、每周都用得上\"的知识提问 Prompt。",
+          "body_md": "[推文](https://x.com/vista8/status/2112942959167730058)",
+          "body_text": "推文",
+          "source": "X @vista8",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://x.com/vista8/status/2112942959167730058",
+          "links": [
+            {
+              "text": "推文",
+              "url": "https://x.com/vista8/status/2112942959167730058"
+            }
+          ],
+          "summary": "向阳乔木分享了一组用于学习日常知识的提示词，也就是给 AI 的提问与回答要求。它的关注点在于如何组织问题，让读者把抽象知识与每周可能遇到的实际用途联系起来。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-22/2026-10-22-projects-07.jpg",
+            "width": 1141,
+            "height": 1200,
+            "credit": "图片来源：X @vista8",
+            "source_url": "https://x.com/vista8/status/2112942959167730058",
+            "remote_url": "https://pbs.twimg.com/media/HVKuEYza4AQkPru.jpg?name=orig"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-22-projects-08",
+          "title": "V2EX 热议：「为啥你们 Vibe 的网页 AI 味儿那么重?」，173 条回复。",
+          "title_md": "V2EX 热议：「为啥你们 Vibe 的网页 AI 味儿那么重?」，173 条回复。",
+          "body_md": "[帖子](https://www.v2ex.com/t/1250676)",
+          "body_text": "帖子",
+          "source": "V2EX",
+          "published": "",
+          "meta": "173 条回复",
+          "annotations": [],
+          "primary_url": "https://www.v2ex.com/t/1250676",
+          "links": [
+            {
+              "text": "帖子",
+              "url": "https://www.v2ex.com/t/1250676"
+            }
+          ],
+          "summary": "V2EX 的讨论围绕 AI 生成网页为何容易显得风格雷同展开，有 173 条回复。它提示初学者，生成页面之后仍有必要审视视觉表达；讨论热度本身并不等于对所有 AI 网页的统一结论。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-10-22-cooperation-01",
+          "title": "电鸭有人在卖\"远程代搭飞书多维表格客户 CRM 看板\"。",
+          "title_md": "电鸭有人在卖\"远程代搭飞书多维表格客户 CRM 看板\"。",
+          "body_md": "反映了小团队整理微信和 Excel 客户资料的需求。[电鸭](https://eleduck.com/posts/a4fbLR)",
+          "body_text": "反映了小团队整理微信和 Excel 客户资料的需求。电鸭",
+          "source": "电鸭",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://eleduck.com/posts/a4fbLR",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/a4fbLR"
+            }
+          ],
+          "summary": "电鸭出现了代建飞书客户管理看板的服务信息，目标是整理分散在微信和 Excel 中的客户资料。CRM 指客户关系管理，这个案例把需求落在资料归档与查看上，便于理解小团队需要怎样的业务工具。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-22-cooperation-02",
+          "title": "V2EX 有全栈开发者想做垂直行业的\"AI 工作搭子\"（定制版 WorkBuddy），正在找有需求的行业方。",
+          "title_md": "V2EX 有全栈开发者想做垂直行业的\"AI 工作搭子\"（定制版 WorkBuddy），正在找有需求的行业方。",
+          "body_md": "呈现了开发者与行业方之间的合作意向。[V2EX](https://www.v2ex.com/t/1250651)",
+          "body_text": "呈现了开发者与行业方之间的合作意向。V2EX",
+          "source": "V2EX",
+          "published": "",
+          "meta": "",
+          "annotations": [
+            "定制版 WorkBuddy"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1250651",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1250651"
+            }
+          ],
+          "summary": "V2EX 有开发者希望制作面向特定行业的 AI 工作助手，并寻找有需求的行业方合作。它呈现的是开发能力与业务知识之间的对接意向，目前材料没有说明已完成的合作或实际效果。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-22-cooperation-03",
+          "title": "V2EX 有人想要\"通勤骑车时能跟 AI 语音聊天\"的产品",
+          "title_md": "V2EX 有人想要\"通勤骑车时能跟 AI 语音聊天\"的产品：",
+          "body_md": "要求能打断、有长期记忆、能跟进待办，预算每月 20 美元以内。帖子列出了具体的功能与预算需求。[V2EX](https://www.v2ex.com/t/1250815)",
+          "body_text": "要求能打断、有长期记忆、能跟进待办，预算每月 20 美元以内。帖子列出了具体的功能与预算需求。V2EX",
+          "source": "V2EX",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://www.v2ex.com/t/1250815",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1250815"
+            }
+          ],
+          "summary": "一位 V2EX 用户提出通勤骑车时与 AI 语音交流的需求，希望能随时打断、记住长期信息并跟进待办，预算每月 20 美元以内。明确的使用场景、功能和预算，让这则需求比泛泛讨论语音助手更具体。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-22-cooperation-04",
+          "title": "Indie Hackers 热帖讨论\"帮客户做配置和替客户干活的边界在哪\"。",
+          "title_md": "Indie Hackers 热帖讨论\"帮客户做配置和替客户干活的边界在哪\"。",
+          "body_md": "有 137 条评论，可供理解服务范围与报价时参考。[IH 首页](https://www.indiehackers.com/)（帖子没有显示日期，只能当参考）",
+          "body_text": "有 137 条评论，可供理解服务范围与报价时参考。IH 首页（帖子没有显示日期，只能当参考）",
+          "source": "Indie Hackers",
+          "published": "",
+          "meta": "137 条评论",
+          "annotations": [
+            "帖子没有显示日期，只能当参考"
+          ],
+          "primary_url": "https://www.indiehackers.com/",
+          "links": [
+            {
+              "text": "IH 首页",
+              "url": "https://www.indiehackers.com/"
+            }
+          ],
+          "summary": "Indie Hackers 的讨论关注服务边界：帮助客户完成配置，到什么程度会变成代做客户的日常工作。首页显示有 137 条评论，但没有可靠日期，因此适合作为理解服务范围的参考，不能当作已核实的当日动态。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-22-cooperation-05",
+          "title": "安全排查与升级需求",
+          "title_md": "安全排查与升级需求：",
+          "body_md": "PHP 老站需要升级（[V2EX：公司就我一个技术，项目全在 php7 上](https://www.v2ex.com/t/1250659)），Railway 用户需要轮换密钥。涉及排查、密钥轮换与版本升级需求。",
+          "body_text": "PHP 老站需要升级（V2EX：公司就我一个技术，项目全在 php7 上），Railway 用户需要轮换密钥。涉及排查、密钥轮换与版本升级需求。",
+          "source": "V2EX",
+          "published": "",
+          "meta": "",
+          "annotations": [
+            "[V2EX：公司就我一个技术，项目全在 php7 上](https://www.v2ex.com/t/1250659)"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1250659",
+          "links": [
+            {
+              "text": "V2EX：公司就我一个技术，项目全在 php7 上",
+              "url": "https://www.v2ex.com/t/1250659"
+            }
+          ],
+          "summary": "原稿把 PHP 老站升级与 Railway 用户轮换密钥放在一起，指向网站维护中的安全排查需求。密钥是程序访问服务时使用的凭证，轮换就是更换旧凭证；这与只完成页面功能属于不同的维护工作。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-10-22-directions-01",
+      "title": "个人 AI 助理的任务与授权边界",
+      "title_md": "个人 AI 助理的任务与授权边界",
+      "body_md": "- 切入角度：参考 Duet 产品页中咖啡店老板的早晨：简报、健康许可证（$640 等待批准）、融资 PPT 和经营看板，了解哪些任务可以交给 AI、哪些操作需要本人批准。\n  - 参考素材：\n    - [Duet 产品页里的演示](https://claude.com/product/claude-duet)\n    - [宝玉列的四家对比](https://x.com/dotey/status/2113014531853365681)\n    - [Muse 1000 万用户](https://www.aibase.com/zh/news/31787)\n    - [HN 上关于隐私和信任的质疑](https://news.ycombinator.com/item?id=50186037)\n    - [即刻上一位用户的\"AI 管理生活全流程\"清单](https://m.okjike.com/topics/63579abb6724cc583b9bba9a)\n  - 适合读者：关注生活与办公助理的 AI 初学者、小团队经营者",
+      "body_text": "- 切入角度：参考 Duet 产品页中咖啡店老板的早晨：简报、健康许可证（$640 等待批准）、融资 PPT 和经营看板，了解哪些任务可以交给 AI、哪些操作需要本人批准。\n  - 参考素材：\n    - Duet 产品页里的演示\n    - 宝玉列的四家对比\n    - Muse 1000 万用户\n    - HN 上关于隐私和信任的质疑\n    - 即刻上一位用户的\"AI 管理生活全流程\"清单\n  - 适合读者：关注生活与办公助理的 AI 初学者、小团队经营者",
+      "source": "Anthropic",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "$640 等待批准"
+      ],
+      "primary_url": "https://claude.com/product/claude-duet",
+      "links": [
+        {
+          "text": "Duet 产品页里的演示",
+          "url": "https://claude.com/product/claude-duet"
+        },
+        {
+          "text": "宝玉列的四家对比",
+          "url": "https://x.com/dotey/status/2113014531853365681"
+        },
+        {
+          "text": "Muse 1000 万用户",
+          "url": "https://www.aibase.com/zh/news/31787"
+        },
+        {
+          "text": "HN 上关于隐私和信任的质疑",
+          "url": "https://news.ycombinator.com/item?id=50186037"
+        },
+        {
+          "text": "即刻上一位用户的\"AI 管理生活全流程\"清单",
+          "url": "https://m.okjike.com/topics/63579abb6724cc583b9bba9a"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-10-22/2026-10-22-directions-01.jpg",
+        "width": 600,
+        "height": 449,
+        "credit": "图片来源：AIbase",
+        "source_url": "https://www.aibase.com/zh/news/31787",
+        "remote_url": "https://pic.chinaz.com/picmap/201811151633427930_12.jpg"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "个人 AI 助理的任务与授权边界",
+      "angle": "参考 Duet 产品页中咖啡店老板的早晨：简报、健康许可证（$640 等待批准）、融资 PPT 和经营看板，了解哪些任务可以交给 AI、哪些操作需要本人批准。",
+      "audience": "关注生活与办公助理的 AI 初学者、小团队经营者",
+      "reference_md": "- [Duet 产品页里的演示](https://claude.com/product/claude-duet)\n    - [宝玉列的四家对比](https://x.com/dotey/status/2113014531853365681)\n    - [Muse 1000 万用户](https://www.aibase.com/zh/news/31787)\n    - [HN 上关于隐私和信任的质疑](https://news.ycombinator.com/item?id=50186037)\n    - [即刻上一位用户的\"AI 管理生活全流程\"清单](https://m.okjike.com/topics/63579abb6724cc583b9bba9a)"
+    },
+    {
+      "id": "2026-10-22-directions-02",
+      "title": "AI 编程项目的密钥与依赖安全",
+      "title_md": "AI 编程项目的密钥与依赖安全",
+      "body_md": "- 切入角度：结合 OpenRouter Key 被用于调用 Opus 5.5 的求助帖、Railway 密钥系统入侵、LiteLLM 安装包投毒和 PHP 漏洞，梳理适合初学者的 5 分钟自查清单。\n  - 参考素材：\n    - [r/vibecoding 求助帖](https://www.reddit.com/r/vibecoding/comments/1xc0inu/alright_this_is_serious_now_if_its_true_railway/)\n    - [Railway 官方公告](https://blog.railway.com/p/security-disclosure-wednesday-october-21st)\n    - [LiteLLM 投毒分析](https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/)\n    - [OpenAI 的 PHP 自查 skill](https://x.com/OpenAI/status/2112945805686604033)\n    - [V2EX：AI 发现的 PHP 漏洞上了热搜](https://www.v2ex.com/t/1250795)\n  - 适合读者：使用 AI 编程工具搭建项目的初学者",
+      "body_text": "- 切入角度：结合 OpenRouter Key 被用于调用 Opus 5.5 的求助帖、Railway 密钥系统入侵、LiteLLM 安装包投毒和 PHP 漏洞，梳理适合初学者的 5 分钟自查清单。\n  - 参考素材：\n    - r/vibecoding 求助帖\n    - Railway 官方公告\n    - LiteLLM 投毒分析\n    - OpenAI 的 PHP 自查 skill\n    - V2EX：AI 发现的 PHP 漏洞上了热搜\n  - 适合读者：使用 AI 编程工具搭建项目的初学者",
+      "source": "Reddit",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.reddit.com/r/vibecoding/comments/1xc0inu/alright_this_is_serious_now_if_its_true_railway/",
+      "links": [
+        {
+          "text": "r/vibecoding 求助帖",
+          "url": "https://www.reddit.com/r/vibecoding/comments/1xc0inu/alright_this_is_serious_now_if_its_true_railway/"
+        },
+        {
+          "text": "Railway 官方公告",
+          "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st"
+        },
+        {
+          "text": "LiteLLM 投毒分析",
+          "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
+        },
+        {
+          "text": "OpenAI 的 PHP 自查 skill",
+          "url": "https://x.com/OpenAI/status/2112945805686604033"
+        },
+        {
+          "text": "V2EX：AI 发现的 PHP 漏洞上了热搜",
+          "url": "https://www.v2ex.com/t/1250795"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-10-22/2026-10-22-directions-02.jpg",
+        "width": 1200,
+        "height": 630,
+        "credit": "图片来源：Railway",
+        "source_url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+        "remote_url": "https://cms.railway.com/media/cf05de70-b435-4fe9-8d52-540e0b585874-blog-security-disclosure-wednesday-october-21st.png?w=1200&q=90"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "AI 编程项目的密钥与依赖安全",
+      "angle": "结合 OpenRouter Key 被用于调用 Opus 5.5 的求助帖、Railway 密钥系统入侵、LiteLLM 安装包投毒和 PHP 漏洞，梳理适合初学者的 5 分钟自查清单。",
+      "audience": "使用 AI 编程工具搭建项目的初学者",
+      "reference_md": "- [r/vibecoding 求助帖](https://www.reddit.com/r/vibecoding/comments/1xc0inu/alright_this_is_serious_now_if_its_true_railway/)\n    - [Railway 官方公告](https://blog.railway.com/p/security-disclosure-wednesday-october-21st)\n    - [LiteLLM 投毒分析](https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/)\n    - [OpenAI 的 PHP 自查 skill](https://x.com/OpenAI/status/2112945805686604033)\n    - [V2EX：AI 发现的 PHP 漏洞上了热搜](https://www.v2ex.com/t/1250795)"
+    },
+    {
+      "id": "2026-10-22-directions-03",
+      "title": "使用 AI 工具清理电视广告",
+      "title_md": "使用 AI 工具清理电视广告",
+      "body_md": "- 切入角度：了解 CleanYourTV 的流程：同一个 Wi-Fi 下连接电视，把 PROMPT.md 交给 Agent，对比清理前后的效果。\n  - 参考素材：\n    - [GitHub 仓库](https://github.com/Gathin23/cleanyourtv)（2 万星，可以一键恢复）\n    - [AI工具集介绍](https://ai-bot.cn/cleanyourtv/)\n    - [即刻 AI探索站上歸藏的 guizang TV 改版](https://m.okjike.com/topics/63579abb6724cc583b9bba9a)（2 天前的帖子，只能当辅助素材）\n  - 适合读者：希望了解安卓电视清理流程的设备使用者",
+      "body_text": "- 切入角度：了解 CleanYourTV 的流程：同一个 Wi-Fi 下连接电视，把 PROMPT.md 交给 Agent，对比清理前后的效果。\n  - 参考素材：\n    - GitHub 仓库（2 万星，可以一键恢复）\n    - AI工具集介绍\n    - 即刻 AI探索站上歸藏的 guizang TV 改版（2 天前的帖子，只能当辅助素材）\n  - 适合读者：希望了解安卓电视清理流程的设备使用者",
+      "source": "GitHub",
+      "published": "",
+      "meta": "2 万星",
+      "annotations": [
+        "2 万星，可以一键恢复",
+        "2 天前的帖子，只能当辅助素材"
+      ],
+      "primary_url": "https://github.com/Gathin23/cleanyourtv",
+      "links": [
+        {
+          "text": "GitHub 仓库",
+          "url": "https://github.com/Gathin23/cleanyourtv"
+        },
+        {
+          "text": "AI工具集介绍",
+          "url": "https://ai-bot.cn/cleanyourtv/"
+        },
+        {
+          "text": "即刻 AI探索站上歸藏的 guizang TV 改版",
+          "url": "https://m.okjike.com/topics/63579abb6724cc583b9bba9a"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-10-22/2026-10-22-directions-03.jpg",
+        "width": 1200,
+        "height": 600,
+        "credit": "图片来源：GitHub",
+        "source_url": "https://github.com/Gathin23/cleanyourtv",
+        "remote_url": "https://opengraph.githubassets.com/5128c762bf5f0c7f16ec0f55b3360cd0849be7a72eef6fc22be784436b94eb80/Gathin23/cleanyourtv"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "使用 AI 工具清理电视广告",
+      "angle": "了解 CleanYourTV 的流程：同一个 Wi-Fi 下连接电视，把 PROMPT.md 交给 Agent，对比清理前后的效果。",
+      "audience": "希望了解安卓电视清理流程的设备使用者",
+      "reference_md": "- [GitHub 仓库](https://github.com/Gathin23/cleanyourtv)（2 万星，可以一键恢复）\n    - [AI工具集介绍](https://ai-bot.cn/cleanyourtv/)\n    - [即刻 AI探索站上歸藏的 guizang TV 改版](https://m.okjike.com/topics/63579abb6724cc583b9bba9a)（2 天前的帖子，只能当辅助素材）"
+    },
+    {
+      "id": "2026-10-22-directions-04",
+      "title": "补充阅读方向",
+      "title_md": "补充阅读方向",
+      "body_md": "- 切入角度：V2EX 上「Vibe 的网页为什么 AI 味那么重」，可比较改进前后的效果。\n  - 参考素材：[页面设计讨论](https://www.v2ex.com/t/1250676)\n  - 适合读者：希望进一步了解相关讨论的读者。",
+      "body_text": "- 切入角度：V2EX 上「Vibe 的网页为什么 AI 味那么重」，可比较改进前后的效果。\n  - 参考素材：页面设计讨论\n  - 适合读者：希望进一步了解相关讨论的读者。",
+      "source": "V2EX",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.v2ex.com/t/1250676",
+      "links": [
+        {
+          "text": "页面设计讨论",
+          "url": "https://www.v2ex.com/t/1250676"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG",
+      "name": "补充阅读方向",
+      "angle": "V2EX 上「Vibe 的网页为什么 AI 味那么重」，可比较改进前后的效果。",
+      "audience": "希望进一步了解相关讨论的读者。",
+      "reference_md": "[页面设计讨论](https://www.v2ex.com/t/1250676)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-10-22-unverified-01",
+      "title": "超出 24 小时",
+      "title_md": "超出 24 小时：",
+      "body_md": "- Cursor Changelog：最新一条是 10-16\n  - Google AI Blog：最新一条是 10-21 12:00，刚好超出时间窗口\n  - 量子位：最新一条是 10-21 10:37\n  - Ben's Bites：最新一条是 10-20\n  - 阮一峰周刊：周更，最新是 10-16\n  - Anthropic News：最新一条是 10-21 的人事新闻，与本期关联较弱，Duet 使用官方推文和产品页",
+      "body_text": "- Cursor Changelog：最新一条是 10-16\n  - Google AI Blog：最新一条是 10-21 12:00，刚好超出时间窗口\n  - 量子位：最新一条是 10-21 10:37\n  - Ben's Bites：最新一条是 10-20\n  - 阮一峰周刊：周更，最新是 10-16\n  - Anthropic News：最新一条是 10-21 的人事新闻，与本期关联较弱，Duet 使用官方推文和产品页",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-22-unverified-02",
+      "title": "打不开或被限流",
+      "title_md": "打不开或被限流：",
+      "body_md": "- r/ClaudeAI：返回 429\n  - hnrss 的 AI 关键词 feed：返回 502，改用 HN 首页和高分帖替代\n  - OpenAI 文章页：返回 403，改用官方 RSS 正文摘要\n  - 电鸭首页：内容靠 JS 渲染，分类页有验证码，改用 `feed/latest.xml`",
+      "body_text": "- r/ClaudeAI：返回 429\n  - hnrss 的 AI 关键词 feed：返回 502，改用 HN 首页和高分帖替代\n  - OpenAI 文章页：返回 403，改用官方 RSS 正文摘要\n  - 电鸭首页：内容靠 JS 渲染，分类页有验证码，改用 feed/latest.xml",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-22-unverified-03",
+      "title": "没有可核验的日期",
+      "title_md": "没有可核验的日期：",
+      "body_md": "- 掘金 AI 热榜：API 里没有发布时间\n  - Indie Hackers 首页：没有显示日期\n  - 即刻 AI探索站：只有 1 条 08:12 的帖子在窗口内，其余标的是\"1天前\"或\"2天前\"，无法精确判断",
+      "body_text": "- 掘金 AI 热榜：API 里没有发布时间\n  - Indie Hackers 首页：没有显示日期\n  - 即刻 AI探索站：只有 1 条 08:12 的帖子在窗口内，其余标的是\"1天前\"或\"2天前\"，无法精确判断",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-22-unverified-04",
+      "title": "今日窗口内内容少或关联弱",
+      "title_md": "今日窗口内内容少或关联弱：",
+      "body_md": "- Product Hunt：窗口内只有 Koi（一个 Mac 工具集合 App）\n  - 少数派：只有派早报，相关信息已从其他源覆盖\n  - Simon Willison：只有 PHP 安全和小游戏，已覆盖",
+      "body_text": "- Product Hunt：窗口内只有 Koi（一个 Mac 工具集合 App）\n  - 少数派：只有派早报，相关信息已从其他源覆盖\n  - Simon Willison：只有 PHP 安全和小游戏，已覆盖",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "一个 Mac 工具集合 App"
+      ],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-22-unverified-05",
+      "title": "这次没有抓取",
+      "title_md": "这次没有抓取：",
+      "body_md": "机器之心（周报）、The Rundown（邮件订阅）、HF Papers、今日热榜",
+      "body_text": "机器之心（周报）、The Rundown（邮件订阅）、HF Papers、今日热榜",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "周报",
+        "邮件订阅"
+      ],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-22-unverified-06",
+      "title": "按清单的剔除名单跳过",
+      "title_md": "按清单的剔除名单跳过：",
+      "body_md": "AI Viral Insights、smol.ai、HelloGitHub、36氪、程序员客栈、即刻主站、r/LocalLLaMA 等",
+      "body_text": "AI Viral Insights、smol.ai、HelloGitHub、36氪、程序员客栈、即刻主站、r/LocalLLaMA 等",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}

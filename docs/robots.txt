@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://2kpurple.github.io/ai-daily/sitemap.xml

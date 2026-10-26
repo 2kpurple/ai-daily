@@ -1,0 +1,1123 @@
+{
+  "date": "2026-10-26",
+  "title": "AI 日报 · 2026-10-26（周一）",
+  "window": "时间窗口：10-25 08:00 到 10-26 08:00（台北时间）。周日到周一清晨，官方博客/Release 几乎静默，增量主要来自 HN、V2EX、即刻和中文 X 垂直账号。每条都读过正文、核对过日期。和 10-22 到 10-25 日报重复的（Thariq 离职、Kimi K3.1、Cursor 电脑操控、Kindle 越狱、impeccable/hallmark/cindy 等）不再收录。",
+  "highlights": [
+    "编程订阅该买哪家又吵起来了： V2EX 热帖对比 Codex 和 Claude，评论一边倒说 Opus 5.5 期 Codex「又慢又笨」，但很多人双持是因为 Claude 易封号、额度折腾。",
+    "Personal Agent 正在从「科幻」变成日常： 卡兹克花 5 天做出可视化 Agent 流水线；有人用 ESP32 加网页让 AI 自动操作 iPhone 点外卖；宝玉说天天用 Coding Agent 的人波澜不大，第一次体验的人容易沉迷。",
+    "大厂降价和「科技圈外零回报」同时出现： Max Woolf 梳理 OpenAI/Anthropic 近几个月最高降价约 80%；Apollo 则称科技业以外几乎看不到 AI 带来的财务回报——可对照理解 AI 的使用成本与财务回报。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-10-26-news-01",
+          "title": "OpenAI 和 Anthropic 几个月内最高把 LLM 价格砍到约两成。",
+          "title_md": "OpenAI 和 Anthropic 几个月内最高把 LLM 价格砍到约两成。",
+          "body_md": "Max Woolf 梳理双方调价时间线，讨论是为了 IPO、抢份额，还是算力变便宜；结论偏向「用户受益，开源和二手推理仍在压价」。[原文](https://minimaxir.com/2026/10/cheap-llms/)（文内日期 2026-10-25）｜[HN 讨论](https://news.ycombinator.com/item?id=50236102)（约 81 分 / 105 评）",
+          "body_text": "Max Woolf 梳理双方调价时间线，讨论是为了 IPO、抢份额，还是算力变便宜；结论偏向「用户受益，开源和二手推理仍在压价」。原文（文内日期 2026-10-25）｜HN 讨论（约 81 分 / 105 评）",
+          "source": "Max Woolf",
+          "published": "文内日期 2026-10-25",
+          "meta": "约 81 分 / 105 评",
+          "annotations": [
+            "文内日期 2026-10-25",
+            "约 81 分 / 105 评"
+          ],
+          "primary_url": "https://minimaxir.com/2026/10/cheap-llms/",
+          "links": [
+            {
+              "text": "原文",
+              "url": "https://minimaxir.com/2026/10/cheap-llms/"
+            },
+            {
+              "text": "HN 讨论",
+              "url": "https://news.ycombinator.com/item?id=50236102"
+            }
+          ],
+          "summary": "Max Woolf 梳理了 OpenAI 与 Anthropic 近几个月的模型调价，涉及最高约 80% 的降幅，并讨论竞争与算力成本等可能原因。大语言模型是通过文本完成理解和生成任务的模型，读者可以借此区分价格变化的事实与作者对降价动机的分析。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-news-01.jpg",
+            "width": 1200,
+            "height": 705,
+            "credit": "图片来源：Max Woolf",
+            "source_url": "https://minimaxir.com/2026/10/cheap-llms/",
+            "remote_url": "https://minimaxir.com/2026/10/cheap-llms/vercel.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-news-02",
+          "title": "Apollo：科技业以外，AI 几乎没带来财务回报。",
+          "title_md": "Apollo：科技业以外，AI 几乎没带来财务回报。",
+          "body_md": "Business Insider 报道 Apollo 的经济分析，称 Corporate America 里看不到清晰的钱。[原文](https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10)（datePublished 2026-10-25）",
+          "body_text": "Business Insider 报道 Apollo 的经济分析，称 Corporate America 里看不到清晰的钱。原文（datePublished 2026-10-25）",
+          "source": "Business Insider",
+          "published": "datePublished 2026-10-25",
+          "meta": "",
+          "annotations": [
+            "datePublished 2026-10-25"
+          ],
+          "primary_url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
+          "links": [
+            {
+              "text": "原文",
+              "url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10"
+            }
+          ],
+          "summary": "Business Insider 转述 Apollo 的经济分析，认为科技业以外尚看不到清晰的 AI 财务回报。这个判断关注企业投入与财务结果之间的关系，不能直接推导为个人使用 AI 没有效果，也不代表所有行业都已有相同结论。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-news-02.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：Business Insider",
+            "source_url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
+            "remote_url": "https://i.insider.com/6ade1f21ab741a2ebdf111c1?width=1200&format=jpeg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-news-03",
+          "title": "十年前的 CNN，诊断皮肤癌仍胜过前沿多模态大模型。",
+          "title_md": "十年前的 CNN，诊断皮肤癌仍胜过前沿多模态大模型。",
+          "body_md": "皮肤科医生 Magnus Lynch 在 200 例活检病灶上对比：2015 年 Inception v3 微调正确率约 62%，GPT-6 Astra / Claude Fable 5.1 约 42%。可用于理解专用小模型与通用大模型的差异。[原文](https://lynchlab.net/llm-skin-cancer)（文内 25 October 2026）｜HN 窗口内约 386 分",
+          "body_text": "皮肤科医生 Magnus Lynch 在 200 例活检病灶上对比：2015 年 Inception v3 微调正确率约 62%，GPT-6 Astra / Claude Fable 5.1 约 42%。可用于理解专用小模型与通用大模型的差异。原文（文内 25 October 2026）｜HN 窗口内约 386 分",
+          "source": "Magnus Lynch",
+          "published": "文内 25 October 2026",
+          "meta": "HN 窗口内约 386 分",
+          "annotations": [
+            "文内 25 October 2026"
+          ],
+          "primary_url": "https://lynchlab.net/llm-skin-cancer",
+          "links": [
+            {
+              "text": "原文",
+              "url": "https://lynchlab.net/llm-skin-cancer"
+            }
+          ],
+          "summary": "Magnus Lynch 在 200 例活检病灶上比较模型，记录微调后的 Inception v3 正确率约 62%，GPT-6 Astra 与 Claude Fable 5.1 约 42%。CNN 是常用于图像识别的卷积神经网络，这组特定测试说明通用大模型不一定优于专用模型，结果也不能扩大成普遍的临床诊断能力结论。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-news-03.jpg",
+            "width": 600,
+            "height": 450,
+            "credit": "图片来源：Magnus Lynch",
+            "source_url": "https://lynchlab.net/llm-skin-cancer",
+            "remote_url": "https://d2gaqzonlm544h.cloudfront.net/skin-ai/samples/ISIC_7403025.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-news-04",
+          "title": "数学家写「AI 时代的数学」",
+          "title_md": "数学家写「AI 时代的数学」：",
+          "body_md": "康奈尔教授 Steven Strogatz 在 The Atlantic 写纯数学被冲击的现场感——系里 town hall、同事像「守灵」一样留酒，并区分应用数学拥抱工具、纯数学痛失「理解过程」。[原文](https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/)（2026-10-25）",
+          "body_text": "康奈尔教授 Steven Strogatz 在 The Atlantic 写纯数学被冲击的现场感——系里 town hall、同事像「守灵」一样留酒，并区分应用数学拥抱工具、纯数学痛失「理解过程」。原文（2026-10-25）",
+          "source": "The Atlantic",
+          "published": "2026-10-25",
+          "meta": "",
+          "annotations": [
+            "2026-10-25"
+          ],
+          "primary_url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+          "links": [
+            {
+              "text": "原文",
+              "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/"
+            }
+          ],
+          "summary": "Steven Strogatz 在 The Atlantic 讨论 AI 对数学研究的冲击，并对比应用数学采用工具与纯数学重视理解过程的不同感受。这篇文章提供的是学者对研究方式变化的观察，关注点不仅是算出答案，还包括人如何形成理解。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "原文页面 HTTP 403"
+        },
+        {
+          "id": "2026-10-26-news-05",
+          "title": "V2EX：有没有感觉 Codex 越来越比不上 Claude 了。",
+          "title_md": "V2EX：有没有感觉 Codex 越来越比不上 Claude 了。",
+          "body_md": "楼主正文为空，但 25 条回复集中吐槽 Opus 5.5 期 Codex 又慢又笨，Claude Design/Canvas/自动模式更香；双持的人多半是怕 Claude 封号和 Tibo 额度重置。[帖子](https://www.v2ex.com/t/1251671)（10-25 18:40，25 条回复）",
+          "body_text": "楼主正文为空，但 25 条回复集中吐槽 Opus 5.5 期 Codex 又慢又笨，Claude Design/Canvas/自动模式更香；双持的人多半是怕 Claude 封号和 Tibo 额度重置。帖子（10-25 18:40，25 条回复）",
+          "source": "V2EX",
+          "published": "10-25 18:40",
+          "meta": "25 条回复",
+          "annotations": [
+            "10-25 18:40，25 条回复"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1251671",
+          "links": [
+            {
+              "text": "帖子",
+              "url": "https://www.v2ex.com/t/1251671"
+            }
+          ],
+          "summary": "V2EX 的比较帖中，不少回复更认可 Claude 的编程体验，同时提到账号稳定性与额度也是保留 Codex 的原因。这些是用户在各自任务中的感受，适合了解选择工具时的权衡，不能替代统一条件下的模型测试。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-26-news-06",
+          "title": "宝玉谈个人 Agent 走红",
+          "title_md": "宝玉谈个人 Agent 走红：",
+          "body_md": "门槛比当年「小龙虾」更低；技术老板若没高频用过前沿 Coding Agent，突然体验「聪明模型+自动化」容易沉迷——「大观园日常 vs 刘姥姥进园」。[推文](https://x.com/dotey/status/2114203536477053273)（10-25 11:52，351 赞，约 5.1 万浏览）",
+          "body_text": "门槛比当年「小龙虾」更低；技术老板若没高频用过前沿 Coding Agent，突然体验「聪明模型+自动化」容易沉迷——「大观园日常 vs 刘姥姥进园」。推文（10-25 11:52，351 赞，约 5.1 万浏览）",
+          "source": "X @dotey",
+          "published": "10-25 11:52",
+          "meta": "351 赞；约 5.1 万浏览",
+          "annotations": [
+            "10-25 11:52，351 赞，约 5.1 万浏览"
+          ],
+          "primary_url": "https://x.com/dotey/status/2114203536477053273",
+          "links": [
+            {
+              "text": "推文",
+              "url": "https://x.com/dotey/status/2114203536477053273"
+            }
+          ],
+          "summary": "宝玉认为，初次接触高能力个人 AI 助手的人，可能比长期使用编程助手的人感到更强烈的新鲜感。智能体是能调用工具执行任务的 AI，这个观点提醒读者区分首次体验的震撼与长期使用价值。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "推文接口未返回媒体图片"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-10-26-tools-01",
+          "title": "Claude Code、Codex、Cursor",
+          "title_md": "Claude Code、Codex、Cursor：",
+          "body_md": "窗口内没有新版本（Claude Code 最新仍是 v2.1.310，Codex 最新 0.165.0-alpha.1，Cursor Changelog 仍停在 10-16）。",
+          "body_text": "窗口内没有新版本（Claude Code 最新仍是 v2.1.310，Codex 最新 0.165.0-alpha.1，Cursor Changelog 仍停在 10-16）。",
+          "source": "",
+          "published": "",
+          "meta": "",
+          "annotations": [
+            "Claude Code 最新仍是 v2.1.310，Codex 最新 0.165.0-alpha.1，Cursor Changelog 仍停在 10-16"
+          ],
+          "primary_url": "",
+          "links": [],
+          "summary": "按本期时间窗口记录，Claude Code、Codex 和 Cursor 没有新增版本。Claude Code 仍为 v2.1.310，Codex 为 0.165.0-alpha.1，Cursor 更新日志仍停在 10-16，这些是本期观察到的状态。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "条目未提供原文链接"
+        },
+        {
+          "id": "2026-10-26-tools-02",
+          "title": "AgentGrid.io（Product Hunt 窗口内几乎唯一新发布）",
+          "title_md": "AgentGrid.io（Product Hunt 窗口内几乎唯一新发布）：",
+          "body_md": "人和多种 Agent（Claude / Cursor / Codex 等）共享同一份实时产物（文档、报告、幻灯、应用），带权限和版本历史，自称 Launching today，YC。[Product Hunt](https://www.producthunt.com/products/agentgrid-io)｜[官网](https://agentgrid.io)（feed 发布时间约 10-25 05:39 UTC）",
+          "body_text": "人和多种 Agent（Claude / Cursor / Codex 等）共享同一份实时产物（文档、报告、幻灯、应用），带权限和版本历史，自称 Launching today，YC。Product Hunt｜官网（feed 发布时间约 10-25 05:39 UTC）",
+          "source": "Product Hunt",
+          "published": "feed 发布时间约 10-25 05:39 UTC",
+          "meta": "",
+          "annotations": [
+            "Product Hunt 窗口内几乎唯一新发布",
+            "Claude / Cursor / Codex 等",
+            "文档、报告、幻灯、应用",
+            "feed 发布时间约 10-25 05:39 UTC"
+          ],
+          "primary_url": "https://www.producthunt.com/products/agentgrid-io",
+          "links": [
+            {
+              "text": "Product Hunt",
+              "url": "https://www.producthunt.com/products/agentgrid-io"
+            },
+            {
+              "text": "官网",
+              "url": "https://agentgrid.io"
+            }
+          ],
+          "summary": "AgentGrid.io 提供人与多个 AI 助手共用的实时工作空间，可围绕同一份文档、报告、幻灯或应用协作，并保留权限和版本历史。这里的智能体是能执行任务的 AI，工具关注的是协作时如何共用最新产物与管理修改记录。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "原文页面 HTTP 403；页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-26-tools-03",
+          "title": "limitbreak",
+          "title_md": "limitbreak：",
+          "body_md": "本地 Go 代理，一个 Claude Code 安装挂多个 Anthropic 账号，撞 5 小时/周限额时自动切号并重放请求、不丢会话。涉及多账号额度管理，同时存在账号政策风险。[GitHub](https://github.com/radu2lupu/limitbreak)（Show HN 在窗口内）",
+          "body_text": "本地 Go 代理，一个 Claude Code 安装挂多个 Anthropic 账号，撞 5 小时/周限额时自动切号并重放请求、不丢会话。涉及多账号额度管理，同时存在账号政策风险。GitHub（Show HN 在窗口内）",
+          "source": "GitHub",
+          "published": "Show HN 在窗口内",
+          "meta": "",
+          "annotations": [
+            "Show HN 在窗口内"
+          ],
+          "primary_url": "https://github.com/radu2lupu/limitbreak",
+          "links": [
+            {
+              "text": "GitHub",
+              "url": "https://github.com/radu2lupu/limitbreak"
+            }
+          ],
+          "summary": "limitbreak 是放在 Claude Code 与服务之间的本地代理，某个账号触及 5 小时或周额度后会切换账号并重放请求，以延续会话。原稿明确提醒多账号使用存在账号政策风险，技术上的连续使用机制不代表得到服务方许可。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-tools-03.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/radu2lupu/limitbreak",
+            "remote_url": "https://opengraph.githubassets.com/7cfd3027541de6e19fe4242d9d7e082e97aa1075c79652b5f677ff1d029900fb/radu2lupu/limitbreak"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-tools-04",
+          "title": "MuscleMemory",
+          "title_md": "MuscleMemory：",
+          "body_md": "开源、默认本地的 coding agent「程序记忆」——任务测通后记下改了哪些文件和测例，下次相似任务少走弯路；自述 benchmark 约省 25% input tokens。[GitHub](https://github.com/TheWariend/MuscleMemory)",
+          "body_text": "开源、默认本地的 coding agent「程序记忆」——任务测通后记下改了哪些文件和测例，下次相似任务少走弯路；自述 benchmark 约省 25% input tokens。GitHub",
+          "source": "GitHub",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://github.com/TheWariend/MuscleMemory",
+          "links": [
+            {
+              "text": "GitHub",
+              "url": "https://github.com/TheWariend/MuscleMemory"
+            }
+          ],
+          "summary": "MuscleMemory 为编程助手记录成功任务涉及的文件、测试与步骤，在相似任务中提供参考，默认在本地工作。项目自述测试中约节省 25% 的输入 token，也就是模型读取文本的片段数量；这一结果仍属于项目方的特定测试。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-tools-04.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/TheWariend/MuscleMemory",
+            "remote_url": "https://opengraph.githubassets.com/e13236feaa03c79d3808a58f2ad7106426a9fc83fc33f547a3490d52f0cce59d/TheWariend/MuscleMemory"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-tools-05",
+          "title": "tibosay.com：「Tibo 说」。",
+          "title_md": "tibosay.com：「Tibo 说」。",
+          "body_md": "致敬 cowsay 的 Codex 额度重置监控面板，带 AI 预言文案，以轻松的形式呈现额度状态。[V2EX](https://www.v2ex.com/t/1251631)（10-25 13:54）｜[站点](https://tibosay.com/zh)",
+          "body_text": "致敬 cowsay 的 Codex 额度重置监控面板，带 AI 预言文案，以轻松的形式呈现额度状态。V2EX（10-25 13:54）｜站点",
+          "source": "V2EX",
+          "published": "10-25 13:54",
+          "meta": "",
+          "annotations": [
+            "10-25 13:54"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1251631",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1251631"
+            },
+            {
+              "text": "站点",
+              "url": "https://tibosay.com/zh"
+            }
+          ],
+          "summary": "tibosay.com 用监控面板呈现 Codex 额度重置状态，并配有 AI 生成的趣味文案。它关注的是如何查看额度信息，原稿没有说明它能增加订阅额度或改变重置规则。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-tools-05.jpg",
+            "width": 1200,
+            "height": 620,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1251631",
+            "remote_url": "https://i.imgur.com/dfF9eUU.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-tools-06",
+          "title": "有人觉得 Codex 侧边栏新功能和自己先前做的小工具「雷同」。",
+          "title_md": "有人觉得 Codex 侧边栏新功能和自己先前做的小工具「雷同」。",
+          "body_md": "附三张对比图，评论在讨论官方插件能不能自写。[V2EX](https://www.v2ex.com/t/1251621)（10-25 12:23，19 条回复）",
+          "body_text": "附三张对比图，评论在讨论官方插件能不能自写。V2EX（10-25 12:23，19 条回复）",
+          "source": "V2EX",
+          "published": "10-25 12:23",
+          "meta": "19 条回复",
+          "annotations": [
+            "10-25 12:23，19 条回复"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1251621",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1251621"
+            }
+          ],
+          "summary": "V2EX 作者比较了 Codex 侧边栏新功能与此前自制工具的界面相似之处，评论也讨论了扩展开发方式。这里记录的是功能与界面观察，材料不足以据此认定存在复制行为，或确认官方已开放对应插件能力。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-tools-06.jpg",
+            "width": 454,
+            "height": 342,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1251621",
+            "remote_url": "https://i.imgur.com/UZZm3dU.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-10-26-projects-01",
+          "title": "卡兹克：5 天做出可视化 Agent 自动化流水线。",
+          "title_md": "卡兹克：5 天做出可视化 Agent 自动化流水线。",
+          "body_md": "戴森球/微缩景观风格桌搭 UI；任务来自桌面定时、Webhook+CLI 等，单次路由到两个 Agent，并与现实时间/天气同步。技术栈：Claude Opus 5.5 搭视觉与框架，指挥 GPT-6 Astra 建模渲染，Codex 在自建 CI 做端到端测试。[推文](https://x.com/Khazix0918/status/2114343004471460341)（10-25 21:07，485 赞，约 3.45 万浏览，292 收藏）",
+          "body_text": "戴森球/微缩景观风格桌搭 UI；任务来自桌面定时、Webhook+CLI 等，单次路由到两个 Agent，并与现实时间/天气同步。技术栈：Claude Opus 5.5 搭视觉与框架，指挥 GPT-6 Astra 建模渲染，Codex 在自建 CI 做端到端测试。推文（10-25 21:07，485 赞，约 3.45 万浏览，292 收藏）",
+          "source": "X @Khazix0918",
+          "published": "10-25 21:07",
+          "meta": "485 赞；约 3.45 万浏览；292 收藏",
+          "annotations": [
+            "10-25 21:07，485 赞，约 3.45 万浏览，292 收藏"
+          ],
+          "primary_url": "https://x.com/Khazix0918/status/2114343004471460341",
+          "links": [
+            {
+              "text": "推文",
+              "url": "https://x.com/Khazix0918/status/2114343004471460341"
+            }
+          ],
+          "summary": "卡兹克展示了用 5 天制作的可视化 AI 任务流水线，以微缩景观界面呈现任务，并连接定时触发等入口。智能体是能调用工具完成任务的 AI，案例将不同模型用于视觉、建模和测试，展示了分工协作的具体形式。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-projects-01.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：X @Khazix0918",
+            "source_url": "https://x.com/Khazix0918/status/2114343004471460341",
+            "remote_url": "https://pbs.twimg.com/media/HVenonybAAAjzfn.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-projects-02",
+          "title": "ESP32 + 网页 Harness，全自动操作 iPhone 点外卖。",
+          "title_md": "ESP32 + 网页 Harness，全自动操作 iPhone 点外卖。",
+          "body_md": "Safari 里 Harness 读屏调模型，ESP32 模拟蓝牙键鼠操作手机；需较新的 iOS/iPadOS。[V2EX](https://www.v2ex.com/t/1251717)（10-26 00:01）｜[GitHub](https://github.com/cccat6/iphone-agent-harness)｜[官网](https://igent.cc)",
+          "body_text": "Safari 里 Harness 读屏调模型，ESP32 模拟蓝牙键鼠操作手机；需较新的 iOS/iPadOS。V2EX（10-26 00:01）｜GitHub｜官网",
+          "source": "V2EX",
+          "published": "10-26 00:01",
+          "meta": "",
+          "annotations": [
+            "10-26 00:01"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1251717",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1251717"
+            },
+            {
+              "text": "GitHub",
+              "url": "https://github.com/cccat6/iphone-agent-harness"
+            },
+            {
+              "text": "官网",
+              "url": "https://igent.cc"
+            }
+          ],
+          "summary": "这个项目让网页读取手机屏幕并调用模型，再由 ESP32 模拟蓝牙键盘和鼠标操作 iPhone，演示场景是点外卖。Harness 在这里指连接模型判断与实际操作的控制程序，原稿注明需要较新的 iOS 或 iPadOS，适配条件值得先确认。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-projects-02.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/cccat6/iphone-agent-harness",
+            "remote_url": "https://opengraph.githubassets.com/9691bb36f4391c8fcfdb50bf5dbd96bfb5dbb8e0951f70b5571fd886d39a1bdf/cccat6/iphone-agent-harness"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-projects-03",
+          "title": "免费 3D 物理课本《Every Joule》",
+          "title_md": "免费 3D 物理课本《Every Joule》：",
+          "body_md": "用 Opus 5.5 + Three.js 覆盖英国 GCSE「能量」整章共十课，宝玉做了中文转述。[宝玉](https://x.com/dotey/status/2114402733629268468)（10-26 01:04）｜试玩链接见推文内 iamtechartist.com/every-joule/",
+          "body_text": "用 Opus 5.5 + Three.js 覆盖英国 GCSE「能量」整章共十课，宝玉做了中文转述。宝玉（10-26 01:04）｜试玩链接见推文内 iamtechartist.com/every-joule/",
+          "source": "X @dotey",
+          "published": "10-26 01:04",
+          "meta": "",
+          "annotations": [
+            "10-26 01:04"
+          ],
+          "primary_url": "https://x.com/dotey/status/2114402733629268468",
+          "links": [
+            {
+              "text": "宝玉",
+              "url": "https://x.com/dotey/status/2114402733629268468"
+            }
+          ],
+          "summary": "《Every Joule》是一份免费的三维物理课本，使用 Opus 5.5 与网页三维工具 Three.js 制作，覆盖英国 GCSE「能量」章节的十课。它展示了 AI 辅助制作可交互学习材料的方式，家长和老师可以关注这种呈现如何对应具体知识点。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "推文接口未返回媒体图片"
+        },
+        {
+          "id": "2026-10-26-projects-04",
+          "title": "用 AI 实现书法作品自动生成",
+          "title_md": "用 AI 实现书法作品自动生成：",
+          "body_md": "真实字帖训练，三层动态书法异形引擎 + 不等距竖排，自称约到原帖 90% 水平。[V2EX](https://www.v2ex.com/t/1251592)（10-25 08:41，18 条回复）",
+          "body_text": "真实字帖训练，三层动态书法异形引擎 + 不等距竖排，自称约到原帖 90% 水平。V2EX（10-25 08:41，18 条回复）",
+          "source": "V2EX",
+          "published": "10-25 08:41",
+          "meta": "18 条回复",
+          "annotations": [
+            "10-25 08:41，18 条回复"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1251592",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1251592"
+            }
+          ],
+          "summary": "V2EX 作者介绍了用真实字帖训练并自动生成书法作品的项目，涉及字形变化与不等距竖排。作者自称达到原帖约 90% 的水平，但原稿没有独立评价依据，因此这一比例应保留为自述。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-projects-04.jpg",
+            "width": 1072,
+            "height": 1200,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1251592",
+            "remote_url": "https://fastly.jsdelivr.net/gh/dvbs2000/liuchunlin-shufa@main/docs/gallery/lanting_simp.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-projects-05",
+          "title": "即刻：辅导孩子学诗词的 Prompt（字排成画）。",
+          "title_md": "即刻：辅导孩子学诗词的 Prompt（字排成画）。",
+          "body_md": "把诗变成只由诗中文字构成的图，分「找事实 / 定投影 / 排路径」三步。[即刻](https://m.okjike.com/originalPosts/6add7f4bbd0563695be92767)（10-25 12:02）",
+          "body_text": "把诗变成只由诗中文字构成的图，分「找事实 / 定投影 / 排路径」三步。即刻（10-25 12:02）",
+          "source": "即刻",
+          "published": "10-25 12:02",
+          "meta": "",
+          "annotations": [
+            "字排成画",
+            "10-25 12:02"
+          ],
+          "primary_url": "https://m.okjike.com/originalPosts/6add7f4bbd0563695be92767",
+          "links": [
+            {
+              "text": "即刻",
+              "url": "https://m.okjike.com/originalPosts/6add7f4bbd0563695be92767"
+            }
+          ],
+          "summary": "即刻的一组诗词提示词，要求只用诗中的文字排成画，并分为找事实、定投影和排路径三步。提示词是给 AI 的任务要求，这个案例把理解诗中内容与视觉排列结合起来，提供了具体的学习活动形式。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：图片过小（300×200）"
+        },
+        {
+          "id": "2026-10-26-projects-06",
+          "title": "GitHub Trending（已读仓库页）",
+          "title_md": "GitHub Trending（已读仓库页）：",
+          "body_md": "[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)（编码 Agent 多阶段安全审计，当日约 +2878 星）、[VoiceStudio](https://github.com/debpalash/VoiceStudio)（本地 ElevenLabs 平替，约 +1317 星）、[claude-seo](https://github.com/AgriciDaniel/claude-seo)（Claude Code SEO skill）、[JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)（轻量 IDE + vibe coding）。impeccable / hallmark / cindy 仍靠前，昨天已收，不重复。",
+          "body_text": "cloudflare/security-audit-skill（编码 Agent 多阶段安全审计，当日约 +2878 星）、VoiceStudio（本地 ElevenLabs 平替，约 +1317 星）、claude-seo（Claude Code SEO skill）、JetBrains/thinkrail（轻量 IDE + vibe coding）。impeccable / hallmark / cindy 仍靠前，昨天已收，不重复。",
+          "source": "GitHub",
+          "published": "",
+          "meta": "当日约 +2878 星；约 +1317 星",
+          "annotations": [
+            "已读仓库页",
+            "编码 Agent 多阶段安全审计，当日约 +2878 星",
+            "本地 ElevenLabs 平替，约 +1317 星",
+            "Claude Code SEO skill",
+            "轻量 IDE + vibe coding"
+          ],
+          "primary_url": "https://github.com/cloudflare/security-audit-skill",
+          "links": [
+            {
+              "text": "cloudflare/security-audit-skill",
+              "url": "https://github.com/cloudflare/security-audit-skill"
+            },
+            {
+              "text": "VoiceStudio",
+              "url": "https://github.com/debpalash/VoiceStudio"
+            },
+            {
+              "text": "claude-seo",
+              "url": "https://github.com/AgriciDaniel/claude-seo"
+            },
+            {
+              "text": "JetBrains/thinkrail",
+              "url": "https://github.com/JetBrains/thinkrail"
+            }
+          ],
+          "summary": "本期热门仓库分别涉及代码安全审计、本地语音工具、搜索优化技能和轻量开发环境，覆盖不同的 AI 开发环节。skill 是可复用任务说明，IDE 是集成编写与运行代码的开发环境，读者可按自己需要解决的问题理解这些项目的分工。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-projects-06.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/cloudflare/security-audit-skill",
+            "remote_url": "https://opengraph.githubassets.com/ff492fc65f3155f53aaadd2ea1c9d6e32b0d3a691a3ab79ea6b21576d1e721ad/cloudflare/security-audit-skill"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-projects-07",
+          "title": "其他 Vibe 小作品",
+          "title_md": "其他 Vibe 小作品：",
+          "body_md": "模仿 Arc 的浏览器插件 [Riparc](https://www.v2ex.com/t/1251630)、GitHub 热点站 [OpenPulse](https://www.v2ex.com/t/1251690)、浏览器本地和弦识别 [ChordFold](https://www.v2ex.com/t/1251686)、[AI 编程中文词典 71 词条](https://www.v2ex.com/t/1251654)",
+          "body_text": "模仿 Arc 的浏览器插件 Riparc、GitHub 热点站 OpenPulse、浏览器本地和弦识别 ChordFold、AI 编程中文词典 71 词条",
+          "source": "V2EX",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://www.v2ex.com/t/1251630",
+          "links": [
+            {
+              "text": "Riparc",
+              "url": "https://www.v2ex.com/t/1251630"
+            },
+            {
+              "text": "OpenPulse",
+              "url": "https://www.v2ex.com/t/1251690"
+            },
+            {
+              "text": "ChordFold",
+              "url": "https://www.v2ex.com/t/1251686"
+            },
+            {
+              "text": "AI 编程中文词典 71 词条",
+              "url": "https://www.v2ex.com/t/1251654"
+            }
+          ],
+          "summary": "这组社区小作品包括浏览器界面插件 Riparc、GitHub 热点站 OpenPulse、本地和弦识别工具 ChordFold，以及 71 词条的 AI 编程中文词典。它们展示了 AI 辅助制作的小工具如何围绕浏览、音乐和学习等具体用途展开。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-projects-07.jpg",
+            "width": 800,
+            "height": 504,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1251630",
+            "remote_url": "https://i.imgur.com/66DK0de.gif"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-10-26-cooperation-01",
+          "title": "CaseCite",
+          "title_md": "CaseCite：",
+          "body_md": "可自托管的法律文书 RAG（自带密钥、无遥测），面向律所私有语料。面向律所或咨询公司的内部知识库需求。[GitHub](https://github.com/thomasunise/casecite)（Show HN 窗口内）",
+          "body_text": "可自托管的法律文书 RAG（自带密钥、无遥测），面向律所私有语料。面向律所或咨询公司的内部知识库需求。GitHub（Show HN 窗口内）",
+          "source": "GitHub",
+          "published": "Show HN 窗口内",
+          "meta": "",
+          "annotations": [
+            "自带密钥、无遥测",
+            "Show HN 窗口内"
+          ],
+          "primary_url": "https://github.com/thomasunise/casecite",
+          "links": [
+            {
+              "text": "GitHub",
+              "url": "https://github.com/thomasunise/casecite"
+            }
+          ],
+          "summary": "CaseCite 是可自行部署的法律文书研究与问答工具，使用者提供模型密钥，项目说明无遥测。RAG 指先从资料中检索相关内容再生成回答的方法，这个案例对应律所利用私有文档建设内部知识库的需求。问答会把问题与相关文档内容发送给用户配置的模型服务，自行部署并不等于完全离线。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-cooperation-01.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/thomasunise/casecite",
+            "remote_url": "https://opengraph.githubassets.com/15cbdd4f79b92f5a538c7b1304eebe53ef37531be17ffec45194b8c1644bf92b/thomasunise/casecite"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-cooperation-02",
+          "title": "「Claude 20X 不够用，能开两个账号吗？会封吗」",
+          "title_md": "「Claude 20X 不够用，能开两个账号吗？会封吗」",
+          "body_md": "讨论 AI 订阅额度与账号政策，可对照 Codex vs Claude 和 limitbreak 的相关讨论。[V2EX](https://www.v2ex.com/t/1251716)（10-25 23:56）",
+          "body_text": "讨论 AI 订阅额度与账号政策，可对照 Codex vs Claude 和 limitbreak 的相关讨论。V2EX（10-25 23:56）",
+          "source": "V2EX",
+          "published": "10-25 23:56",
+          "meta": "",
+          "annotations": [
+            "10-25 23:56"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1251716",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1251716"
+            }
+          ],
+          "summary": "一位 V2EX 用户在 Claude 20X 额度不足后，询问能否同时使用两个账号以及是否会被封禁。它呈现了订阅容量与账号规则之间的实际疑问，讨论本身不能作为多账号做法被允许的依据。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-26-cooperation-03",
+          "title": "「用 Agent 编程，但我为什么这么累？」",
+          "title_md": "「用 Agent 编程，但我为什么这么累？」",
+          "body_md": "作者吐槽写一下午精疲力尽但成果不显著，归因于反复教细节习惯，并开源助手 Pot。反映了使用 Agent 编程时的任务管理与精力成本。[V2EX](https://www.v2ex.com/t/1251606)（10-25 10:37）",
+          "body_text": "作者吐槽写一下午精疲力尽但成果不显著，归因于反复教细节习惯，并开源助手 Pot。反映了使用 Agent 编程时的任务管理与精力成本。V2EX（10-25 10:37）",
+          "source": "V2EX",
+          "published": "10-25 10:37",
+          "meta": "",
+          "annotations": [
+            "10-25 10:37"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1251606",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1251606"
+            }
+          ],
+          "summary": "V2EX 作者反映，用 AI 编程时反复交代细节让人疲惫，投入一下午后成果仍不明显，并分享了助手 Pot。智能体是能执行任务的 AI，这个案例说明使用体验还取决于任务组织与沟通成本。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-cooperation-03.jpg",
+            "width": 1200,
+            "height": 1008,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1251606",
+            "remote_url": "https://jjylab.com/images/ai-pr-changes.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-26-cooperation-04",
+          "title": "AI 图片创作工作台求反馈",
+          "title_md": "AI 图片创作工作台求反馈：",
+          "body_md": "按商品图/海报/手办等场景整理入口与提示词，按积分计费，提供按场景整理的提示词和工作流。[V2EX](https://www.v2ex.com/t/1251722)（10-26 00:49）",
+          "body_text": "按商品图/海报/手办等场景整理入口与提示词，按积分计费，提供按场景整理的提示词和工作流。V2EX（10-26 00:49）",
+          "source": "V2EX",
+          "published": "10-26 00:49",
+          "meta": "",
+          "annotations": [
+            "10-26 00:49"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1251722",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1251722"
+            }
+          ],
+          "summary": "一款 AI 图片创作工作台按商品图、海报、手办等场景组织入口与提示词，采用积分计费，并征求使用反馈。它把较通用的图像生成能力整理成具体工作流程，读者可据此观察场景划分是否便于完成自己的任务。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-26-cooperation-05",
+          "title": "电鸭",
+          "title_md": "电鸭：",
+          "body_md": "窗口内新帖是代剪、换电顾问、餐饮企划，没有 AI/开发向岗位；AI 相关岗位仍停在更早日期。",
+          "body_text": "窗口内新帖是代剪、换电顾问、餐饮企划，没有 AI/开发向岗位；AI 相关岗位仍停在更早日期。",
+          "source": "",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "",
+          "links": [],
+          "summary": "电鸭在本期窗口内的新帖没有 AI 或开发相关岗位，相关岗位仍停留在更早日期。这是对当期可见信息的记录，不能推导为平台长期没有这类需求。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "条目未提供原文链接"
+        },
+        {
+          "id": "2026-10-26-cooperation-06",
+          "title": "Flask 作者跨平台投票",
+          "title_md": "Flask 作者跨平台投票：",
+          "body_md": "「你现在还手写超过 20% 的代码吗？」X 上约 12.7% 答是，Bluesky 约 26.4%，Mastodon 约 75.2%。可作为观察编程工作方式的数据参考。[宝玉汇总](https://x.com/dotey/status/2114459621087707444)（10-26 04:50）",
+          "body_text": "「你现在还手写超过 20% 的代码吗？」X 上约 12.7% 答是，Bluesky 约 26.4%，Mastodon 约 75.2%。可作为观察编程工作方式的数据参考。宝玉汇总（10-26 04:50）",
+          "source": "X @dotey",
+          "published": "10-26 04:50",
+          "meta": "",
+          "annotations": [
+            "10-26 04:50"
+          ],
+          "primary_url": "https://x.com/dotey/status/2114459621087707444",
+          "links": [
+            {
+              "text": "宝玉汇总",
+              "url": "https://x.com/dotey/status/2114459621087707444"
+            }
+          ],
+          "summary": "Flask 作者询问用户是否仍手写超过 20% 的代码，宝玉汇总的肯定回答比例在 X、Bluesky、Mastodon 上分别约为 12.7%、26.4%、75.2%。差异说明不同平台的参与者可能呈现不同习惯，这类自愿投票不能代表全部开发者的工作方式。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-26/2026-10-26-cooperation-06.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：X @dotey",
+            "source_url": "https://x.com/dotey/status/2114459621087707444",
+            "remote_url": "https://pbs.twimg.com/media/HVgRzjZWcAAcYi-.jpg?name=orig"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-10-26-directions-01",
+      "title": "AI 编程订阅的效果、稳定性与额度",
+      "title_md": "AI 编程订阅的效果、稳定性与额度",
+      "body_md": "- 切入角度：用 V2EX 的 25 条回复分别比较效果、稳定性和额度，结合双账号、tibosay 与 limitbreak 的讨论，按网页小工具、长项目和网络条件理解订阅需求。\n  - 参考素材：\n  [V2EX Codex vs Claude](https://www.v2ex.com/t/1251671)、[双账号会封吗](https://www.v2ex.com/t/1251716)、[tibosay](https://www.v2ex.com/t/1251631)、[limitbreak](https://github.com/radu2lupu/limitbreak)\n  - 适合读者：需要比较 AI 编程订阅的初学者与开发者",
+      "body_text": "- 切入角度：用 V2EX 的 25 条回复分别比较效果、稳定性和额度，结合双账号、tibosay 与 limitbreak 的讨论，按网页小工具、长项目和网络条件理解订阅需求。\n  - 参考素材：\n  V2EX Codex vs Claude、双账号会封吗、tibosay、limitbreak\n  - 适合读者：需要比较 AI 编程订阅的初学者与开发者",
+      "source": "V2EX",
+      "published": "",
+      "meta": "25 条回复",
+      "annotations": [],
+      "primary_url": "https://www.v2ex.com/t/1251671",
+      "links": [
+        {
+          "text": "V2EX Codex vs Claude",
+          "url": "https://www.v2ex.com/t/1251671"
+        },
+        {
+          "text": "双账号会封吗",
+          "url": "https://www.v2ex.com/t/1251716"
+        },
+        {
+          "text": "tibosay",
+          "url": "https://www.v2ex.com/t/1251631"
+        },
+        {
+          "text": "limitbreak",
+          "url": "https://github.com/radu2lupu/limitbreak"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-10-26/2026-10-26-directions-01.jpg",
+        "width": 1200,
+        "height": 620,
+        "credit": "图片来源：V2EX",
+        "source_url": "https://www.v2ex.com/t/1251631",
+        "remote_url": "https://i.imgur.com/dfF9eUU.png"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "AI 编程订阅的效果、稳定性与额度",
+      "angle": "用 V2EX 的 25 条回复分别比较效果、稳定性和额度，结合双账号、tibosay 与 limitbreak 的讨论，按网页小工具、长项目和网络条件理解订阅需求。",
+      "audience": "需要比较 AI 编程订阅的初学者与开发者",
+      "reference_md": "[V2EX Codex vs Claude](https://www.v2ex.com/t/1251671)、[双账号会封吗](https://www.v2ex.com/t/1251716)、[tibosay](https://www.v2ex.com/t/1251631)、[limitbreak](https://github.com/radu2lupu/limitbreak)"
+    },
+    {
+      "id": "2026-10-26-directions-02",
+      "title": "个人 Agent 的生活与桌面应用",
+      "title_md": "个人 Agent 的生活与桌面应用",
+      "body_md": "- 切入角度：结合宝玉的体验观点、卡兹克的可视化 Agent 流水线和 ESP32 操作 iPhone 点外卖的案例，比较使用门槛、用途与持续使用的价值，并参考 10-25 日报的用法帖。\n  - 参考素材：\n  [宝玉观点](https://x.com/dotey/status/2114203536477053273)、[卡兹克流水线](https://x.com/Khazix0918/status/2114343004471460341)、[iPhone 点外卖](https://www.v2ex.com/t/1251717)、[Agent 为什么这么累](https://www.v2ex.com/t/1251606)\n  - 适合读者：评估个人 Agent 实际用途的读者",
+      "body_text": "- 切入角度：结合宝玉的体验观点、卡兹克的可视化 Agent 流水线和 ESP32 操作 iPhone 点外卖的案例，比较使用门槛、用途与持续使用的价值，并参考 10-25 日报的用法帖。\n  - 参考素材：\n  宝玉观点、卡兹克流水线、iPhone 点外卖、Agent 为什么这么累\n  - 适合读者：评估个人 Agent 实际用途的读者",
+      "source": "X @dotey",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://x.com/dotey/status/2114203536477053273",
+      "links": [
+        {
+          "text": "宝玉观点",
+          "url": "https://x.com/dotey/status/2114203536477053273"
+        },
+        {
+          "text": "卡兹克流水线",
+          "url": "https://x.com/Khazix0918/status/2114343004471460341"
+        },
+        {
+          "text": "iPhone 点外卖",
+          "url": "https://www.v2ex.com/t/1251717"
+        },
+        {
+          "text": "Agent 为什么这么累",
+          "url": "https://www.v2ex.com/t/1251606"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-10-26/2026-10-26-directions-02.jpg",
+        "width": 1200,
+        "height": 675,
+        "credit": "图片来源：X @Khazix0918",
+        "source_url": "https://x.com/Khazix0918/status/2114343004471460341",
+        "remote_url": "https://pbs.twimg.com/media/HVenonybAAAjzfn.jpg"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "个人 Agent 的生活与桌面应用",
+      "angle": "结合宝玉的体验观点、卡兹克的可视化 Agent 流水线和 ESP32 操作 iPhone 点外卖的案例，比较使用门槛、用途与持续使用的价值，并参考 10-25 日报的用法帖。",
+      "audience": "评估个人 Agent 实际用途的读者",
+      "reference_md": "[宝玉观点](https://x.com/dotey/status/2114203536477053273)、[卡兹克流水线](https://x.com/Khazix0918/status/2114343004471460341)、[iPhone 点外卖](https://www.v2ex.com/t/1251717)、[Agent 为什么这么累](https://www.v2ex.com/t/1251606)"
+    },
+    {
+      "id": "2026-10-26-directions-03",
+      "title": "AI 辅助物理与诗词学习",
+      "title_md": "AI 辅助物理与诗词学习",
+      "body_md": "- 切入角度：了解《Every Joule》的可交互 3D 物理课本，以及把诗词文字排成画的 Prompt，再参考书法自动生成项目，整理家长与老师可尝试的 3 个起步任务。\n  - 参考素材：\n  [Every Joule 转述](https://x.com/dotey/status/2114402733629268468)、[诗词字画 Prompt](https://m.okjike.com/originalPosts/6add7f4bbd0563695be92767)、[书法 AI](https://www.v2ex.com/t/1251592)\n  - 适合读者：希望用 AI 辅助学习的家长与老师",
+      "body_text": "- 切入角度：了解《Every Joule》的可交互 3D 物理课本，以及把诗词文字排成画的 Prompt，再参考书法自动生成项目，整理家长与老师可尝试的 3 个起步任务。\n  - 参考素材：\n  Every Joule 转述、诗词字画 Prompt、书法 AI\n  - 适合读者：希望用 AI 辅助学习的家长与老师",
+      "source": "X @dotey",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://x.com/dotey/status/2114402733629268468",
+      "links": [
+        {
+          "text": "Every Joule 转述",
+          "url": "https://x.com/dotey/status/2114402733629268468"
+        },
+        {
+          "text": "诗词字画 Prompt",
+          "url": "https://m.okjike.com/originalPosts/6add7f4bbd0563695be92767"
+        },
+        {
+          "text": "书法 AI",
+          "url": "https://www.v2ex.com/t/1251592"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-10-26/2026-10-26-directions-03.jpg",
+        "width": 1072,
+        "height": 1200,
+        "credit": "图片来源：V2EX",
+        "source_url": "https://www.v2ex.com/t/1251592",
+        "remote_url": "https://fastly.jsdelivr.net/gh/dvbs2000/liuchunlin-shufa@main/docs/gallery/lanting_simp.jpg"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "AI 辅助物理与诗词学习",
+      "angle": "了解《Every Joule》的可交互 3D 物理课本，以及把诗词文字排成画的 Prompt，再参考书法自动生成项目，整理家长与老师可尝试的 3 个起步任务。",
+      "audience": "希望用 AI 辅助学习的家长与老师",
+      "reference_md": "[Every Joule 转述](https://x.com/dotey/status/2114402733629268468)、[诗词字画 Prompt](https://m.okjike.com/originalPosts/6add7f4bbd0563695be92767)、[书法 AI](https://www.v2ex.com/t/1251592)"
+    },
+    {
+      "id": "2026-10-26-directions-04",
+      "title": "补充阅读方向",
+      "title_md": "补充阅读方向",
+      "body_md": "- 切入角度：「大模型降价了，为什么公司还是赚不到钱？」把 Max Woolf 的降价梳理和 Apollo「科技圈外零回报」放一起，可对照阅读两种观点。\n  - 参考素材：[价格梳理](https://minimaxir.com/2026/10/cheap-llms/)｜[Apollo 报道](https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10)\n  - 适合读者：希望进一步了解相关讨论的读者。",
+      "body_text": "- 切入角度：「大模型降价了，为什么公司还是赚不到钱？」把 Max Woolf 的降价梳理和 Apollo「科技圈外零回报」放一起，可对照阅读两种观点。\n  - 参考素材：价格梳理｜Apollo 报道\n  - 适合读者：希望进一步了解相关讨论的读者。",
+      "source": "Max Woolf",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "links": [
+        {
+          "text": "价格梳理",
+          "url": "https://minimaxir.com/2026/10/cheap-llms/"
+        },
+        {
+          "text": "Apollo 报道",
+          "url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-10-26/2026-10-26-directions-04.jpg",
+        "width": 1200,
+        "height": 705,
+        "credit": "图片来源：Max Woolf",
+        "source_url": "https://minimaxir.com/2026/10/cheap-llms/",
+        "remote_url": "https://minimaxir.com/2026/10/cheap-llms/vercel.png"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "补充阅读方向",
+      "angle": "「大模型降价了，为什么公司还是赚不到钱？」把 Max Woolf 的降价梳理和 Apollo「科技圈外零回报」放一起，可对照阅读两种观点。",
+      "audience": "希望进一步了解相关讨论的读者。",
+      "reference_md": "[价格梳理](https://minimaxir.com/2026/10/cheap-llms/)｜[Apollo 报道](https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-10-26-unverified-01",
+      "title": "窗口内没有新内容",
+      "title_md": "窗口内没有新内容：",
+      "body_md": "Claude Code / Codex Releases、Cursor Changelog（最新仍 10-16）、Anthropic News、OpenAI News（最新 10-23）、Google AI Blog（最新 10-21）、AIbase / AI工具集 / 量子位（最新都停在 10-23）、Ben's Bites（最新 10-22）、Simon Willison（最新 10-24 小游戏）、阮一峰周刊（周五）、TLDR AI（窗口覆盖周末，最新可读仍是 10-23 刊）",
+      "body_text": "Claude Code / Codex Releases、Cursor Changelog（最新仍 10-16）、Anthropic News、OpenAI News（最新 10-23）、Google AI Blog（最新 10-21）、AIbase / AI工具集 / 量子位（最新都停在 10-23）、Ben's Bites（最新 10-22）、Simon Willison（最新 10-24 小游戏）、阮一峰周刊（周五）、TLDR AI（窗口覆盖周末，最新可读仍是 10-23 刊）",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "最新仍 10-16",
+        "最新 10-23",
+        "最新 10-21",
+        "最新都停在 10-23",
+        "最新 10-22",
+        "最新 10-24 小游戏",
+        "周五",
+        "窗口覆盖周末，最新可读仍是 10-23 刊"
+      ],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-26-unverified-02",
+      "title": "打不开或被拦",
+      "title_md": "打不开或被拦：",
+      "body_md": "Reddit r/vibecoding、r/ClaudeAI（全路径超时/限流/安全拦截，本窗口无法核验，不收录）",
+      "body_text": "Reddit r/vibecoding、r/ClaudeAI（全路径超时/限流/安全拦截，本窗口无法核验，不收录）",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "全路径超时/限流/安全拦截，本窗口无法核验，不收录"
+      ],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-26-unverified-03",
+      "title": "日期不符不收",
+      "title_md": "日期不符不收：",
+      "body_md": "少数派《60 元蓝牙遥控器做 vibe coding 神器》RSS 显示 10-25，但正文 datePublished 是 2026-09-22（Matrix 再推荐）；伯克利教授「改作业没意义」原文 10-23，仅 HN 热度在窗口内，未作主条",
+      "body_text": "少数派《60 元蓝牙遥控器做 vibe coding 神器》RSS 显示 10-25，但正文 datePublished 是 2026-09-22（Matrix 再推荐）；伯克利教授「改作业没意义」原文 10-23，仅 HN 热度在窗口内，未作主条",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "Matrix 再推荐"
+      ],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-26-unverified-04",
+      "title": "弱相关或无法核验时间",
+      "title_md": "弱相关或无法核验时间：",
+      "body_md": "电鸭窗口内无 AI 岗位；Indie Hackers / 机器之心缺可靠时间戳；Product Hunt 除 AgentGrid 外无窗口内新产品",
+      "body_text": "电鸭窗口内无 AI 岗位；Indie Hackers / 机器之心缺可靠时间戳；Product Hunt 除 AgentGrid 外无窗口内新产品",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-26-unverified-05",
+      "title": "X List",
+      "title_md": "X List：",
+      "body_md": "官方账号（AnthropicAI、claudeai、OpenAIDevs、cursor_ai、bcherny、karpathy、simonw 等）窗口内无原创；铁锤人仅有回复；Kindle 相关向阳乔木帖按昨日已收跳过；中文帖已收录一手信息",
+      "body_text": "官方账号（AnthropicAI、claudeai、OpenAIDevs、cursor_ai、bcherny、karpathy、simonw 等）窗口内无原创；铁锤人仅有回复；Kindle 相关向阳乔木帖按昨日已收跳过；中文帖已收录一手信息",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "AnthropicAI、claudeai、OpenAIDevs、cursor_ai、bcherny、karpathy、simonw 等"
+      ],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-26-unverified-06",
+      "title": "这次没有抓取",
+      "title_md": "这次没有抓取：",
+      "body_md": "The Rundown（邮件订阅）、HF Papers",
+      "body_text": "The Rundown（邮件订阅）、HF Papers",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "邮件订阅"
+      ],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-26-unverified-07",
+      "title": "按清单的剔除名单跳过",
+      "title_md": "按清单的剔除名单跳过：",
+      "body_md": "掘金 AI 热榜、今日热榜、36氪、smol.ai 等",
+      "body_text": "掘金 AI 热榜、今日热榜、36氪、smol.ai 等",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}

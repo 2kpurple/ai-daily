@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+preview/
+reports/
+CHANGES.md
+*.bak
+*.bak-*
+raw-*/
+*.log
+summaries.json
+scripts/verify-delivery.py

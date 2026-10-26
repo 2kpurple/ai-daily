@@ -1,0 +1,1140 @@
+{
+  "date": "2026-10-23",
+  "title": "AI 日报 · 2026-10-23（周五）",
+  "window": "时间窗口：10-22 08:00 到 10-23 08:00（台北时间）。每条都读过正文、核对过日期。和 10-22 日报重复的（Claude Duet、OpenAI 上 Google Cloud、CleanYourTV、PHP 漏洞、懂了鸭、小果AI 等）不再收录。",
+  "highlights": [
+    "Claude 的「自动模式」： 从下周起，Pro、Max、Team 用户在 Claude 网页、桌面和手机端默认不再一步步点\"批准\"，由自动检查拦截危险操作。官方推文 9885 赞。这一变化涉及使用体验与操作安全。",
+    "Agent Skills 捐给 Linux 基金会旗下的 AAIF，跟 MCP 放在一起。 Skills 正式成了跨 ChatGPT、Cursor、Copilot 通用的标准，可帮助初学者理解 Skills 的用途。",
+    "AI 应用案例： 一个非程序员用 Claude Code 给披萨店做了自有点餐 App，帮店主省掉外卖平台 25–30% 的抽成，已经有第一个付费客户。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-10-23-news-01",
+          "title": "Claude 应用下周起默认开启自动模式。",
+          "title_md": "Claude 应用下周起默认开启自动模式。",
+          "body_md": "覆盖 Pro、Max、Team 套餐的网页、桌面、手机端。不再每一步都问你，改由自动检查拦截有风险的操作，随时可以切回手动。[官方推文](https://x.com/claudeai/status/2113360845409583307)（10-23 04:04，9885 赞）",
+          "body_text": "覆盖 Pro、Max、Team 套餐的网页、桌面、手机端。不再每一步都问你，改由自动检查拦截有风险的操作，随时可以切回手动。官方推文（10-23 04:04，9885 赞）",
+          "source": "X @claudeai",
+          "published": "10-23 04:04",
+          "meta": "9885 赞",
+          "annotations": [
+            "10-23 04:04，9885 赞"
+          ],
+          "primary_url": "https://x.com/claudeai/status/2113360845409583307",
+          "links": [
+            {
+              "text": "官方推文",
+              "url": "https://x.com/claudeai/status/2113360845409583307"
+            }
+          ],
+          "summary": "Claude 宣布下周起为 Pro、Max、Team 用户默认开启自动模式，覆盖网页、桌面和手机端，减少逐步批准操作的次数。风险操作改由自动检查拦截，用户仍可切回手动，因此使用时需要理解授权方式发生了什么变化。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "推文接口未返回媒体图片"
+        },
+        {
+          "id": "2026-10-23-news-02",
+          "title": "Anthropic 把 Agent Skills 标准捐给 Agentic AI Foundation（Linux 基金会旗下），和 MCP 同一个家。",
+          "title_md": "Anthropic 把 Agent Skills 标准捐给 Agentic AI Foundation（Linux 基金会旗下），和 MCP 同一个家。",
+          "body_md": "ChatGPT、Cursor、GitHub Copilot、VS Code 都已经支持 Skills。[Anthropic 官方](https://www.anthropic.com/news/donating-agent-skills)（10-22）｜[Claude Code 负责人 bcherny 推文](https://x.com/bcherny/status/2113333859907747871)｜[Simon Willison 点评](https://simonwillison.net/2026/Oct/22/donating-agent-skills/)｜宝玉吐槽 [希望 Claude Code 也读 .agents/skills](https://x.com/dotey/status/2113330196401303844)",
+          "body_text": "ChatGPT、Cursor、GitHub Copilot、VS Code 都已经支持 Skills。Anthropic 官方（10-22）｜Claude Code 负责人 bcherny 推文｜Simon Willison 点评｜宝玉吐槽 希望 Claude Code 也读 .agents/skills",
+          "source": "Anthropic",
+          "published": "10-22",
+          "meta": "",
+          "annotations": [
+            "Linux 基金会旗下",
+            "10-22"
+          ],
+          "primary_url": "https://www.anthropic.com/news/donating-agent-skills",
+          "links": [
+            {
+              "text": "Anthropic 官方",
+              "url": "https://www.anthropic.com/news/donating-agent-skills"
+            },
+            {
+              "text": "Claude Code 负责人 bcherny 推文",
+              "url": "https://x.com/bcherny/status/2113333859907747871"
+            },
+            {
+              "text": "Simon Willison 点评",
+              "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+            },
+            {
+              "text": "希望 Claude Code 也读 .agents/skills",
+              "url": "https://x.com/dotey/status/2113330196401303844"
+            }
+          ],
+          "summary": "Agent Skills 是给 AI 提供专门知识与工作步骤的可复用任务说明，Anthropic 将其标准捐给 Linux 基金会旗下的 Agentic AI Foundation。ChatGPT、Cursor、GitHub Copilot 和 VS Code 已支持这套标准，说明相同技能可以被不同工具采用。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "原文页面 HTTP 404；推文接口未返回媒体图片；页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-news-03",
+          "title": "Claude 模型（Anthropic 托管）在 Google Cloud 正式可用。",
+          "title_md": "Claude 模型（Anthropic 托管）在 Google Cloud 正式可用。",
+          "body_md": "可以用 Google Cloud 的账号、账单和承诺消费额度。[官方推文](https://x.com/claudeai/status/2113380122468454765)（10-23 05:21）",
+          "body_text": "可以用 Google Cloud 的账号、账单和承诺消费额度。官方推文（10-23 05:21）",
+          "source": "X @claudeai",
+          "published": "10-23 05:21",
+          "meta": "",
+          "annotations": [
+            "Anthropic 托管",
+            "10-23 05:21"
+          ],
+          "primary_url": "https://x.com/claudeai/status/2113380122468454765",
+          "links": [
+            {
+              "text": "官方推文",
+              "url": "https://x.com/claudeai/status/2113380122468454765"
+            }
+          ],
+          "summary": "Anthropic 托管的 Claude 模型正式通过 Google Cloud 提供，用户可以沿用云平台账号、账单和承诺消费额度。对已有 Google Cloud 采购流程的团队，这项变化主要影响模型的获取与费用管理方式。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-23/2026-10-23-news-03.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：X @claudeai",
+            "source_url": "https://x.com/claudeai/status/2113380122468454765",
+            "remote_url": "https://pbs.twimg.com/media/HVQqxxFWMAA8mDb.jpg?name=orig"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-23-news-04",
+          "title": "Uber 给 3 万多名员工全员上 ChatGPT Work，",
+          "title_md": "Uber 给 3 万多名员工全员上 ChatGPT Work，",
+          "body_md": "用来做调研、数据分析、做 PPT。[OpenAI](https://openai.com/index/uber-chatgpt-work-rollout)（10-22 08:00，文章页 403，按官方 RSS 摘要核验）",
+          "body_text": "用来做调研、数据分析、做 PPT。OpenAI（10-22 08:00，文章页 403，按官方 RSS 摘要核验）",
+          "source": "OpenAI",
+          "published": "10-22 08:00",
+          "meta": "",
+          "annotations": [
+            "10-22 08:00，文章页 403，按官方 RSS 摘要核验"
+          ],
+          "primary_url": "https://openai.com/index/uber-chatgpt-work-rollout",
+          "links": [
+            {
+              "text": "OpenAI",
+              "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+            }
+          ],
+          "summary": "OpenAI 的消息称，Uber 为 3 万多名员工部署 ChatGPT Work，使用场景包括调研、数据分析和制作演示文稿。它展示了企业把 AI 放入日常办公流程的规模，但原稿未提供工作效率提升的测量结果。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-23/2026-10-23-news-04.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：OpenAI",
+            "source_url": "https://openai.com/index/uber-chatgpt-work-rollout",
+            "remote_url": "https://images.ctfassets.net/kftzwdyauwt9/5Ggg0KhDALourCX7MklMBY/c7f06d5982895ca0867ed21a0b95d422/uber-brings-chatgpt-work-to-all-employees-seo.png?w=1600&h=900&fit=fill"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-23-news-05",
+          "title": "谷歌 CEO 皮查伊：自己每天先让 AI 智能体汇总过去 24 小时的动态，再交给他看。",
+          "title_md": "谷歌 CEO 皮查伊：自己每天先让 AI 智能体汇总过去 24 小时的动态，再交给他看。",
+          "body_md": "展示了 AI 汇总办公信息的使用方式。[AIbase](https://www.aibase.com/zh/news/31799)",
+          "body_text": "展示了 AI 汇总办公信息的使用方式。AIbase",
+          "source": "AIbase",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://www.aibase.com/zh/news/31799",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/31799"
+            }
+          ],
+          "summary": "据 AIbase 转述，皮查伊每天先让 AI 汇总过去 24 小时的动态，再阅读整理后的结果。这里的智能体是替人执行信息整理任务的 AI，这个用法有助于理解如何把重复的信息浏览交给工具处理。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-23-news-06",
+          "title": "科大讯飞发布星火 X2.6（全国产算力训练，1M 上下文，主打代码和智能体）和语音基座模型 SparkAudio 1.0。",
+          "title_md": "科大讯飞发布星火 X2.6（全国产算力训练，1M 上下文，主打代码和智能体）和语音基座模型 SparkAudio 1.0。",
+          "body_md": "[AIbase：星火 X2.6](https://www.aibase.com/zh/news/31806)｜[AIbase：SparkAudio](https://www.aibase.com/zh/news/31804)",
+          "body_text": "AIbase：星火 X2.6｜AIbase：SparkAudio",
+          "source": "AIbase",
+          "published": "",
+          "meta": "",
+          "annotations": [
+            "全国产算力训练，1M 上下文，主打代码和智能体"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/31806",
+          "links": [
+            {
+              "text": "AIbase：星火 X2.6",
+              "url": "https://www.aibase.com/zh/news/31806"
+            },
+            {
+              "text": "AIbase：SparkAudio",
+              "url": "https://www.aibase.com/zh/news/31804"
+            }
+          ],
+          "summary": "科大讯飞同时发布偏重代码与任务执行的星火 X2.6，以及语音基座模型 SparkAudio 1.0。前者提到的 1M 上下文指模型一次能参考的大量输入内容，两项发布分别面向文字任务与语音能力。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG；候选图片：图片过小（441×269）；候选图片：图片过小（426×243）"
+        },
+        {
+          "id": "2026-10-23-news-07",
+          "title": "AI 会议助手 Otter.ai 拿到 3.2 亿美元融资，用户从 2500 万涨到 4000 万，ARR 过 1 亿美元。",
+          "title_md": "AI 会议助手 Otter.ai 拿到 3.2 亿美元融资，用户从 2500 万涨到 4000 万，ARR 过 1 亿美元。",
+          "body_md": "[AI工具集 10 月 22 日快讯](https://ai-bot.cn/daily-ai-news/)",
+          "body_text": "AI工具集 10 月 22 日快讯",
+          "source": "AI工具集",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://ai-bot.cn/daily-ai-news/",
+          "links": [
+            {
+              "text": "AI工具集 10 月 22 日快讯",
+              "url": "https://ai-bot.cn/daily-ai-news/"
+            }
+          ],
+          "summary": "据 AI工具集快讯，会议助手 Otter.ai 获得 3.2 亿美元融资，用户从 2500 万增至 4000 万，年度经常性收入超过 1 亿美元。年度经常性收入通常用于描述订阅业务的持续收入规模，这些数字反映的是公司业务情况，不能直接说明会议整理的准确程度。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-10-23-tools-01",
+          "title": "Claude Code v2.1.309",
+          "title_md": "Claude Code v2.1.309：",
+          "body_md": "全是安全和权限修复，包括沙箱里的 Bash 不再在沙箱外跑 shell 启动文件、worktree 隔离补漏、超大嵌套 CLAUDE.md 不再反复压缩上下文。[Release](https://github.com/anthropics/claude-code/releases/tag/v2.1.309)（10-23 06:18）",
+          "body_text": "全是安全和权限修复，包括沙箱里的 Bash 不再在沙箱外跑 shell 启动文件、worktree 隔离补漏、超大嵌套 CLAUDE.md 不再反复压缩上下文。Release（10-23 06:18）",
+          "source": "GitHub",
+          "published": "10-23 06:18",
+          "meta": "",
+          "annotations": [
+            "10-23 06:18"
+          ],
+          "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+          "links": [
+            {
+              "text": "Release",
+              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309"
+            }
+          ],
+          "summary": "Claude Code v2.1.309 集中修复安全与权限问题，包括命令执行环境、独立工作目录隔离，以及大型说明文件引发的反复压缩。沙箱是限制程序可访问资源的运行环境，这些修复与让 AI 在限定范围内执行任务有关。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-23/2026-10-23-tools-01.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+            "remote_url": "https://opengraph.githubassets.com/bee1aa92e21b63812e9b480ed18e7dbb603f613bea9fb7b974de0575a4b41bd2/anthropics/claude-code/releases/tag/v2.1.309"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-23-tools-02",
+          "title": "OpenAI Decisions API 正式可用",
+          "title_md": "OpenAI Decisions API 正式可用：",
+          "body_md": "不生成完整回答，只做分类、判断、\"下一步做什么\"，更快更便宜。适合做客服分流、内容审核这类小工具。[OpenAIDevs 推文](https://x.com/OpenAIDevs/status/2113346642787086538)｜[OpenAI](https://openai.com/index/decisions-api)（10-23 03:00）",
+          "body_text": "不生成完整回答，只做分类、判断、\"下一步做什么\"，更快更便宜。适合做客服分流、内容审核这类小工具。OpenAIDevs 推文｜OpenAI（10-23 03:00）",
+          "source": "X @OpenAIDevs",
+          "published": "10-23 03:00",
+          "meta": "",
+          "annotations": [
+            "10-23 03:00"
+          ],
+          "primary_url": "https://x.com/OpenAIDevs/status/2113346642787086538",
+          "links": [
+            {
+              "text": "OpenAIDevs 推文",
+              "url": "https://x.com/OpenAIDevs/status/2113346642787086538"
+            },
+            {
+              "text": "OpenAI",
+              "url": "https://openai.com/index/decisions-api"
+            }
+          ],
+          "summary": "Decisions API 是供程序调用的分类与判断接口，重点是给出决策，而不是生成完整长回答。原稿列出的客服分流、内容审核等场景，有助于理解为什么某些流程只需要简短判断结果。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "推文接口未返回媒体图片；原文页面 HTTP 403"
+        },
+        {
+          "id": "2026-10-23-tools-03",
+          "title": "Codex",
+          "title_md": "Codex：",
+          "body_md": "又发了 0.164.0-alpha.12 等几个预发布版本，都没有写更新说明。[Releases](https://github.com/openai/codex/releases)",
+          "body_text": "又发了 0.164.0-alpha.12 等几个预发布版本，都没有写更新说明。Releases",
+          "source": "GitHub",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://github.com/openai/codex/releases",
+          "links": [
+            {
+              "text": "Releases",
+              "url": "https://github.com/openai/codex/releases"
+            }
+          ],
+          "summary": "Codex 发布了包括 0.164.0-alpha.12 在内的预发布版本，但没有配套更新说明。预发布版供正式发布前试用，现有信息不足以确认具体功能变化。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-23/2026-10-23-tools-03.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/openai/codex/releases",
+            "remote_url": "https://opengraph.githubassets.com/1/openai/codex"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-23-tools-04",
+          "title": "Codex 桌面版（Mac）崩溃转储会偷偷吃掉几十到上百 GB 硬盘。",
+          "title_md": "Codex 桌面版（Mac）崩溃转储会偷偷吃掉几十到上百 GB 硬盘。",
+          "body_md": "V2EX 帖子给了一行自查命令和清理方法，官方 issue 从 6 月开到现在还没修。[V2EX](https://www.v2ex.com/t/1250986)（10-22 16:48）",
+          "body_text": "V2EX 帖子给了一行自查命令和清理方法，官方 issue 从 6 月开到现在还没修。V2EX（10-22 16:48）",
+          "source": "V2EX",
+          "published": "10-22 16:48",
+          "meta": "",
+          "annotations": [
+            "Mac",
+            "10-22 16:48"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1250986",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1250986"
+            }
+          ],
+          "summary": "V2EX 用户反映，Mac 版 Codex 的崩溃转储文件可能占用几十到上百 GB 磁盘空间，帖子提供了自查与清理方法。崩溃转储是程序出错时保存的诊断数据，这个案例提醒用户区分项目文件与诊断文件的空间占用。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-23-tools-05",
+          "title": "Kling 4.0 满血版上线 LibTV",
+          "title_md": "Kling 4.0 满血版上线 LibTV：",
+          "body_md": "最长 30 秒原生视频直出，最多 10 张关键帧控制。[AI工具集 10 月 22 日快讯](https://ai-bot.cn/daily-ai-news/)",
+          "body_text": "最长 30 秒原生视频直出，最多 10 张关键帧控制。AI工具集 10 月 22 日快讯",
+          "source": "AI工具集",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://ai-bot.cn/daily-ai-news/",
+          "links": [
+            {
+              "text": "AI工具集 10 月 22 日快讯",
+              "url": "https://ai-bot.cn/daily-ai-news/"
+            }
+          ],
+          "summary": "Kling 4.0 在 LibTV 上线，原稿记录可直接生成最长 30 秒视频，并用最多 10 张关键帧控制画面。关键帧是用来指定重要画面状态的参考图，这项能力与控制视频过程有关，而不只是输入一句描述。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-tools-06",
+          "title": "Recursive Flint",
+          "title_md": "Recursive Flint：",
+          "body_md": "能在 M4 Pro MacBook 上每秒跑 125+ token 的本地编程模型（40B 参数，每次只激活 2.5B）。[TLDR AI 10-22 期](https://tldr.tech/ai/2026-10-22)",
+          "body_text": "能在 M4 Pro MacBook 上每秒跑 125+ token 的本地编程模型（40B 参数，每次只激活 2.5B）。TLDR AI 10-22 期",
+          "source": "TLDR AI",
+          "published": "",
+          "meta": "",
+          "annotations": [
+            "40B 参数，每次只激活 2.5B"
+          ],
+          "primary_url": "https://tldr.tech/ai/2026-10-22",
+          "links": [
+            {
+              "text": "TLDR AI 10-22 期",
+              "url": "https://tldr.tech/ai/2026-10-22"
+            }
+          ],
+          "summary": "Recursive Flint 是可在本地运行的编程模型，原稿记录它在 M4 Pro MacBook 上达到每秒 125+ token。token 是模型处理与生成文本时使用的片段单位，这个速度说明有特定设备上的测试记录，并不代表所有电脑都能达到同样表现。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-10-23-tools-07",
+          "title": "MD2X",
+          "title_md": "MD2X：",
+          "body_md": "免费开源，写 Markdown 一键排成 X 长文，代码、表格、Mermaid 图自动转图片。做内容的人用得上。[V2EX](https://www.v2ex.com/t/1251059)（10-22 21:46）",
+          "body_text": "免费开源，写 Markdown 一键排成 X 长文，代码、表格、Mermaid 图自动转图片。做内容的人用得上。V2EX（10-22 21:46）",
+          "source": "V2EX",
+          "published": "10-22 21:46",
+          "meta": "",
+          "annotations": [
+            "10-22 21:46"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1251059",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1251059"
+            }
+          ],
+          "summary": "MD2X 是免费开源的排版工具，可把 Markdown 文档转成适合 X 长文的形式，并将代码、表格和 Mermaid 图转换为图片。Markdown 是用简单标记编写文档的格式，这种转换减少了文档在不同平台之间重排的工作。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-10-23-projects-01",
+          "title": "anthropics/knowledge-work-plugins（GitHub Trending 今日 +303 星）",
+          "title_md": "[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)（GitHub Trending 今日 +303 星）：",
+          "body_md": "Anthropic 开源的 11 个\"岗位插件\"，给 Claude Cowork 用，覆盖效率、销售等岗位，可接 Slack、Notion、Asana、Microsoft 365 等工具。可供了解 AI 办公插件。",
+          "body_text": "Anthropic 开源的 11 个\"岗位插件\"，给 Claude Cowork 用，覆盖效率、销售等岗位，可接 Slack、Notion、Asana、Microsoft 365 等工具。可供了解 AI 办公插件。",
+          "source": "GitHub",
+          "published": "",
+          "meta": "GitHub Trending 今日 +303 星",
+          "annotations": [
+            "GitHub Trending 今日 +303 星"
+          ],
+          "primary_url": "https://github.com/anthropics/knowledge-work-plugins",
+          "links": [
+            {
+              "text": "anthropics/knowledge-work-plugins",
+              "url": "https://github.com/anthropics/knowledge-work-plugins"
+            }
+          ],
+          "summary": "Anthropic 开源了 11 个面向不同岗位的 Claude Cowork 插件，覆盖效率、销售等工作，并可连接 Slack、Notion 等办公工具。插件把岗位流程与工具连接组织在一起，有助于了解通用 AI 如何适配具体工作。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-23/2026-10-23-projects-01.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/anthropics/knowledge-work-plugins",
+            "remote_url": "https://opengraph.githubassets.com/1/anthropics/knowledge-work-plugins"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-23-projects-02",
+          "title": "claude-howto（今日 +177 星）",
+          "title_md": "[claude-howto](https://github.com/luongnv89/claude-howto)（今日 +177 星）：",
+          "body_md": "图解加可复制模板的 Claude Code 入门指南。",
+          "body_text": "图解加可复制模板的 Claude Code 入门指南。",
+          "source": "GitHub",
+          "published": "",
+          "meta": "今日 +177 星",
+          "annotations": [
+            "今日 +177 星"
+          ],
+          "primary_url": "https://github.com/luongnv89/claude-howto",
+          "links": [
+            {
+              "text": "claude-howto",
+              "url": "https://github.com/luongnv89/claude-howto"
+            }
+          ],
+          "summary": "claude-howto 用图解和可复制模板介绍 Claude Code 的使用方法。对刚接触 AI 编程的人，这类材料提供了可以照着操作的入口，便于把说明与实际使用过程对应起来。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-23/2026-10-23-projects-02.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/luongnv89/claude-howto",
+            "remote_url": "https://opengraph.githubassets.com/626d354b4cff623c20f48719e42ebcca8b328802a5889020feb46d4b1e375ea1/luongnv89/claude-howto"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-23-projects-03",
+          "title": "用 Claude Code 给 USB 灯接上 hooks",
+          "title_md": "用 Claude Code 给 USB 灯接上 hooks：",
+          "body_md": "闪红灯是在干活，常亮红灯是在等你回答，绿灯是空闲。[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1xcdwdx/i_got_tired_of_checking_whether_claude_code_needs/)（10-22 17:29）",
+          "body_text": "闪红灯是在干活，常亮红灯是在等你回答，绿灯是空闲。r/ClaudeAI（10-22 17:29）",
+          "source": "Reddit",
+          "published": "10-22 17:29",
+          "meta": "",
+          "annotations": [
+            "10-22 17:29"
+          ],
+          "primary_url": "https://www.reddit.com/r/ClaudeAI/comments/1xcdwdx/i_got_tired_of_checking_whether_claude_code_needs/",
+          "links": [
+            {
+              "text": "r/ClaudeAI",
+              "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcdwdx/i_got_tired_of_checking_whether_claude_code_needs/"
+            }
+          ],
+          "summary": "社区用户把 Claude Code 的运行状态接到了 USB 灯上，用不同灯光区分执行中、等待回答和空闲。hooks 指在特定事件发生时触发的动作，这个作品把屏幕里的状态提示变成了可见的桌面信号。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-projects-04",
+          "title": "让 Claude 把 12 年前的旧 Kindle 改成时钟加天气屏",
+          "title_md": "让 Claude 把 12 年前的旧 Kindle 改成时钟加天气屏：",
+          "body_md": "作者说受安卓电视去广告启发，\"把仓库链接丢给 Claude 就行\"。[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1xcfgop/turn_a_12yearold_kindle_into_a_clock_weather/)（10-22 19:00）",
+          "body_text": "作者说受安卓电视去广告启发，\"把仓库链接丢给 Claude 就行\"。r/ClaudeAI（10-22 19:00）",
+          "source": "Reddit",
+          "published": "10-22 19:00",
+          "meta": "",
+          "annotations": [
+            "10-22 19:00"
+          ],
+          "primary_url": "https://www.reddit.com/r/ClaudeAI/comments/1xcfgop/turn_a_12yearold_kindle_into_a_clock_weather/",
+          "links": [
+            {
+              "text": "r/ClaudeAI",
+              "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcfgop/turn_a_12yearold_kindle_into_a_clock_weather/"
+            }
+          ],
+          "summary": "一则社区分享用 Claude 把 12 年前的 Kindle 改成时钟和天气屏，作者说灵感来自安卓电视改造。它展示了旧设备的新用途，原稿中的使用体验属于作者个案，不能据此认定所有旧 Kindle 都能同样改造。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-projects-05",
+          "title": "一位老师说 Claude Cowork 一个月改变了工作",
+          "title_md": "一位老师说 Claude Cowork 一个月改变了工作：",
+          "body_md": "备课、批改、做 PPT、分析成绩。非技术用户视角。[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1xcrcsz/thank_you_claude_as_a_teacher/)（10-23 02:55）",
+          "body_text": "备课、批改、做 PPT、分析成绩。非技术用户视角。r/ClaudeAI（10-23 02:55）",
+          "source": "Reddit",
+          "published": "10-23 02:55",
+          "meta": "",
+          "annotations": [
+            "10-23 02:55"
+          ],
+          "primary_url": "https://www.reddit.com/r/ClaudeAI/comments/1xcrcsz/thank_you_claude_as_a_teacher/",
+          "links": [
+            {
+              "text": "r/ClaudeAI",
+              "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcrcsz/thank_you_claude_as_a_teacher/"
+            }
+          ],
+          "summary": "一位教师分享了用 Claude Cowork 备课、批改、制作演示文稿和分析成绩的经历。案例把 AI 办公落到了具体教学任务，但一个月的个人体验并不是对所有教学场景效果的测评。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-projects-06",
+          "title": "非程序员 VibeCoding 小技巧",
+          "title_md": "非程序员 VibeCoding 小技巧：",
+          "body_md": "让 AI 每次回答先说\"你描述的东西，行业标准叫法是……\"，用来顺便学术语、提高提示词水平。[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1xcx3td/do_yall_nondev_vibecoders_implement_any_kind_of/)（10-23 06:41）",
+          "body_text": "让 AI 每次回答先说\"你描述的东西，行业标准叫法是……\"，用来顺便学术语、提高提示词水平。r/ClaudeAI（10-23 06:41）",
+          "source": "Reddit",
+          "published": "10-23 06:41",
+          "meta": "",
+          "annotations": [
+            "10-23 06:41"
+          ],
+          "primary_url": "https://www.reddit.com/r/ClaudeAI/comments/1xcx3td/do_yall_nondev_vibecoders_implement_any_kind_of/",
+          "links": [
+            {
+              "text": "r/ClaudeAI",
+              "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcx3td/do_yall_nondev_vibecoders_implement_any_kind_of/"
+            }
+          ],
+          "summary": "一则 AI 编程技巧建议，让模型先说明用户描述的功能在行业里叫什么，再继续回答。这相当于在解决问题的同时补充术语，帮助初学者逐渐把日常表达转成更明确的需求说明。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-projects-07",
+          "title": "省额度实测",
+          "title_md": "省额度实测：",
+          "body_md": "有人在 28 个真实任务上测了 6 种搭配，只用 Haiku 5.5 全部通过，成本比 Sonnet 低 93%；把活外包给更便宜的模型反而更贵。[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1xclm8k/does_delegating_save_claude_quota_i_measured_6/)（10-22 23:25）",
+          "body_text": "有人在 28 个真实任务上测了 6 种搭配，只用 Haiku 5.5 全部通过，成本比 Sonnet 低 93%；把活外包给更便宜的模型反而更贵。r/ClaudeAI（10-22 23:25）",
+          "source": "Reddit",
+          "published": "10-22 23:25",
+          "meta": "",
+          "annotations": [
+            "10-22 23:25"
+          ],
+          "primary_url": "https://www.reddit.com/r/ClaudeAI/comments/1xclm8k/does_delegating_save_claude_quota_i_measured_6/",
+          "links": [
+            {
+              "text": "r/ClaudeAI",
+              "url": "https://www.reddit.com/r/ClaudeAI/comments/1xclm8k/does_delegating_save_claude_quota_i_measured_6/"
+            }
+          ],
+          "summary": "一位用户在 28 个真实任务上比较 6 种模型搭配，自述只用 Haiku 5.5 全部通过，成本比 Sonnet 低 93%。在这组测试里，把任务分给更便宜的模型反而增加了成本，说明单价与完成任务的总花费需要分开看。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-projects-08",
+          "title": "歸藏推荐的 PokeBonk（宝可梦版吸血鬼幸存者）",
+          "title_md": "歸藏推荐的 PokeBonk（宝可梦版吸血鬼幸存者）：",
+          "body_md": "网页小游戏，国内外都在自传播。[推文](https://x.com/op7418/status/2113134055680262324)（10-22 13:03）",
+          "body_text": "网页小游戏，国内外都在自传播。推文（10-22 13:03）",
+          "source": "X @op7418",
+          "published": "10-22 13:03",
+          "meta": "",
+          "annotations": [
+            "宝可梦版吸血鬼幸存者",
+            "10-22 13:03"
+          ],
+          "primary_url": "https://x.com/op7418/status/2113134055680262324",
+          "links": [
+            {
+              "text": "推文",
+              "url": "https://x.com/op7418/status/2113134055680262324"
+            }
+          ],
+          "summary": "PokeBonk 是歸藏推荐的宝可梦题材网页小游戏，玩法被比作《吸血鬼幸存者》。它提供了一个可观察的网页游戏案例，本期材料主要是推荐与传播情况，没有给出开发或收入的完整数据。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-23/2026-10-23-projects-08.jpg",
+            "width": 1200,
+            "height": 602,
+            "credit": "图片来源：X @op7418",
+            "source_url": "https://x.com/op7418/status/2113134055680262324",
+            "remote_url": "https://pbs.twimg.com/amplify_video_thumb/2113133807117430784/img/CdO8R6pTA-nag97W.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-23-projects-09",
+          "title": "向阳乔木把\"知识提问 Prompt\"做成了网站",
+          "title_md": "向阳乔木把\"知识提问 Prompt\"做成了网站：",
+          "body_md": "各行各业小技巧，每条带测验或交互动画。[推文](https://x.com/vista8/status/2113303860580364572)（10-23 00:17）",
+          "body_text": "各行各业小技巧，每条带测验或交互动画。推文（10-23 00:17）",
+          "source": "X @vista8",
+          "published": "10-23 00:17",
+          "meta": "",
+          "annotations": [
+            "10-23 00:17"
+          ],
+          "primary_url": "https://x.com/vista8/status/2113303860580364572",
+          "links": [
+            {
+              "text": "推文",
+              "url": "https://x.com/vista8/status/2113303860580364572"
+            }
+          ],
+          "summary": "向阳乔木把知识提问提示词做成网站，内容覆盖各行各业的小技巧，并加入测验或交互动画。提示词就是引导 AI 完成任务的文字要求，这个案例展示了如何把问答内容进一步组织成学习体验。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-10-23/2026-10-23-projects-09.jpg",
+            "width": 1200,
+            "height": 905,
+            "credit": "图片来源：X @vista8",
+            "source_url": "https://x.com/vista8/status/2113303860580364572",
+            "remote_url": "https://pbs.twimg.com/media/HVP1VRrasAAyh7X.jpg?name=orig"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-10-23-projects-10",
+          "title": "少楠分享 flomo Agent 的\"每天精选 3 条内容\"提示词",
+          "title_md": "少楠分享 flomo Agent 的\"每天精选 3 条内容\"提示词：",
+          "body_md": "在任何有记忆的 Agent 里都能用。[即刻](https://m.okjike.com/originalPosts/6ad9fe19bd0563695b890701)（10-22 20:14）",
+          "body_text": "在任何有记忆的 Agent 里都能用。即刻（10-22 20:14）",
+          "source": "即刻",
+          "published": "10-22 20:14",
+          "meta": "",
+          "annotations": [
+            "10-22 20:14"
+          ],
+          "primary_url": "https://m.okjike.com/originalPosts/6ad9fe19bd0563695b890701",
+          "links": [
+            {
+              "text": "即刻",
+              "url": "https://m.okjike.com/originalPosts/6ad9fe19bd0563695b890701"
+            }
+          ],
+          "summary": "少楠分享了让 flomo 智能体每天精选 3 条内容的提示词，并说明有记忆能力的其他智能体也能使用。智能体是能按要求执行任务的 AI，记忆能力则让它有机会结合此前的信息进行筛选。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：图片过小（120×300）"
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-10-23-cooperation-01",
+          "title": "披萨店自有点餐 App",
+          "title_md": "披萨店自有点餐 App：",
+          "body_md": "作者不是科班开发，用 Claude Code 做了 Expo App、Supabase、Stripe Connect 和收银机对接，帮餐厅绕开 DoorDash 25–30% 抽成。第一家已上线付费。他说最难的不是写代码，而是拿着手机进店给老板看他自家的菜单。[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1xcm78x/i_used_claude_code_to_build_a_pizzeria_its_own/)（10-22 23:46）",
+          "body_text": "作者不是科班开发，用 Claude Code 做了 Expo App、Supabase、Stripe Connect 和收银机对接，帮餐厅绕开 DoorDash 25–30% 抽成。第一家已上线付费。他说最难的不是写代码，而是拿着手机进店给老板看他自家的菜单。r/ClaudeAI（10-22 23:46）",
+          "source": "Reddit",
+          "published": "10-22 23:46",
+          "meta": "",
+          "annotations": [
+            "10-22 23:46"
+          ],
+          "primary_url": "https://www.reddit.com/r/ClaudeAI/comments/1xcm78x/i_used_claude_code_to_build_a_pizzeria_its_own/",
+          "links": [
+            {
+              "text": "r/ClaudeAI",
+              "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcm78x/i_used_claude_code_to_build_a_pizzeria_its_own/"
+            }
+          ],
+          "summary": "一位作者用 Claude Code 为披萨店制作自有点餐应用，接通支付和收银机，并称首家餐厅已上线付费。原稿记录其目标是避开 DoorDash 25–30% 的平台抽成，这个案例显示实际交付还包括业务连接与店内展示。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-cooperation-02",
+          "title": "电鸭深圳远程服务信息",
+          "title_md": "电鸭深圳远程服务信息：",
+          "body_md": "表格整理、办公自动化脚本、网页小修改，按结果验收。服务内容涉及日常办公与网页维护。[电鸭](https://eleduck.com/posts/wwfLyK)（10-22 21:01）",
+          "body_text": "表格整理、办公自动化脚本、网页小修改，按结果验收。服务内容涉及日常办公与网页维护。电鸭（10-22 21:01）",
+          "source": "电鸭",
+          "published": "10-22 21:01",
+          "meta": "",
+          "annotations": [
+            "10-22 21:01"
+          ],
+          "primary_url": "https://eleduck.com/posts/wwfLyK",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/wwfLyK"
+            }
+          ],
+          "summary": "电鸭的一则远程服务信息列出表格整理、办公自动化脚本和网页小修改，并采用按结果验收的方式。它把服务范围和完成标准落到具体交付物上，便于读者理解小型办公需求如何被描述。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-cooperation-03",
+          "title": "电鸭两条 AI 服务信息",
+          "title_md": "电鸭两条 AI 服务信息：",
+          "body_md": "LangChain 定制 Agent 和工作流、RAG 知识库和企业 AI 落地，列出了相关服务范围。[LangChain Agent 服务](https://eleduck.com/posts/jAfWoV)｜[AI 应用全栈服务](https://eleduck.com/posts/b2fAdr)",
+          "body_text": "LangChain 定制 Agent 和工作流、RAG 知识库和企业 AI 落地，列出了相关服务范围。LangChain Agent 服务｜AI 应用全栈服务",
+          "source": "电鸭",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://eleduck.com/posts/jAfWoV",
+          "links": [
+            {
+              "text": "LangChain Agent 服务",
+              "url": "https://eleduck.com/posts/jAfWoV"
+            },
+            {
+              "text": "AI 应用全栈服务",
+              "url": "https://eleduck.com/posts/b2fAdr"
+            }
+          ],
+          "summary": "两则电鸭服务信息涉及定制智能体、工作流和企业知识库。智能体是能调用工具执行任务的 AI，RAG 则是先检索资料再生成回答的方法；这些术语分别对应任务执行与依据内部资料问答的需求。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-cooperation-04",
+          "title": "电鸭\"中小企业 AI 知识库\"案例",
+          "title_md": "电鸭\"中小企业 AI 知识库\"案例：",
+          "body_md": "上传员工手册和制度，生成内部问答助手，场景是 HR 和客服反复回答同类问题。[电鸭](https://eleduck.com/posts/rdf3VY)（10-22 14:09）",
+          "body_text": "上传员工手册和制度，生成内部问答助手，场景是 HR 和客服反复回答同类问题。电鸭（10-22 14:09）",
+          "source": "电鸭",
+          "published": "10-22 14:09",
+          "meta": "",
+          "annotations": [
+            "10-22 14:09"
+          ],
+          "primary_url": "https://eleduck.com/posts/rdf3VY",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/rdf3VY"
+            }
+          ],
+          "summary": "电鸭的中小企业知识库案例，把员工手册与制度上传后变成内部问答助手，用于人事和客服反复回答的同类问题。它展示了把已有文件转成可查询入口的需求，阅读时可以关注回答与原始制度之间的对应关系。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-cooperation-05",
+          "title": "电鸭：国外客户软件项目招远程兼职 PM 和 UI，",
+          "title_md": "电鸭：国外客户软件项目招远程兼职 PM 和 UI，",
+          "body_md": "时薪 25–45 元，\"在 AI 协助下能英文工作\"即可。[电鸭](https://eleduck.com/posts/Ygf2kE)（10-23 02:45）",
+          "body_text": "时薪 25–45 元，\"在 AI 协助下能英文工作\"即可。电鸭（10-23 02:45）",
+          "source": "电鸭",
+          "published": "10-23 02:45",
+          "meta": "",
+          "annotations": [
+            "10-23 02:45"
+          ],
+          "primary_url": "https://eleduck.com/posts/Ygf2kE",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/Ygf2kE"
+            }
+          ],
+          "summary": "一则面向国外客户软件项目的远程兼职信息，招募项目管理和界面设计人员，时薪为 25–45 元。岗位要求提到能在 AI 协助下用英文工作，说明这里需要的是具体协作能力，而不只是会使用聊天工具。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-10-23-cooperation-06",
+          "title": "V2EX 初学者需求",
+          "title_md": "V2EX 初学者需求：",
+          "body_md": "「DeepSeek 用什么工具接入编程好？」（[帖子](https://www.v2ex.com/t/1251079)），「Claude Code 被封了，求稳定中转」（[帖子](https://www.v2ex.com/t/1250923)）。反映了国内 AI 编程工具稳定使用的需求。",
+          "body_text": "「DeepSeek 用什么工具接入编程好？」（帖子），「Claude Code 被封了，求稳定中转」（帖子）。反映了国内 AI 编程工具稳定使用的需求。",
+          "source": "V2EX",
+          "published": "",
+          "meta": "",
+          "annotations": [
+            "[帖子](https://www.v2ex.com/t/1251079)",
+            "[帖子](https://www.v2ex.com/t/1250923)"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1251079",
+          "links": [
+            {
+              "text": "帖子",
+              "url": "https://www.v2ex.com/t/1251079"
+            },
+            {
+              "text": "帖子",
+              "url": "https://www.v2ex.com/t/1250923"
+            }
+          ],
+          "summary": "两则 V2EX 求助分别关注如何让 DeepSeek 参与编程，以及 Claude Code 账号受限后的稳定使用方式。它们反映了模型接入与服务可用性两类问题，涉及中转服务时也需要辨别账号权限与凭证交付范围。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-10-23-directions-01",
+      "title": "Claude 自动模式与操作授权",
+      "title_md": "Claude 自动模式与操作授权",
+      "body_md": "- 切入角度：对比逐步批准与自动检查风险操作的变化，了解付款、删除文件、发送消息等操作的授权设置，并参考 Claude Code 的安全修复。\n  - 参考素材：\n  [自动模式官方推文](https://x.com/claudeai/status/2113360845409583307)、[Claude Code v2.1.309 更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.309)、[宝玉：不放心把主要账号密码交给 Agent](https://x.com/dotey/status/2113291134265115101)\n  - 适合读者：使用 Claude 网页、桌面或手机端的读者",
+      "body_text": "- 切入角度：对比逐步批准与自动检查风险操作的变化，了解付款、删除文件、发送消息等操作的授权设置，并参考 Claude Code 的安全修复。\n  - 参考素材：\n  自动模式官方推文、Claude Code v2.1.309 更新、宝玉：不放心把主要账号密码交给 Agent\n  - 适合读者：使用 Claude 网页、桌面或手机端的读者",
+      "source": "X @claudeai",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://x.com/claudeai/status/2113360845409583307",
+      "links": [
+        {
+          "text": "自动模式官方推文",
+          "url": "https://x.com/claudeai/status/2113360845409583307"
+        },
+        {
+          "text": "Claude Code v2.1.309 更新",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309"
+        },
+        {
+          "text": "宝玉：不放心把主要账号密码交给 Agent",
+          "url": "https://x.com/dotey/status/2113291134265115101"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-10-23/2026-10-23-directions-01.jpg",
+        "width": 1200,
+        "height": 600,
+        "credit": "图片来源：GitHub",
+        "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+        "remote_url": "https://opengraph.githubassets.com/bee1aa92e21b63812e9b480ed18e7dbb603f613bea9fb7b974de0575a4b41bd2/anthropics/claude-code/releases/tag/v2.1.309"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "Claude 自动模式与操作授权",
+      "angle": "对比逐步批准与自动检查风险操作的变化，了解付款、删除文件、发送消息等操作的授权设置，并参考 Claude Code 的安全修复。",
+      "audience": "使用 Claude 网页、桌面或手机端的读者",
+      "reference_md": "[自动模式官方推文](https://x.com/claudeai/status/2113360845409583307)、[Claude Code v2.1.309 更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.309)、[宝玉：不放心把主要账号密码交给 Agent](https://x.com/dotey/status/2113291134265115101)"
+    },
+    {
+      "id": "2026-10-23-directions-02",
+      "title": "披萨店自有点餐 App 的交付案例",
+      "title_md": "披萨店自有点餐 App 的交付案例",
+      "body_md": "- 切入角度：从小店需求、AI 开发 App 和成品演示三个环节理解案例；参考小程序、飞书表格及电鸭的服务说明，了解服务范围与价格的表达。\n  - 参考素材：\n  [披萨店案例](https://www.reddit.com/r/ClaudeAI/comments/1xcm78x/i_used_claude_code_to_build_a_pizzeria_its_own/)、[电鸭办公自动化服务信息](https://eleduck.com/posts/wwfLyK)、[电鸭 AI 知识库案例](https://eleduck.com/posts/rdf3VY)\n  - 适合读者：关注小商家数字工具的开发者与经营者",
+      "body_text": "- 切入角度：从小店需求、AI 开发 App 和成品演示三个环节理解案例；参考小程序、飞书表格及电鸭的服务说明，了解服务范围与价格的表达。\n  - 参考素材：\n  披萨店案例、电鸭办公自动化服务信息、电鸭 AI 知识库案例\n  - 适合读者：关注小商家数字工具的开发者与经营者",
+      "source": "Reddit",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.reddit.com/r/ClaudeAI/comments/1xcm78x/i_used_claude_code_to_build_a_pizzeria_its_own/",
+      "links": [
+        {
+          "text": "披萨店案例",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcm78x/i_used_claude_code_to_build_a_pizzeria_its_own/"
+        },
+        {
+          "text": "电鸭办公自动化服务信息",
+          "url": "https://eleduck.com/posts/wwfLyK"
+        },
+        {
+          "text": "电鸭 AI 知识库案例",
+          "url": "https://eleduck.com/posts/rdf3VY"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "页面未提供可引用的文章主图",
+      "name": "披萨店自有点餐 App 的交付案例",
+      "angle": "从小店需求、AI 开发 App 和成品演示三个环节理解案例；参考小程序、飞书表格及电鸭的服务说明，了解服务范围与价格的表达。",
+      "audience": "关注小商家数字工具的开发者与经营者",
+      "reference_md": "[披萨店案例](https://www.reddit.com/r/ClaudeAI/comments/1xcm78x/i_used_claude_code_to_build_a_pizzeria_its_own/)、[电鸭办公自动化服务信息](https://eleduck.com/posts/wwfLyK)、[电鸭 AI 知识库案例](https://eleduck.com/posts/rdf3VY)"
+    },
+    {
+      "id": "2026-10-23-directions-03",
+      "title": "旧设备与 AI 工作状态灯改造",
+      "title_md": "旧设备与 AI 工作状态灯改造",
+      "body_md": "- 切入角度：对照旧 Kindle 变天气钟、USB 灯显示 AI 工作状态的案例，了解把仓库链接交给 AI 后的改造过程。\n  - 参考素材：\n  [旧 Kindle 改天气钟](https://www.reddit.com/r/ClaudeAI/comments/1xcfgop/turn_a_12yearold_kindle_into_a_clock_weather/)、[Claude Code 状态灯](https://www.reddit.com/r/ClaudeAI/comments/1xcdwdx/i_got_tired_of_checking_whether_claude_code_needs/)、[少数派：把 Muse 装进 ESP-Mosaico 开发板](https://sspai.com/post/115437)（原文 10-08 写的，10-22 被少数派首页推荐，只能当辅助素材）\n  - 适合读者：关注旧设备利用与 AI 硬件交互的读者",
+      "body_text": "- 切入角度：对照旧 Kindle 变天气钟、USB 灯显示 AI 工作状态的案例，了解把仓库链接交给 AI 后的改造过程。\n  - 参考素材：\n  旧 Kindle 改天气钟、Claude Code 状态灯、少数派：把 Muse 装进 ESP-Mosaico 开发板（原文 10-08 写的，10-22 被少数派首页推荐，只能当辅助素材）\n  - 适合读者：关注旧设备利用与 AI 硬件交互的读者",
+      "source": "Reddit",
+      "published": "原文 10-08 写的；10-22 被少数派首页推荐",
+      "meta": "",
+      "annotations": [
+        "原文 10-08 写的，10-22 被少数派首页推荐，只能当辅助素材"
+      ],
+      "primary_url": "https://www.reddit.com/r/ClaudeAI/comments/1xcfgop/turn_a_12yearold_kindle_into_a_clock_weather/",
+      "links": [
+        {
+          "text": "旧 Kindle 改天气钟",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcfgop/turn_a_12yearold_kindle_into_a_clock_weather/"
+        },
+        {
+          "text": "Claude Code 状态灯",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcdwdx/i_got_tired_of_checking_whether_claude_code_needs/"
+        },
+        {
+          "text": "少数派：把 Muse 装进 ESP-Mosaico 开发板",
+          "url": "https://sspai.com/post/115437"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-10-23/2026-10-23-directions-03.jpg",
+        "width": 1200,
+        "height": 900,
+        "credit": "图片来源：少数派",
+        "source_url": "https://sspai.com/post/115437",
+        "remote_url": "https://rssfile.sspai.com/2026/10/07/ea79e6bf26e9ce585e7d040e1fe476ad.jpg?imageMogr2/auto-orient/ignore-error/1"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "旧设备与 AI 工作状态灯改造",
+      "angle": "对照旧 Kindle 变天气钟、USB 灯显示 AI 工作状态的案例，了解把仓库链接交给 AI 后的改造过程。",
+      "audience": "关注旧设备利用与 AI 硬件交互的读者",
+      "reference_md": "[旧 Kindle 改天气钟](https://www.reddit.com/r/ClaudeAI/comments/1xcfgop/turn_a_12yearold_kindle_into_a_clock_weather/)、[Claude Code 状态灯](https://www.reddit.com/r/ClaudeAI/comments/1xcdwdx/i_got_tired_of_checking_whether_claude_code_needs/)、[少数派：把 Muse 装进 ESP-Mosaico 开发板](https://sspai.com/post/115437)（原文 10-08 写的，10-22 被少数派首页推荐，只能当辅助素材）"
+    },
+    {
+      "id": "2026-10-23-directions-04",
+      "title": "补充阅读方向",
+      "title_md": "补充阅读方向",
+      "body_md": "- 切入角度：了解 Agent Skills 标准、定义与安装使用，参考要闻第二条和 [knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)。\n  - 参考素材：[岗位插件仓库](https://github.com/anthropics/knowledge-work-plugins)｜[Agent Skills 标准](https://www.anthropic.com/news/donating-agent-skills)\n  - 适合读者：希望进一步了解相关讨论的读者。",
+      "body_text": "- 切入角度：了解 Agent Skills 标准、定义与安装使用，参考要闻第二条和 knowledge-work-plugins。\n  - 参考素材：岗位插件仓库｜Agent Skills 标准\n  - 适合读者：希望进一步了解相关讨论的读者。",
+      "source": "GitHub",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://github.com/anthropics/knowledge-work-plugins",
+      "links": [
+        {
+          "text": "knowledge-work-plugins",
+          "url": "https://github.com/anthropics/knowledge-work-plugins"
+        },
+        {
+          "text": "岗位插件仓库",
+          "url": "https://github.com/anthropics/knowledge-work-plugins"
+        },
+        {
+          "text": "Agent Skills 标准",
+          "url": "https://www.anthropic.com/news/donating-agent-skills"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-10-23/2026-10-23-directions-04.jpg",
+        "width": 1200,
+        "height": 600,
+        "credit": "图片来源：GitHub",
+        "source_url": "https://github.com/anthropics/knowledge-work-plugins",
+        "remote_url": "https://opengraph.githubassets.com/1/anthropics/knowledge-work-plugins"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "补充阅读方向",
+      "angle": "了解 Agent Skills 标准、定义与安装使用，参考要闻第二条和 knowledge-work-plugins。",
+      "audience": "希望进一步了解相关讨论的读者。",
+      "reference_md": "[岗位插件仓库](https://github.com/anthropics/knowledge-work-plugins)｜[Agent Skills 标准](https://www.anthropic.com/news/donating-agent-skills)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-10-23-unverified-01",
+      "title": "没有新内容或超出 24 小时",
+      "title_md": "没有新内容或超出 24 小时：",
+      "body_md": "Cursor Changelog（最新 10-16）、Google AI Blog（最新 10-21 12:00）、阮一峰周刊（最新 10-16，今天周五可能稍后更新）",
+      "body_text": "Cursor Changelog（最新 10-16）、Google AI Blog（最新 10-21 12:00）、阮一峰周刊（最新 10-16，今天周五可能稍后更新）",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "最新 10-16",
+        "最新 10-21 12:00",
+        "最新 10-16，今天周五可能稍后更新"
+      ],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-23-unverified-02",
+      "title": "打不开或被限流",
+      "title_md": "打不开或被限流：",
+      "body_md": "r/vibecoding（RSS 返回空）、hnrss 的 AI 关键词 feed（502，改用 HN 高分帖 feed）、OpenAI 文章页（403，按 RSS 和官方推文核验）",
+      "body_text": "r/vibecoding（RSS 返回空）、hnrss 的 AI 关键词 feed（502，改用 HN 高分帖 feed）、OpenAI 文章页（403，按 RSS 和官方推文核验）",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "RSS 返回空",
+        "502，改用 HN 高分帖 feed",
+        "403，按 RSS 和官方推文核验"
+      ],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-23-unverified-03",
+      "title": "窗口内内容少或关联弱",
+      "title_md": "窗口内内容少或关联弱：",
+      "body_md": "Product Hunt（窗口内只有 Resend Inboxes、Agentic CleanSlop、Tetriz 等开发者工具，没收录）、HN（AI 相关只有 NVIDIA OpenShell，偏企业）、量子位（3 篇都与初学者阅读方向关联较弱）、少数派（派早报已覆盖）、Ben's Bites（内容和昨天重复，主要是 Duet 和 PHP）、V2EX 热议（今天热帖和 AI 无关）、Indie Hackers 首页（没有显示日期）",
+      "body_text": "Product Hunt（窗口内只有 Resend Inboxes、Agentic CleanSlop、Tetriz 等开发者工具，没收录）、HN（AI 相关只有 NVIDIA OpenShell，偏企业）、量子位（3 篇都与初学者阅读方向关联较弱）、少数派（派早报已覆盖）、Ben's Bites（内容和昨天重复，主要是 Duet 和 PHP）、V2EX 热议（今天热帖和 AI 无关）、Indie Hackers 首页（没有显示日期）",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "窗口内只有 Resend Inboxes、Agentic CleanSlop、Tetriz 等开发者工具，没收录",
+        "AI 相关只有 NVIDIA OpenShell，偏企业",
+        "3 篇都与初学者阅读方向关联较弱",
+        "派早报已覆盖",
+        "内容和昨天重复，主要是 Duet 和 PHP",
+        "今天热帖和 AI 无关",
+        "没有显示日期"
+      ],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-23-unverified-04",
+      "title": "这次没有抓取",
+      "title_md": "这次没有抓取：",
+      "body_md": "机器之心、The Rundown（邮件订阅）、HF Papers",
+      "body_text": "机器之心、The Rundown（邮件订阅）、HF Papers",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [
+        "邮件订阅"
+      ],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-10-23-unverified-05",
+      "title": "按清单的剔除名单跳过",
+      "title_md": "按清单的剔除名单跳过：",
+      "body_md": "掘金 AI 热榜、今日热榜、36氪、smol.ai 等",
+      "body_text": "掘金 AI 热榜、今日热榜、36氪、smol.ai 等",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}
