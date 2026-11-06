@@ -1,0 +1,536 @@
+{
+  "date": "2026-11-06",
+  "title": "AI 日报 · 2026-11-06（周五）",
+  "window": "时间窗口：11-05 08:15 到 11-06 08:15（台北时间）。每条都读过正文、核对过日期；腾讯 Hy4、GPT Image 2.6 首发在窗口外，未收录。",
+  "highlights": [
+    "Cursor 可以直接构建并上线应用： 描述需求后，云端 Agent 搭建网页、数据库、登录与托管，生成可分享的链接。",
+    "AI 与安全： OpenAI 发布 GPT‑6 Cyber，称为 Linux 内核 948 个漏洞写出提权利用；Claude Code 用户反馈邮箱出现在 User-Agent 请求头中。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-11-06-news-01",
+          "title": "OpenAI 发布网络安全模型 GPT‑6 Cyber。",
+          "title_md": "OpenAI 发布网络安全模型 GPT‑6 Cyber。",
+          "body_md": "ExploitGym 得分 48.5%（GPT‑5.6 Cyber 为 32.1%）；官方称为 Linux 内核 948 个漏洞开发了提权利用，并在 Firefox 找到 81 个高危新漏洞，目前仅向获批的 Daybreak Red 客户开放。[官方](https://openai.com/index/introducing-gpt-6-cyber)（11-05 17:00）｜[量子位解读](https://www.qbitai.com/2026/11/507697.html)（11-05 09:54）",
+          "body_text": "ExploitGym 得分 48.5%（GPT‑5.6 Cyber 为 32.1%）；官方称为 Linux 内核 948 个漏洞开发了提权利用，并在 Firefox 找到 81 个高危新漏洞，目前仅向获批的 Daybreak Red 客户开放。官方（11-05 17:00）｜量子位解读（11-05 09:54）",
+          "source": "OpenAI",
+          "published": "11-05 17:00；11-05 09:54",
+          "meta": "",
+          "annotations": [
+            "GPT‑5.6 Cyber 为 32.1%",
+            "11-05 17:00",
+            "11-05 09:54"
+          ],
+          "primary_url": "https://openai.com/index/introducing-gpt-6-cyber",
+          "links": [
+            {
+              "text": "官方",
+              "url": "https://openai.com/index/introducing-gpt-6-cyber"
+            },
+            {
+              "text": "量子位解读",
+              "url": "https://www.qbitai.com/2026/11/507697.html"
+            }
+          ],
+          "summary": "GPT‑6 Cyber 是 OpenAI 专门训练来发现并验证软件漏洞的模型，强调只在研究者授权的范围内行动。官方给出的 Linux 和 Firefox 成果说明，AI 已能大规模参与安全研究。目前只向获批的安全团队开放，普通用户暂时无法直接使用。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "原文页面 HTTP 403；候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-06-news-02",
+          "title": "百度开源文心 5.5 Flash Base。",
+          "title_md": "百度开源文心 5.5 Flash Base。",
+          "body_md": "MoE 架构，总参数 2800 亿、每 Token 激活 140 亿，推理阶段支持最长 100 万 Token 上下文。[量子位](https://www.qbitai.com/2026/11/507787.html)（11-05 15:15）｜[Hugging Face](https://huggingface.co/baidu/ERNIE-5.5-Flash-Base)",
+          "body_text": "MoE 架构，总参数 2800 亿、每 Token 激活 140 亿，推理阶段支持最长 100 万 Token 上下文。量子位（11-05 15:15）｜Hugging Face",
+          "source": "量子位",
+          "published": "11-05 15:15",
+          "meta": "",
+          "annotations": [
+            "11-05 15:15"
+          ],
+          "primary_url": "https://www.qbitai.com/2026/11/507787.html",
+          "links": [
+            {
+              "text": "量子位",
+              "url": "https://www.qbitai.com/2026/11/507787.html"
+            },
+            {
+              "text": "Hugging Face",
+              "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
+            }
+          ],
+          "summary": "文心 5.5 Flash Base 是百度开源的基座模型，采用 MoE 架构，只激活部分参数以提高效率。Base 模型主要供开发者和企业继续微调，不是直接对话用的成品助手。权重已在 Hugging Face 公开。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-06/2026-11-06-news-02.jpg",
+            "width": 1200,
+            "height": 648,
+            "credit": "图片来源：huggingface.co",
+            "source_url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+            "remote_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/baidu/ERNIE-5.5-Flash-Base.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-06-news-03",
+          "title": "Claude Code 被用户指在 User-Agent 中带上邮箱。",
+          "title_md": "Claude Code 被用户指在 User-Agent 中带上邮箱。",
+          "body_md": "用户在 GitHub 反馈，联网搜索时邮箱被写入请求头发给第三方网站，此后收到大量诈骗邮件（版本 2.1.318，约 100 个赞同）；官方尚未回应，为用户自述。[Issue](https://github.com/anthropics/claude-code/issues/107757)（11-05 开帖）",
+          "body_text": "用户在 GitHub 反馈，联网搜索时邮箱被写入请求头发给第三方网站，此后收到大量诈骗邮件（版本 2.1.318，约 100 个赞同）；官方尚未回应，为用户自述。Issue（11-05 开帖）",
+          "source": "GitHub",
+          "published": "11-05 开帖",
+          "meta": "约 100 个赞同",
+          "annotations": [
+            "版本 2.1.318，约 100 个赞同",
+            "11-05 开帖"
+          ],
+          "primary_url": "https://github.com/anthropics/claude-code/issues/107757",
+          "links": [
+            {
+              "text": "Issue",
+              "url": "https://github.com/anthropics/claude-code/issues/107757"
+            }
+          ],
+          "summary": "一位用户反馈，Claude Code 在联网搜索时把他的邮箱写进了请求头，随后收到大量诈骗邮件。这只是用户自述，官方暂未回应。它提醒我们，AI 工具联网时可能附带个人信息，值得留意相关设置和后续修复。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-06/2026-11-06-news-03.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/anthropics/claude-code/issues/107757",
+            "remote_url": "https://opengraph.githubassets.com/20e7f2af7315b41f8edd5e7bcfe518852bc3d1f37d8543c50baed770a87be4cd/anthropics/claude-code/issues/107757"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-06-news-04",
+          "title": "V2EX 讨论如何判断文字是否由 AI 写成。",
+          "title_md": "V2EX 讨论如何判断文字是否由 AI 写成。",
+          "body_md": "楼主在知乎发布 AI 辅助回答被禁言 7 天，75 条回复讨论检测工具的准确性。[V2EX](https://www.v2ex.com/t/1254605)（11-06 01:43 时 75 条回复）",
+          "body_text": "楼主在知乎发布 AI 辅助回答被禁言 7 天，75 条回复讨论检测工具的准确性。V2EX（11-06 01:43 时 75 条回复）",
+          "source": "V2EX",
+          "published": "",
+          "meta": "11-06 01:43 时 75 条回复",
+          "annotations": [
+            "11-06 01:43 时 75 条回复"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1254605",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1254605"
+            }
+          ],
+          "summary": "楼主用 AI 辅助回答问题后被平台禁言，引发关于 AI 内容检测的讨论。回复里有人测试检测工具，结果与平台判定并不一致。这说明检测并不完全可靠，各平台对 AI 辅助内容的规则也需要事先了解。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-11-06-tools-01",
+          "title": "Cursor Live Apps",
+          "title_md": "Cursor Live Apps：",
+          "body_md": "启动云端 Agent 说明要构建应用，即可搭建网页、按需创建 Postgres 数据库、通过 Cursor SSO 设置登录并配置托管，选择域名后获得上线链接。[Changelog](https://cursor.com/changelog)（Nov 5, 2026）",
+          "body_text": "启动云端 Agent 说明要构建应用，即可搭建网页、按需创建 Postgres 数据库、通过 Cursor SSO 设置登录并配置托管，选择域名后获得上线链接。Changelog（Nov 5, 2026）",
+          "source": "Changelog",
+          "published": "",
+          "meta": "",
+          "annotations": [
+            "Nov 5, 2026"
+          ],
+          "primary_url": "https://cursor.com/changelog",
+          "links": [
+            {
+              "text": "Changelog",
+              "url": "https://cursor.com/changelog"
+            }
+          ],
+          "summary": "Cursor 新增的 Live Apps 让云端 Agent 从描述需求开始，一路完成网页、数据库、登录和托管，最后给出可分享的链接。官方举例的场景包括活动报名、内部看板和新人培训页。登录基于 Cursor SSO，更适合在组织内部分享。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "人工复核：Changelog 页可取图片属于其他条目，与本条不符"
+        },
+        {
+          "id": "2026-11-06-tools-02",
+          "title": "Gemini Omni 1.2 Flash",
+          "title_md": "Gemini Omni 1.2 Flash：",
+          "body_md": "原生生成 15 秒视频，参考遵循更好，支持多轮对话编辑，价格降低 30%，可在 Gemini API、Google Vids 等使用。[Google 博客](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/)（11-06 01:00）",
+          "body_text": "原生生成 15 秒视频，参考遵循更好，支持多轮对话编辑，价格降低 30%，可在 Gemini API、Google Vids 等使用。Google 博客（11-06 01:00）",
+          "source": "Google 博客",
+          "published": "11-06 01:00",
+          "meta": "",
+          "annotations": [
+            "11-06 01:00"
+          ],
+          "primary_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "links": [
+            {
+              "text": "Google 博客",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+            }
+          ],
+          "summary": "Gemini Omni 1.2 Flash 是 Google 的视频生成模型更新，单段视频可达 15 秒，并能用多轮对话修改，不必从头重来。官方称价格降低 30%。可通过 Gemini API、Google Vids 等渠道使用。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-06/2026-11-06-tools-02.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：blog.google",
+            "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+            "remote_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-06-tools-03",
+          "title": "Codex 0.167.0",
+          "title_md": "Codex 0.167.0：",
+          "body_md": "正式版发布，同日还有 0.168.0 alpha.4 至 alpha.7；正式版页面未附更新说明。[Release](https://github.com/openai/codex/releases/tag/rust-v0.167.0)（11-06 07:31）",
+          "body_text": "正式版发布，同日还有 0.168.0 alpha.4 至 alpha.7；正式版页面未附更新说明。Release（11-06 07:31）",
+          "source": "GitHub",
+          "published": "11-06 07:31",
+          "meta": "",
+          "annotations": [
+            "11-06 07:31"
+          ],
+          "primary_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+          "links": [
+            {
+              "text": "Release",
+              "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0"
+            }
+          ],
+          "summary": "Codex 是 OpenAI 的编程 Agent 工具，更新频繁。0.167.0 正式版页面没有附更新说明，同日还有多个 0.168.0 预览版。想要稳定使用的人，可以优先选择正式版。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-06/2026-11-06-tools-03.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+            "remote_url": "https://opengraph.githubassets.com/54bddfc127737daf2ce988487ff9b9300158ec20e0360b40ec7a740679b7c1dc/openai/codex"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-11-06-projects-01",
+          "title": "MossImage Studio",
+          "title_md": "MossImage Studio：",
+          "body_md": "把开源 MOSS-Image 生图模型接到网页，可先在画布拖框确定标题、日期和主图位置再生成海报，免费生成 3 张。[V2EX](https://www.v2ex.com/t/1254855)（11-06 01:07）",
+          "body_text": "把开源 MOSS-Image 生图模型接到网页，可先在画布拖框确定标题、日期和主图位置再生成海报，免费生成 3 张。V2EX（11-06 01:07）",
+          "source": "V2EX",
+          "published": "11-06 01:07",
+          "meta": "",
+          "annotations": [
+            "11-06 01:07"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1254855",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1254855"
+            }
+          ],
+          "summary": "开发者把开源的 MOSS-Image 生图模型做成了网页，无需在本地安装就能试用。特色是先拖框确定海报上文字和主图的位置再生成，用来解决只靠提示词时文字位置容易跑偏的问题。目前可免费生成 3 张。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-06-projects-02",
+          "title": "GPT Image 2.6 GIF/SVG 生成工具",
+          "title_md": "GPT Image 2.6 GIF/SVG 生成工具：",
+          "body_md": "按场景整理提示词，可生成图片、GIF 循环动图或 SVG，提供免费试用。[V2EX](https://www.v2ex.com/t/1254841)（11-05 23:23）",
+          "body_text": "按场景整理提示词，可生成图片、GIF 循环动图或 SVG，提供免费试用。V2EX（11-05 23:23）",
+          "source": "V2EX",
+          "published": "11-05 23:23",
+          "meta": "",
+          "annotations": [
+            "11-05 23:23"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1254841",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1254841"
+            }
+          ],
+          "summary": "这是基于 GPT Image 2.6 的第三方在线工具，可以输入描述生成图片、GIF 循环动图或 SVG 矢量图。作者按场景整理了提示词，适合快速试用新模型的动图能力。它不是官方产品，可免费试用。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-06-projects-03",
+          "title": "GitHub Trending 今日榜",
+          "title_md": "GitHub Trending 今日榜：",
+          "body_md": "以下是本期项目及单日新增星数。\n  - [ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor)（+240）：基于 Playwright 和 AI 的闲鱼商品定时监控与分析，带后台界面。\n  - [agent-desktop](https://github.com/vercel-labs/agent-desktop)（+2173）：给 AI Agent 用的电脑操控命令行工具。\n  - [skills](https://github.com/mattpocock/skills)（+2071）：作者自用的 Agent Skills 合集。\n  - [gstack](https://github.com/garrytan/gstack)（+612）：Garry Tan 的 Claude Code 配置，包含 23 个工具。",
+          "body_text": "以下是本期项目及单日新增星数。\n  - ai-goofish-monitor（+240）：基于 Playwright 和 AI 的闲鱼商品定时监控与分析，带后台界面。\n  - agent-desktop（+2173）：给 AI Agent 用的电脑操控命令行工具。\n  - skills（+2071）：作者自用的 Agent Skills 合集。\n  - gstack（+612）：Garry Tan 的 Claude Code 配置，包含 23 个工具。",
+          "source": "GitHub",
+          "published": "",
+          "meta": "+240；+2173；+2071；+612",
+          "annotations": [
+            "+240",
+            "+2173",
+            "+2071",
+            "+612"
+          ],
+          "primary_url": "https://github.com/Usagi-org/ai-goofish-monitor",
+          "links": [
+            {
+              "text": "ai-goofish-monitor",
+              "url": "https://github.com/Usagi-org/ai-goofish-monitor"
+            },
+            {
+              "text": "agent-desktop",
+              "url": "https://github.com/vercel-labs/agent-desktop"
+            },
+            {
+              "text": "skills",
+              "url": "https://github.com/mattpocock/skills"
+            },
+            {
+              "text": "gstack",
+              "url": "https://github.com/garrytan/gstack"
+            }
+          ],
+          "summary": "这是今天 GitHub Trending 上与 AI Agent 相关的几个项目，包括闲鱼商品监控、Agent 电脑操控工具和 Claude Code 配置合集。它们大多面向愿意动手配置的用户。新增星数反映的是当天的关注度，不代表成熟度。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-06/2026-11-06-projects-03.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/Usagi-org/ai-goofish-monitor",
+            "remote_url": "https://opengraph.githubassets.com/c6365c53965bb2526b03956675c3afded91aed8fa4b439466b8d1b5b8f443009/Usagi-org/ai-goofish-monitor"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-11-06-cooperation-01",
+          "title": "工业设备运维平台三端前端合作",
+          "title_md": "工业设备运维平台三端前端合作：",
+          "body_md": "基于若依与 Vue，涵盖 Web 管理端、微信小程序及钉钉端（工单、报修、告警、报表、智能问答入口），征集意向与分项报价；可使用 AI 辅助，但需能独立解释和维护代码。[电鸭](https://eleduck.com/posts/ZXfB0q)（11-05 11:22）",
+          "body_text": "基于若依与 Vue，涵盖 Web 管理端、微信小程序及钉钉端（工单、报修、告警、报表、智能问答入口），征集意向与分项报价；可使用 AI 辅助，但需能独立解释和维护代码。电鸭（11-05 11:22）",
+          "source": "电鸭",
+          "published": "11-05 11:22",
+          "meta": "",
+          "annotations": [
+            "工单、报修、告警、报表、智能问答入口",
+            "11-05 11:22"
+          ],
+          "primary_url": "https://eleduck.com/posts/ZXfB0q",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/ZXfB0q"
+            }
+          ],
+          "summary": "一个工业设备运维项目正在找前端开发者或小团队，范围包括 Web 管理端、微信小程序和钉钉端。需求方明确允许使用 AI 辅助，但要求开发者能独立解释和维护代码。报价按分项征集，最终范围以双方确认的工作说明书为准。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-06-cooperation-02",
+          "title": "AI 短剧公司招募远程兼职短视频伙伴",
+          "title_md": "AI 短剧公司招募远程兼职短视频伙伴：",
+          "body_md": "深圳团队，独立负责一条产业线的策划、制作与发布，要求熟悉剪映或 CapCut 并懂英文，薪资为固定加浮动。[电鸭](https://eleduck.com/posts/oQfRvO)（11-05 18:14）",
+          "body_text": "深圳团队，独立负责一条产业线的策划、制作与发布，要求熟悉剪映或 CapCut 并懂英文，薪资为固定加浮动。电鸭（11-05 18:14）",
+          "source": "电鸭",
+          "published": "11-05 18:14",
+          "meta": "",
+          "annotations": [
+            "11-05 18:14"
+          ],
+          "primary_url": "https://eleduck.com/posts/oQfRvO",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/oQfRvO"
+            }
+          ],
+          "summary": "一家深圳 AI 短剧公司在招募远程兼职伙伴，负责短视频从策划、制作到发布的完整流程。要求会用剪映或 CapCut 等工具，并能用英文表达。薪资为固定加浮动，具体机制需要私下沟通。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-06-cooperation-03",
+          "title": "兼职前端开发与 AI 视频创作",
+          "title_md": "兼职前端开发与 AI 视频创作：",
+          "body_md": "N0S.tech 两款 SaaS 已上线，需要用 AI 编程工具做前端，并用 AI 视频工具制作产品宣传短片，薪资未注明。[电鸭](https://eleduck.com/posts/EQfzQB)（11-05 15:36）",
+          "body_text": "N0S.tech 两款 SaaS 已上线，需要用 AI 编程工具做前端，并用 AI 视频工具制作产品宣传短片，薪资未注明。电鸭（11-05 15:36）",
+          "source": "电鸭",
+          "published": "11-05 15:36",
+          "meta": "",
+          "annotations": [
+            "11-05 15:36"
+          ],
+          "primary_url": "https://eleduck.com/posts/EQfzQB",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/EQfzQB"
+            }
+          ],
+          "summary": "N0S.tech 在招兼职，一人同时负责前端开发和 AI 视频创作，说明有团队希望把 AI 编程和 AI 内容制作合并成一个角色。招聘帖未注明薪资。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-11-06-directions-01",
+      "title": "用 Cursor 构建并上线一个小应用",
+      "title_md": "用 Cursor 构建并上线一个小应用",
+      "body_md": "- 切入角度：从描述需求到获得上线链接，了解数据库、登录与托管分别由谁处理。\n  - 参考素材：[Cursor Changelog](https://cursor.com/changelog)\n  - 适合读者：想做内部小工具、但不熟悉部署的初学者。",
+      "body_text": "- 切入角度：从描述需求到获得上线链接，了解数据库、登录与托管分别由谁处理。\n  - 参考素材：Cursor Changelog\n  - 适合读者：想做内部小工具、但不熟悉部署的初学者。",
+      "source": "Cursor Changelog",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://cursor.com/changelog",
+      "links": [
+        {
+          "text": "Cursor Changelog",
+          "url": "https://cursor.com/changelog"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "人工复核：Changelog 页可取图片属于其他条目，与本条不符",
+      "name": "用 Cursor 构建并上线一个小应用",
+      "angle": "从描述需求到获得上线链接，了解数据库、登录与托管分别由谁处理。",
+      "audience": "想做内部小工具、但不熟悉部署的初学者。",
+      "reference_md": "[Cursor Changelog](https://cursor.com/changelog)"
+    },
+    {
+      "id": "2026-11-06-directions-02",
+      "title": "AI 写作与内容检测",
+      "title_md": "AI 写作与内容检测",
+      "body_md": "- 切入角度：了解社区平台如何处理疑似 AI 辅助内容，以及检测工具的局限。\n  - 参考素材：[V2EX 讨论](https://www.v2ex.com/t/1254605)\n  - 适合读者：日常用 AI 辅助写作的读者。",
+      "body_text": "- 切入角度：了解社区平台如何处理疑似 AI 辅助内容，以及检测工具的局限。\n  - 参考素材：V2EX 讨论\n  - 适合读者：日常用 AI 辅助写作的读者。",
+      "source": "V2EX",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.v2ex.com/t/1254605",
+      "links": [
+        {
+          "text": "V2EX 讨论",
+          "url": "https://www.v2ex.com/t/1254605"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG",
+      "name": "AI 写作与内容检测",
+      "angle": "了解社区平台如何处理疑似 AI 辅助内容，以及检测工具的局限。",
+      "audience": "日常用 AI 辅助写作的读者。",
+      "reference_md": "[V2EX 讨论](https://www.v2ex.com/t/1254605)"
+    },
+    {
+      "id": "2026-11-06-directions-03",
+      "title": "AI 编程工具的隐私与安全",
+      "title_md": "AI 编程工具的隐私与安全",
+      "body_md": "- 切入角度：结合用户反馈的请求头问题和 GPT‑6 Cyber 的漏洞研究，了解工具联网时可能传出哪些信息。\n  - 参考素材：\n    - [Claude Code Issue](https://github.com/anthropics/claude-code/issues/107757)\n    - [GPT‑6 Cyber](https://openai.com/index/introducing-gpt-6-cyber)\n  - 适合读者：开始使用 AI 编程工具的初学者。",
+      "body_text": "- 切入角度：结合用户反馈的请求头问题和 GPT‑6 Cyber 的漏洞研究，了解工具联网时可能传出哪些信息。\n  - 参考素材：\n    - Claude Code Issue\n    - GPT‑6 Cyber\n  - 适合读者：开始使用 AI 编程工具的初学者。",
+      "source": "GitHub",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://github.com/anthropics/claude-code/issues/107757",
+      "links": [
+        {
+          "text": "Claude Code Issue",
+          "url": "https://github.com/anthropics/claude-code/issues/107757"
+        },
+        {
+          "text": "GPT‑6 Cyber",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-11-06/2026-11-06-directions-03.jpg",
+        "width": 1200,
+        "height": 600,
+        "credit": "图片来源：GitHub",
+        "source_url": "https://github.com/anthropics/claude-code/issues/107757",
+        "remote_url": "https://opengraph.githubassets.com/20e7f2af7315b41f8edd5e7bcfe518852bc3d1f37d8543c50baed770a87be4cd/anthropics/claude-code/issues/107757"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "AI 编程工具的隐私与安全",
+      "angle": "结合用户反馈的请求头问题和 GPT‑6 Cyber 的漏洞研究，了解工具联网时可能传出哪些信息。",
+      "audience": "开始使用 AI 编程工具的初学者。",
+      "reference_md": "- [Claude Code Issue](https://github.com/anthropics/claude-code/issues/107757)\n    - [GPT‑6 Cyber](https://openai.com/index/introducing-gpt-6-cyber)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-11-06-unverified-01",
+      "title": "打不开或被限流",
+      "title_md": "打不开或被限流：",
+      "body_md": "r/vibecoding、r/ClaudeAI 返回 403；电鸭网页出现验证码，改用帖子接口读取正文；OpenAI 文章页命令行请求被拦截，改用其他方式读取正文。",
+      "body_text": "r/vibecoding、r/ClaudeAI 返回 403；电鸭网页出现验证码，改用帖子接口读取正文；OpenAI 文章页命令行请求被拦截，改用其他方式读取正文。",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}
