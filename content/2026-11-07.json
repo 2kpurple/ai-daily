@@ -1,0 +1,510 @@
+{
+  "date": "2026-11-07",
+  "title": "AI 日报 · 2026-11-07（周六）",
+  "window": "时间窗口：11-06 08:15 到 11-07 08:15（台北时间）。周末更新偏少，每条均核对正文与日期。",
+  "highlights": [
+    "Cursor 支持与 Agent 实时语音通话： 可在 IDE、网页与 iOS 上口述需求并听取进度，底层使用 Grok Voice；隐私模式开启时语音数据零留存。",
+    "短剧与办公文本处理： 即梦短剧工作室把剧本到预演串成一条流程；另有实践把 200 条客户留言用大模型约 78 秒完成分类。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-11-07-news-01",
+          "title": "Cursor 发布 Voice Chat with Agents。",
+          "title_md": "Cursor 发布 Voice Chat with Agents。",
+          "body_md": "输入框为空且 Agent 空闲时可点波形按钮开始通话；编码 Agent 会边工作边口头汇报；iOS 可用「Hey Siri, call Cursor」。[Changelog](https://cursor.com/changelog)（Nov 6, 2026）",
+          "body_text": "输入框为空且 Agent 空闲时可点波形按钮开始通话；编码 Agent 会边工作边口头汇报；iOS 可用「Hey Siri, call Cursor」。Changelog（Nov 6, 2026）",
+          "source": "Changelog",
+          "published": "",
+          "meta": "",
+          "annotations": [
+            "Nov 6, 2026"
+          ],
+          "primary_url": "https://cursor.com/changelog",
+          "links": [
+            {
+              "text": "Changelog",
+              "url": "https://cursor.com/changelog"
+            }
+          ],
+          "summary": "Cursor 新增与 Agent 的实时语音通话。你可以口述需求，一边听它汇报进度，一边继续追问。功能覆盖 IDE、网页和 iOS，适合想减少打字、边想边改的人先试用。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-07/2026-11-07-news-01.jpg",
+            "width": 1200,
+            "height": 900,
+            "credit": "图片来源：cursor.com",
+            "source_url": "https://cursor.com/changelog",
+            "remote_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fchangelog%2Forigin-submit-marketplace-XuhYvHQND62RTK4kNpUTDga6SIdPyu.png&w=1920&q=70"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-07-news-02",
+          "title": "V2EX 讨论传统 IDE 在 AI Agent 时代的处境。",
+          "title_md": "V2EX 讨论传统 IDE 在 AI Agent 时代的处境。",
+          "body_md": "帖子围绕 JetBrains 年度报告与使用习惯变化，约 65 条回复，有人仍用 IDE 看代码与 Git，也有人转向更轻量编辑器。[V2EX](https://www.v2ex.com/t/1254870)（11-06 08:54）",
+          "body_text": "帖子围绕 JetBrains 年度报告与使用习惯变化，约 65 条回复，有人仍用 IDE 看代码与 Git，也有人转向更轻量编辑器。V2EX（11-06 08:54）",
+          "source": "V2EX",
+          "published": "11-06 08:54",
+          "meta": "约 65 条回复",
+          "annotations": [
+            "11-06 08:54"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1254870",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1254870"
+            }
+          ],
+          "summary": "V2EX 一帖围绕 JetBrains 财务与使用习惯展开讨论。不少人提到 AI Agent 普及后，重型 IDE 更多只用来看代码和 Git。可当一份社区观察，了解工具迁移正在发生什么。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-07-news-03",
+          "title": "OpenAI 与 Hacktron 合作排查自身系统漏洞。",
+          "title_md": "OpenAI 与 Hacktron 合作排查自身系统漏洞。",
+          "body_md": "重点关注与第三方服务的连接，并扩大对方在 Daybreak Red 下的模型访问。[官方](https://openai.com/index/partnering-with-hacktron)（11-06）",
+          "body_text": "重点关注与第三方服务的连接，并扩大对方在 Daybreak Red 下的模型访问。官方（11-06）",
+          "source": "OpenAI",
+          "published": "11-06",
+          "meta": "",
+          "annotations": [
+            "11-06"
+          ],
+          "primary_url": "https://openai.com/index/partnering-with-hacktron",
+          "links": [
+            {
+              "text": "官方",
+              "url": "https://openai.com/index/partnering-with-hacktron"
+            }
+          ],
+          "summary": "OpenAI 宣布与 Hacktron 合作，一起排查自身系统、尤其是与第三方服务连接处的漏洞，并扩大对方在 Daybreak Red 下的模型访问。偏安全合作动态，暂无面向普通用户的新产品。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "原文页面 HTTP 403"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-11-07-tools-01",
+          "title": "Cursor Voice Chat",
+          "title_md": "Cursor Voice Chat：",
+          "body_md": "与听写功能分开——听写只把语音转成输入框文字，Voice Chat 是双向对话。[Changelog](https://cursor.com/changelog)",
+          "body_text": "与听写功能分开——听写只把语音转成输入框文字，Voice Chat 是双向对话。Changelog",
+          "source": "Changelog",
+          "published": "",
+          "meta": "",
+          "annotations": [],
+          "primary_url": "https://cursor.com/changelog",
+          "links": [
+            {
+              "text": "Changelog",
+              "url": "https://cursor.com/changelog"
+            }
+          ],
+          "summary": "Voice Chat 与听写不是一回事：听写只把语音写进输入框，Voice Chat 是双向通话。Agent 空闲且输入框为空时点波形按钮即可开始。想边说话边跟进改动时，优先试这个。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-07/2026-11-07-tools-01.jpg",
+            "width": 1200,
+            "height": 900,
+            "credit": "图片来源：cursor.com",
+            "source_url": "https://cursor.com/changelog",
+            "remote_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fchangelog%2Forigin-submit-marketplace-XuhYvHQND62RTK4kNpUTDga6SIdPyu.png&w=1920&q=70"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-07-tools-02",
+          "title": "Claude Code v2.1.319",
+          "title_md": "Claude Code v2.1.319：",
+          "body_md": "终端中 MCP 任务可立即转入后台并在结束时回传结果；面向网关用户的 `/usage` 补充今日、本周与本月花费；新增 `/claude-api latency-optimize` 用于定位 API 等待瓶颈。[Release](https://github.com/anthropics/claude-code/releases/tag/v2.1.319)（11-07 01:04）",
+          "body_text": "终端中 MCP 任务可立即转入后台并在结束时回传结果；面向网关用户的 /usage 补充今日、本周与本月花费；新增 /claude-api latency-optimize 用于定位 API 等待瓶颈。Release（11-07 01:04）",
+          "source": "GitHub",
+          "published": "11-07 01:04",
+          "meta": "",
+          "annotations": [
+            "11-07 01:04"
+          ],
+          "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+          "links": [
+            {
+              "text": "Release",
+              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319"
+            }
+          ],
+          "summary": "Claude Code 2.1.319 让终端里的 MCP 长任务能立刻进后台，结束再回传结果。网关用户可在 /usage 看到今日、本周、本月花费，还有 /claude-api latency-optimize 帮找等待瓶颈。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-07/2026-11-07-tools-02.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+            "remote_url": "https://opengraph.githubassets.com/3bd638a75ca0f900947b08b9a5b0467ff908ac6cbb38da671ae8df9474a9e573/anthropics/claude-code/releases/tag/v2.1.319"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-07-tools-03",
+          "title": "即梦短剧工作室",
+          "title_md": "即梦短剧工作室：",
+          "body_md": "量子位实测覆盖灵感到剧本、资产库、分镜、智能预演与局部重拍；文中写 Seedance 2.5 单秒价格可低至 0.15 元，并介绍机构伙伴计划。[量子位](https://www.qbitai.com/2026/11/507972.html)（11-06 11:20）",
+          "body_text": "量子位实测覆盖灵感到剧本、资产库、分镜、智能预演与局部重拍；文中写 Seedance 2.5 单秒价格可低至 0.15 元，并介绍机构伙伴计划。量子位（11-06 11:20）",
+          "source": "量子位",
+          "published": "11-06 11:20",
+          "meta": "",
+          "annotations": [
+            "11-06 11:20"
+          ],
+          "primary_url": "https://www.qbitai.com/2026/11/507972.html",
+          "links": [
+            {
+              "text": "量子位",
+              "url": "https://www.qbitai.com/2026/11/507972.html"
+            }
+          ],
+          "summary": "即梦短剧工作室把灵感到剧本、资产、分镜和预演串在同一项目里。量子位实测还提到智能预演与局部重拍，适合想做连续短剧、又怕一次生成翻车的创作者跟着走一遍流程。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-11-07-projects-01",
+          "title": "LookRecipe",
+          "title_md": "LookRecipe：",
+          "body_md": "Chrome 插件，从网页图片拆出主体、构图、镜头、光线与色调等提示词，可结合人物参考生成同风格图片，已上架 Chrome 网上应用店。[V2EX](https://www.v2ex.com/t/1255093)｜[插件](https://chromewebstore.google.com/detail/lookrecipe-image-to-promp/bjcpcnjnebjipeigijgkihjjhochibll?hl=zh-CN)｜[站点](https://imagetoprompt.tools/zh/)（11-06 22:23）",
+          "body_text": "Chrome 插件，从网页图片拆出主体、构图、镜头、光线与色调等提示词，可结合人物参考生成同风格图片，已上架 Chrome 网上应用店。V2EX｜插件｜站点（11-06 22:23）",
+          "source": "V2EX",
+          "published": "11-06 22:23",
+          "meta": "",
+          "annotations": [
+            "11-06 22:23"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255093",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1255093"
+            },
+            {
+              "text": "插件",
+              "url": "https://chromewebstore.google.com/detail/lookrecipe-image-to-promp/bjcpcnjnebjipeigijgkihjjhochibll?hl=zh-CN"
+            },
+            {
+              "text": "站点",
+              "url": "https://imagetoprompt.tools/zh/"
+            }
+          ],
+          "summary": "LookRecipe 是 Chrome 插件：在网页上选图，拆出构图、光线、色调等「摄影配方」，再叠自己的人物参考出同风格图。已上架商店，适合做视觉参考拆解和同款练习。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-07/2026-11-07-projects-01.jpg",
+            "width": 1200,
+            "height": 750,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1255093",
+            "remote_url": "https://imagetoprompt.tools/assets/img/shot-recipe-zh-1280.webp"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-07-projects-02",
+          "title": "Claude Code 制作微信小游戏复盘",
+          "title_md": "Claude Code 制作微信小游戏复盘：",
+          "body_md": "作者用 Claude Code 完成割草小游戏「奶蛙」，并以模拟器调难度；文中提到当前微信小游戏发布流程有所简化。开源仓库：[milky-frog](https://github.com/ychisbest/milky-frog)。[V2EX](https://www.v2ex.com/t/1255014)（11-06 15:40）",
+          "body_text": "作者用 Claude Code 完成割草小游戏「奶蛙」，并以模拟器调难度；文中提到当前微信小游戏发布流程有所简化。开源仓库：milky-frog。V2EX（11-06 15:40）",
+          "source": "GitHub",
+          "published": "11-06 15:40",
+          "meta": "",
+          "annotations": [
+            "11-06 15:40"
+          ],
+          "primary_url": "https://github.com/ychisbest/milky-frog",
+          "links": [
+            {
+              "text": "milky-frog",
+              "url": "https://github.com/ychisbest/milky-frog"
+            },
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1255014"
+            }
+          ],
+          "summary": "作者复盘用 Claude Code 做微信割草小游戏的过程，美术与数值调参大多交给 Agent，并开源了 milky-frog。文中还提到当前小游戏发布流程有所简化，可作完整案例阅读。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-07/2026-11-07-projects-02.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/ychisbest/milky-frog",
+            "remote_url": "https://opengraph.githubassets.com/c893c123afc6135a627a18a9dd4763f94d5bbce8b3e724e22845515cb8768fab/ychisbest/milky-frog"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-07-projects-03",
+          "title": "客户留言批量分类实践",
+          "title_md": "客户留言批量分类实践：",
+          "body_md": "按约 20 条一批调用大模型，要求只返回含分类、情绪、是否紧急的 JSON；作者记录了批大小、枚举约束、去掉代码块标记与网络重试等注意点。[电鸭](https://eleduck.com/posts/gYfYr4)（11-07 07:53）",
+          "body_text": "按约 20 条一批调用大模型，要求只返回含分类、情绪、是否紧急的 JSON；作者记录了批大小、枚举约束、去掉代码块标记与网络重试等注意点。电鸭（11-07 07:53）",
+          "source": "电鸭",
+          "published": "11-07 07:53",
+          "meta": "",
+          "annotations": [
+            "11-07 07:53"
+          ],
+          "primary_url": "https://eleduck.com/posts/gYfYr4",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/gYfYr4"
+            }
+          ],
+          "summary": "有人把约 200 条客户留言按 20 条一批交给大模型，要求只返回分类、情绪、是否紧急的 JSON，全程约 78 秒。帖子总结了批大小、枚举写死、剥代码块和重试四个实务坑。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-07-projects-04",
+          "title": "其他项目",
+          "title_md": "其他项目：",
+          "body_md": "[Claude Code 侧边栏 panel](https://www.v2ex.com/t/1255111)；[imgcap 指定大小压图](https://www.v2ex.com/t/1255100)（[在线](https://imgcap.vercel.app/)）；[google/skills](https://github.com/google/skills)（可用 `npx skills add google/skills` 安装）",
+          "body_text": "Claude Code 侧边栏 panel；imgcap 指定大小压图（在线）；google/skills（可用 npx skills add google/skills 安装）",
+          "source": "V2EX",
+          "published": "",
+          "meta": "",
+          "annotations": [
+            "[在线](https://imgcap.vercel.app/)",
+            "可用 `npx skills add google/skills` 安装"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255111",
+          "links": [
+            {
+              "text": "Claude Code 侧边栏 panel",
+              "url": "https://www.v2ex.com/t/1255111"
+            },
+            {
+              "text": "imgcap 指定大小压图",
+              "url": "https://www.v2ex.com/t/1255100"
+            },
+            {
+              "text": "在线",
+              "url": "https://imgcap.vercel.app/"
+            },
+            {
+              "text": "google/skills",
+              "url": "https://github.com/google/skills"
+            }
+          ],
+          "summary": "同日还有 Claude Code 侧边栏 panel（看额度与子 Agent）、imgcap（压到指定文件大小）以及 google/skills（用 npx 安装 Google 相关 Agent Skills）等可试用项目。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-07/2026-11-07-projects-04.jpg",
+            "width": 1200,
+            "height": 1035,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1255111",
+            "remote_url": "https://cdn.jsdelivr.net/gh/itaober/agent-plugins@main/docs/panel.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-11-07-cooperation-01",
+          "title": "医美软件长期远程兼职技术型产品经理",
+          "title_md": "医美软件长期远程兼职技术型产品经理：",
+          "body_md": "加拿大团队 STHEtic AI 的 iPad 面诊产品，国内远程，工作日每天约 3 小时，薪酬约 8,000–12,000 元/月；要求能拆需求，并用 Codex 等 AI 编程工具完成常规功能与自测，投递材料见帖内说明。[电鸭](https://eleduck.com/posts/98f9k2)（11-07 02:02）",
+          "body_text": "加拿大团队 STHEtic AI 的 iPad 面诊产品，国内远程，工作日每天约 3 小时，薪酬约 8,000–12,000 元/月；要求能拆需求，并用 Codex 等 AI 编程工具完成常规功能与自测，投递材料见帖内说明。电鸭（11-07 02:02）",
+          "source": "电鸭",
+          "published": "11-07 02:02",
+          "meta": "",
+          "annotations": [
+            "11-07 02:02"
+          ],
+          "primary_url": "https://eleduck.com/posts/98f9k2",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/98f9k2"
+            }
+          ],
+          "summary": "加拿大团队为 iPad 医美面诊软件招国内远程兼职技术型产品经理，工作日每天约 3 小时，薪酬约八千到一万二。需要能拆需求，并用 Codex 等工具完成常规功能与自测。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-07-cooperation-02",
+          "title": "上海 AI Infra / Agent Infra 工程师社招",
+          "title_md": "上海 AI Infra / Agent Infra 工程师社招：",
+          "body_md": "侧重 GPU 推理优化与多机多卡部署等，经验约 3–5 年，薪资约 30–50k，简历投递方式见帖内说明。[V2EX](https://www.v2ex.com/t/1255084)（11-06 20:57）",
+          "body_text": "侧重 GPU 推理优化与多机多卡部署等，经验约 3–5 年，薪资约 30–50k，简历投递方式见帖内说明。V2EX（11-06 20:57）",
+          "source": "V2EX",
+          "published": "11-06 20:57",
+          "meta": "",
+          "annotations": [
+            "11-06 20:57"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255084",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1255084"
+            }
+          ],
+          "summary": "上海岗位面向 AI Infra / Agent Infra，侧重 GPU 推理优化与多机多卡等，经验约三到五年，薪资约三万到五万。简历投递方式见原帖说明。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-11-07-directions-01",
+      "title": "与编程 Agent 语音协作",
+      "title_md": "与编程 Agent 语音协作",
+      "body_md": "- 切入角度：了解 Voice Chat 与听写的区别，以及通话中如何跟进 Agent 进度。\n  - 参考素材：[Cursor Changelog](https://cursor.com/changelog)\n  - 适合读者：刚开始用 AI 编程助手、希望减少打字成本的初学者。",
+      "body_text": "- 切入角度：了解 Voice Chat 与听写的区别，以及通话中如何跟进 Agent 进度。\n  - 参考素材：Cursor Changelog\n  - 适合读者：刚开始用 AI 编程助手、希望减少打字成本的初学者。",
+      "source": "Cursor Changelog",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://cursor.com/changelog",
+      "links": [
+        {
+          "text": "Cursor Changelog",
+          "url": "https://cursor.com/changelog"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-11-07/2026-11-07-directions-01.jpg",
+        "width": 1200,
+        "height": 900,
+        "credit": "图片来源：cursor.com",
+        "source_url": "https://cursor.com/changelog",
+        "remote_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fchangelog%2Forigin-submit-marketplace-XuhYvHQND62RTK4kNpUTDga6SIdPyu.png&w=1920&q=70"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "与编程 Agent 语音协作",
+      "angle": "了解 Voice Chat 与听写的区别，以及通话中如何跟进 Agent 进度。",
+      "audience": "刚开始用 AI 编程助手、希望减少打字成本的初学者。",
+      "reference_md": "[Cursor Changelog](https://cursor.com/changelog)"
+    },
+    {
+      "id": "2026-11-07-directions-02",
+      "title": "从一句话灵感到短剧样片",
+      "title_md": "从一句话灵感到短剧样片",
+      "body_md": "- 切入角度：沿剧本、资产、分镜与预演流程，观察一致性与局部重拍如何降低试错成本。\n  - 参考素材：[量子位实测](https://www.qbitai.com/2026/11/507972.html)\n  - 适合读者：想了解 AI 视频连载工具链的创作者。",
+      "body_text": "- 切入角度：沿剧本、资产、分镜与预演流程，观察一致性与局部重拍如何降低试错成本。\n  - 参考素材：量子位实测\n  - 适合读者：想了解 AI 视频连载工具链的创作者。",
+      "source": "量子位实测",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.qbitai.com/2026/11/507972.html",
+      "links": [
+        {
+          "text": "量子位实测",
+          "url": "https://www.qbitai.com/2026/11/507972.html"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG",
+      "name": "从一句话灵感到短剧样片",
+      "angle": "沿剧本、资产、分镜与预演流程，观察一致性与局部重拍如何降低试错成本。",
+      "audience": "想了解 AI 视频连载工具链的创作者。",
+      "reference_md": "[量子位实测](https://www.qbitai.com/2026/11/507972.html)"
+    },
+    {
+      "id": "2026-11-07-directions-03",
+      "title": "批量处理客户留言",
+      "title_md": "批量处理客户留言",
+      "body_md": "- 切入角度：用固定 JSON 字段做分类，并对照批大小、枚举与重试等实务细节。\n  - 参考素材：[电鸭实践帖](https://eleduck.com/posts/gYfYr4)\n  - 适合读者：需要处理重复文本、客服或运营留言的初学者。",
+      "body_text": "- 切入角度：用固定 JSON 字段做分类，并对照批大小、枚举与重试等实务细节。\n  - 参考素材：电鸭实践帖\n  - 适合读者：需要处理重复文本、客服或运营留言的初学者。",
+      "source": "电鸭",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://eleduck.com/posts/gYfYr4",
+      "links": [
+        {
+          "text": "电鸭实践帖",
+          "url": "https://eleduck.com/posts/gYfYr4"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "页面未提供可引用的文章主图",
+      "name": "批量处理客户留言",
+      "angle": "用固定 JSON 字段做分类，并对照批大小、枚举与重试等实务细节。",
+      "audience": "需要处理重复文本、客服或运营留言的初学者。",
+      "reference_md": "[电鸭实践帖](https://eleduck.com/posts/gYfYr4)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-11-07-unverified-01",
+      "title": "访问受限或未逐条细读",
+      "title_md": "访问受限或未逐条细读：",
+      "body_md": "电鸭网页出现验证码，改用接口读取正文；Product Hunt「Cursor Craft」为 macOS 鼠标指针主题，与 Cursor IDE 无关；Codex 仅有无说明的 alpha 预发布；Anthropic News 窗口内无新稿；Reddit r/vibecoding 与 r/ClaudeAI、即刻、AIbase、部分 Newsletter 本次未逐条细读。",
+      "body_text": "电鸭网页出现验证码，改用接口读取正文；Product Hunt「Cursor Craft」为 macOS 鼠标指针主题，与 Cursor IDE 无关；Codex 仅有无说明的 alpha 预发布；Anthropic News 窗口内无新稿；Reddit r/vibecoding 与 r/ClaudeAI、即刻、AIbase、部分 Newsletter 本次未逐条细读。",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}
