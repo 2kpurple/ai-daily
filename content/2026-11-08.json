@@ -1,0 +1,464 @@
+{
+  "date": "2026-11-08",
+  "title": "AI 日报 · 2026-11-08（周日）",
+  "window": "时间窗口：11-07 08:00 到 11-08 08:20（台北时间）。周末官方更新较少，本期为短版，每条均核对正文与日期。",
+  "highlights": [
+    "AGENTS.md 被用于攻击编程 Agent： 网页可将指令文件静默写入下载目录，在该目录启动 Codex 或 Claude Code 后，Agent 可能照文件内容修改配置、绕过沙箱；报道附有自查步骤。",
+    "外包合作动态： 电鸭出现 WordPress 官网加门店 POS 收银库存系统的外包需求，总预算 5000 元起，按三期付款。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-11-08-news-01",
+          "title": "AGENTS.md 正被用作针对编程 Agent 的攻击载体。",
+          "title_md": "AGENTS.md 正被用作针对编程 Agent 的攻击载体。",
+          "body_md": "安全机构 Forever Security 截获的手法是网页把 AGENTS.md 静默写入 ~/Downloads，用户在该目录启动编程 Agent 后，Agent 将其当作项目规范执行，可能修改全局配置、绕过沙箱、安装恶意 npm 包、外传 Token。文中称虚拟机复现时 Codex 成功率超过 90%，Claude Code 约 50%，并列出检查下载目录、`~/.codex/config.toml`、`.claude/settings.json` 等自查步骤。[量子位](https://www.qbitai.com/2026/11/508244.html)（11-07 11:43）",
+          "body_text": "安全机构 Forever Security 截获的手法是网页把 AGENTS.md 静默写入 ~/Downloads，用户在该目录启动编程 Agent 后，Agent 将其当作项目规范执行，可能修改全局配置、绕过沙箱、安装恶意 npm 包、外传 Token。文中称虚拟机复现时 Codex 成功率超过 90%，Claude Code 约 50%，并列出检查下载目录、~/.codex/config.toml、.claude/settings.json 等自查步骤。量子位（11-07 11:43）",
+          "source": "量子位",
+          "published": "11-07 11:43",
+          "meta": "",
+          "annotations": [
+            "11-07 11:43"
+          ],
+          "primary_url": "https://www.qbitai.com/2026/11/508244.html",
+          "links": [
+            {
+              "text": "量子位",
+              "url": "https://www.qbitai.com/2026/11/508244.html"
+            }
+          ],
+          "summary": "AGENTS.md 是 Codex、Claude Code 等编程助手启动时会自动读取的项目说明文件。量子位报道，攻击者把恶意指令包装成长篇开发规范，借网页写入下载目录，Agent 读取后可能照做并改动全局配置。文中复现数据为 Codex 成功率超过 90%、Claude Code 约 50%。经常在下载目录里直接启动 Agent 的用户，可按文中清单检查相关文件和配置。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-08-news-02",
+          "title": "V2EX 用户反馈 ChatGPT 中文区出现大范围封号。",
+          "title_md": "V2EX 用户反馈 ChatGPT 中文区出现大范围封号。",
+          "body_md": "楼主称原因疑似来自不支持的地区，属社区反馈，官方未说明。[V2EX](https://www.v2ex.com/t/1255265)（11-07 21:48）",
+          "body_text": "楼主称原因疑似来自不支持的地区，属社区反馈，官方未说明。V2EX（11-07 21:48）",
+          "source": "V2EX",
+          "published": "11-07 21:48",
+          "meta": "",
+          "annotations": [
+            "11-07 21:48"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255265",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1255265"
+            }
+          ],
+          "summary": "这是 V2EX 用户对 ChatGPT 中文区账号批量被封的集中反馈，楼主认为可能与来自不支持的地区有关。目前只是社区说法，OpenAI 没有公开说明原因。在不支持地区使用相关服务的用户，可留意账号状态并备份重要对话。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-11-08-tools-01",
+          "title": "slimppt / slimoffice 开源",
+          "title_md": "slimppt / slimoffice 开源：",
+          "body_md": "浏览器端 Office 套件，目前提供 PPT，支持用 skill 生成，文档和表格仍在规划中。[V2EX](https://www.v2ex.com/t/1255283)（11-08 01:05）｜[GitHub](https://github.com/sliiu/slimoffice)｜[在线体验](https://slimppt.com)",
+          "body_text": "浏览器端 Office 套件，目前提供 PPT，支持用 skill 生成，文档和表格仍在规划中。V2EX（11-08 01:05）｜GitHub｜在线体验",
+          "source": "V2EX",
+          "published": "11-08 01:05",
+          "meta": "",
+          "annotations": [
+            "11-08 01:05"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255283",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1255283"
+            },
+            {
+              "text": "GitHub",
+              "url": "https://github.com/sliiu/slimoffice"
+            },
+            {
+              "text": "在线体验",
+              "url": "https://slimppt.com"
+            }
+          ],
+          "summary": "slimoffice 是一个在浏览器里运行的开源 Office 套件，目前可用的是演示文稿部分 slimppt。作者称支持通过 skill 生成幻灯片，文档和表格功能还在规划中。适合想在不同平台用同一套网页工具做 PPT、或想研究 AI 生成幻灯片的读者先试用。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-08/2026-11-08-tools-01.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/sliiu/slimoffice",
+            "remote_url": "https://opengraph.githubassets.com/a0626b2befafd79983705e25602888b09f1d12549458f002cda6905375b37857/sliiu/slimoffice"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-08-tools-02",
+          "title": "TidyMac",
+          "title_md": "TidyMac：",
+          "body_md": "作者借助 AI 编写的 macOS 清理工具，定位为 CleanMyMac 的免费替代，包含智能扫描、应用卸载与大文件清理，代码和下载均在 GitHub。[V2EX](https://www.v2ex.com/t/1255254)（11-07 20:35）｜[GitHub](https://github.com/welefen/TidyMac)",
+          "body_text": "作者借助 AI 编写的 macOS 清理工具，定位为 CleanMyMac 的免费替代，包含智能扫描、应用卸载与大文件清理，代码和下载均在 GitHub。V2EX（11-07 20:35）｜GitHub",
+          "source": "V2EX",
+          "published": "11-07 20:35",
+          "meta": "",
+          "annotations": [
+            "11-07 20:35"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255254",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1255254"
+            },
+            {
+              "text": "GitHub",
+              "url": "https://github.com/welefen/TidyMac"
+            }
+          ],
+          "summary": "TidyMac 是作者借助 AI 写出的 macOS 清理工具，功能包括智能扫描、卸载应用和查找大文件。作者把它定位为 CleanMyMac 的免费替代，源码与安装包都放在 GitHub。清理类工具会删除文件，使用前建议先看清扫描结果再确认。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-08/2026-11-08-tools-02.jpg",
+            "width": 1200,
+            "height": 780,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1255254",
+            "remote_url": "https://github.com/welefen/TidyMac/blob/main/screenshots/zh/overview.png?raw=true"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-08-tools-03",
+          "title": "照片转卡通贴纸与拼豆图纸 Skill",
+          "title_md": "照片转卡通贴纸与拼豆图纸 Skill：",
+          "body_md": "同一作者基于 WorkBuddy 制作，一个把照片中的人物和道具转绘成卡通手帐贴纸，一个生成标注 MARD 色号的拼豆图纸。作者说明未训练模型，只整理了转绘要求与出图流程，细节不保证与原照一致。[贴纸 Skill](https://www.v2ex.com/t/1255136)（11-07 09:53）｜[拼豆 Skill](https://www.v2ex.com/t/1255250)（11-07 20:24）",
+          "body_text": "同一作者基于 WorkBuddy 制作，一个把照片中的人物和道具转绘成卡通手帐贴纸，一个生成标注 MARD 色号的拼豆图纸。作者说明未训练模型，只整理了转绘要求与出图流程，细节不保证与原照一致。贴纸 Skill（11-07 09:53）｜拼豆 Skill（11-07 20:24）",
+          "source": "V2EX",
+          "published": "11-07 09:53；11-07 20:24",
+          "meta": "",
+          "annotations": [
+            "11-07 09:53",
+            "11-07 20:24"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255136",
+          "links": [
+            {
+              "text": "贴纸 Skill",
+              "url": "https://www.v2ex.com/t/1255136"
+            },
+            {
+              "text": "拼豆 Skill",
+              "url": "https://www.v2ex.com/t/1255250"
+            }
+          ],
+          "summary": "两个 Skill 都运行在腾讯 WorkBuddy 上：一个把照片转绘成卡通手帐贴纸，一个生成标注 MARD 色号的拼豆图纸。作者说明没有训练模型，只是把转绘要求和出图流程整理成 Skill，实际仍由图像模型生成。它展示了把一套固定要求做成可复用 Skill 的思路，但人脸和道具细节不保证与原照一致。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-08/2026-11-08-tools-03.jpg",
+            "width": 1200,
+            "height": 800,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1255136",
+            "remote_url": "https://raw.githubusercontent.com/fatelei/photo-sticker-samples/main/images/sticker-first-version.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-11-08-projects-01",
+          "title": "agent-hub",
+          "title_md": "agent-hub：",
+          "body_md": "本地 Web 工作台，统一管理多个 Codex / Claude Code 会话，并提供 CLI 和技能供另一个 AI 调度；作者用腾讯 WorkBuddy 作为主控，可从个人微信查看进度和补充要求。[V2EX](https://www.v2ex.com/t/1255214)（11-07 16:04）｜[GitHub](https://github.com/someonegg/agent_hub)",
+          "body_text": "本地 Web 工作台，统一管理多个 Codex / Claude Code 会话，并提供 CLI 和技能供另一个 AI 调度；作者用腾讯 WorkBuddy 作为主控，可从个人微信查看进度和补充要求。V2EX（11-07 16:04）｜GitHub",
+          "source": "V2EX",
+          "published": "11-07 16:04",
+          "meta": "",
+          "annotations": [
+            "11-07 16:04"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255214",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1255214"
+            },
+            {
+              "text": "GitHub",
+              "url": "https://github.com/someonegg/agent_hub"
+            }
+          ],
+          "summary": "agent-hub 把多个 Codex、Claude Code 会话集中到一个本地网页工作台里，便于查看进度、补充要求和处理确认。它还提供 CLI 和技能，让另一个 AI 充当主控来拆分和派发任务。作者演示了用腾讯 WorkBuddy 做主控、从个人微信远程查看电脑上的 Agent 工作，适合同时运行多个编程 Agent 的用户参考。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-08/2026-11-08-projects-01.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/someonegg/agent_hub",
+            "remote_url": "https://opengraph.githubassets.com/8964603122f00cc2536f0bd7cc585ac42e8eaa94fb81f9406f899323561d94e0/someonegg/agent_hub"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-08-projects-02",
+          "title": "VoiceVault",
+          "title_md": "VoiceVault：",
+          "body_md": "开源 Windows 本地语音工作室，作者负责设计，Claude Code 编写大部分代码与测试，之后又完成 7 分钟预告片的脚本、配音、录屏与代码剪辑，并把流程整理为可复用的 skills。[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1xpz4o7/claude_code_built_my_opensource_ai_voice_studio/)（11-07 14:03）｜[GitHub](https://github.com/ArchAngelAries/VoiceVault)",
+          "body_text": "开源 Windows 本地语音工作室，作者负责设计，Claude Code 编写大部分代码与测试，之后又完成 7 分钟预告片的脚本、配音、录屏与代码剪辑，并把流程整理为可复用的 skills。r/ClaudeAI（11-07 14:03）｜GitHub",
+          "source": "Reddit",
+          "published": "11-07 14:03",
+          "meta": "",
+          "annotations": [
+            "11-07 14:03"
+          ],
+          "primary_url": "https://www.reddit.com/r/ClaudeAI/comments/1xpz4o7/claude_code_built_my_opensource_ai_voice_studio/",
+          "links": [
+            {
+              "text": "r/ClaudeAI",
+              "url": "https://www.reddit.com/r/ClaudeAI/comments/1xpz4o7/claude_code_built_my_opensource_ai_voice_studio/"
+            },
+            {
+              "text": "GitHub",
+              "url": "https://github.com/ArchAngelAries/VoiceVault"
+            }
+          ],
+          "summary": "VoiceVault 是一个免费开源的 Windows 桌面应用，在本机运行 AI 配音、角色对话和配乐。作者称自己负责设计和方向，大部分代码、测试和修 bug 由 Claude Code 完成；随后 Claude 还用这个应用本身完成了 7 分钟预告片的脚本、配音、录屏和代码剪辑。这个案例展示了编程 Agent 从做软件延伸到做宣传视频的完整流程，以上均为作者自述。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-08/2026-11-08-projects-02.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/ArchAngelAries/VoiceVault",
+            "remote_url": "https://opengraph.githubassets.com/7f68a185b5af9b40c0396ee18302f48046c34427f9d0add3e596d230f046c75a/ArchAngelAries/VoiceVault"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-11-08-cooperation-01",
+          "title": "WordPress 建站与 POS 收银库存系统外包",
+          "title_md": "WordPress 建站与 POS 收银库存系统外包：",
+          "body_md": "包 A 为商户官网（移动端适配、新闻活动后台、表单、基础 SEO、安全备份、上线培训），可单独承接；包 B 为收银、库存、报表与断网同步，优先有成熟 POS 底座二次开发经验的团队。总预算 5000 元起，两包分别报价，按签约 30%、里程碑 40%、上线 30% 结算；要求提供技术履历、2–3 个真实作品与两位可核实的推荐人，联系方式见帖内。[电鸭](https://eleduck.com/posts/4lfRK0)（11-07 14:54）",
+          "body_text": "包 A 为商户官网（移动端适配、新闻活动后台、表单、基础 SEO、安全备份、上线培训），可单独承接；包 B 为收银、库存、报表与断网同步，优先有成熟 POS 底座二次开发经验的团队。总预算 5000 元起，两包分别报价，按签约 30%、里程碑 40%、上线 30% 结算；要求提供技术履历、2–3 个真实作品与两位可核实的推荐人，联系方式见帖内。电鸭（11-07 14:54）",
+          "source": "电鸭",
+          "published": "11-07 14:54",
+          "meta": "",
+          "annotations": [
+            "移动端适配、新闻活动后台、表单、基础 SEO、安全备份、上线培训",
+            "11-07 14:54"
+          ],
+          "primary_url": "https://eleduck.com/posts/4lfRK0",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/4lfRK0"
+            }
+          ],
+          "summary": "这是一条商户官网加门店收银库存系统的外包需求，分成两个可独立报价的工作包。总预算 5000 元起，按签约、里程碑和上线三期付款，并要求提供作品与可核实的推荐人。帖子写明了范围、验收方式和材料要求，可作为了解小型外包项目如何描述需求的参考。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-08-cooperation-02",
+          "title": "AdmitPlus 远程全职招聘",
+          "title_md": "AdmitPlus 远程全职招聘：",
+          "body_md": "面向学生的 AI 学习产品招 AI 应用工程师、产品经理与运营推广；工程岗要求 Python / FastAPI / RAG / Agent 与 React，投递需附 1–2 个亲自上线的项目。帖内薪资仍为占位文字，未给出具体范围。[电鸭](https://eleduck.com/posts/XNfONN)（11-07 09:53）",
+          "body_text": "面向学生的 AI 学习产品招 AI 应用工程师、产品经理与运营推广；工程岗要求 Python / FastAPI / RAG / Agent 与 React，投递需附 1–2 个亲自上线的项目。帖内薪资仍为占位文字，未给出具体范围。电鸭（11-07 09:53）",
+          "source": "电鸭",
+          "published": "11-07 09:53",
+          "meta": "",
+          "annotations": [
+            "11-07 09:53"
+          ],
+          "primary_url": "https://eleduck.com/posts/XNfONN",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/XNfONN"
+            }
+          ],
+          "summary": "AdmitPlus 做面向学生的 AI 学习产品，这次远程全职招聘 AI 应用工程师、产品经理和运营推广。工程岗要求能把 RAG、Agent 和长期记忆接进真实业务并上线，投递需附亲手完成的项目。帖内薪资仍是占位文字，没有给出实际范围，申请前需另行确认。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-08-cooperation-03",
+          "title": "外包新人讨论方案被无偿使用",
+          "title_md": "外包新人讨论方案被无偿使用：",
+          "body_md": "发帖人称客户多次询问微信支付接入方案、提出由其指导对方自行开发，之后没有下文，向社区请教合作前应注意什么。[电鸭](https://eleduck.com/posts/njfD5g)（11-07 10:07）",
+          "body_text": "发帖人称客户多次询问微信支付接入方案、提出由其指导对方自行开发，之后没有下文，向社区请教合作前应注意什么。电鸭（11-07 10:07）",
+          "source": "电鸭",
+          "published": "11-07 10:07",
+          "meta": "",
+          "annotations": [
+            "11-07 10:07"
+          ],
+          "primary_url": "https://eleduck.com/posts/njfD5g",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/njfD5g"
+            }
+          ],
+          "summary": "发帖人刚开始承接外包，客户多次询问微信支付接入方案、提出让他指导对方团队自行开发，之后就没了下文。他向社区请教这是否算方案被无偿使用，以及开始合作前要注意什么。帖子反映了外包合作中咨询与交付边界不清的常见问题。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-11-08-directions-01",
+      "title": "编程 Agent 的指令文件安全",
+      "title_md": "编程 Agent 的指令文件安全",
+      "body_md": "- 切入角度：了解 AGENTS.md 类文件为何会被 Agent 当作指令执行，以及如何检查下载目录和全局配置。\n  - 参考素材：[量子位报道](https://www.qbitai.com/2026/11/508244.html)\n  - 适合读者：正在使用 Codex、Claude Code 等编程助手的初学者。",
+      "body_text": "- 切入角度：了解 AGENTS.md 类文件为何会被 Agent 当作指令执行，以及如何检查下载目录和全局配置。\n  - 参考素材：量子位报道\n  - 适合读者：正在使用 Codex、Claude Code 等编程助手的初学者。",
+      "source": "量子位报道",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.qbitai.com/2026/11/508244.html",
+      "links": [
+        {
+          "text": "量子位报道",
+          "url": "https://www.qbitai.com/2026/11/508244.html"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG",
+      "name": "编程 Agent 的指令文件安全",
+      "angle": "了解 AGENTS.md 类文件为何会被 Agent 当作指令执行，以及如何检查下载目录和全局配置。",
+      "audience": "正在使用 Codex、Claude Code 等编程助手的初学者。",
+      "reference_md": "[量子位报道](https://www.qbitai.com/2026/11/508244.html)"
+    },
+    {
+      "id": "2026-11-08-directions-02",
+      "title": "用 Skill 把照片变成手工图样",
+      "title_md": "用 Skill 把照片变成手工图样",
+      "body_md": "- 切入角度：对比同一张照片生成的卡通贴纸与拼豆图纸，观察转绘要求如何影响结果。\n  - 参考素材：[贴纸 Skill](https://www.v2ex.com/t/1255136)｜[拼豆 Skill](https://www.v2ex.com/t/1255250)\n  - 适合读者：想用 AI 做手帐、拼豆等手工内容的初学者。",
+      "body_text": "- 切入角度：对比同一张照片生成的卡通贴纸与拼豆图纸，观察转绘要求如何影响结果。\n  - 参考素材：贴纸 Skill｜拼豆 Skill\n  - 适合读者：想用 AI 做手帐、拼豆等手工内容的初学者。",
+      "source": "V2EX",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.v2ex.com/t/1255136",
+      "links": [
+        {
+          "text": "贴纸 Skill",
+          "url": "https://www.v2ex.com/t/1255136"
+        },
+        {
+          "text": "拼豆 Skill",
+          "url": "https://www.v2ex.com/t/1255250"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-11-08/2026-11-08-directions-02.jpg",
+        "width": 1200,
+        "height": 800,
+        "credit": "图片来源：V2EX",
+        "source_url": "https://www.v2ex.com/t/1255136",
+        "remote_url": "https://raw.githubusercontent.com/fatelei/photo-sticker-samples/main/images/sticker-first-version.png"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "用 Skill 把照片变成手工图样",
+      "angle": "对比同一张照片生成的卡通贴纸与拼豆图纸，观察转绘要求如何影响结果。",
+      "audience": "想用 AI 做手帐、拼豆等手工内容的初学者。",
+      "reference_md": "[贴纸 Skill](https://www.v2ex.com/t/1255136)｜[拼豆 Skill](https://www.v2ex.com/t/1255250)"
+    },
+    {
+      "id": "2026-11-08-directions-03",
+      "title": "外包合作的报价与付款方式",
+      "title_md": "外包合作的报价与付款方式",
+      "body_md": "- 切入角度：参考分包报价、三期付款与作品推荐人要求，了解外包合作前需要明确的事项。\n  - 参考素材：[建站与 POS 外包需求](https://eleduck.com/posts/4lfRK0)｜[外包新人讨论](https://eleduck.com/posts/njfD5g)\n  - 适合读者：准备借助 AI 工具承接小型开发项目的初学者。",
+      "body_text": "- 切入角度：参考分包报价、三期付款与作品推荐人要求，了解外包合作前需要明确的事项。\n  - 参考素材：建站与 POS 外包需求｜外包新人讨论\n  - 适合读者：准备借助 AI 工具承接小型开发项目的初学者。",
+      "source": "电鸭",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://eleduck.com/posts/4lfRK0",
+      "links": [
+        {
+          "text": "建站与 POS 外包需求",
+          "url": "https://eleduck.com/posts/4lfRK0"
+        },
+        {
+          "text": "外包新人讨论",
+          "url": "https://eleduck.com/posts/njfD5g"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "页面未提供可引用的文章主图",
+      "name": "外包合作的报价与付款方式",
+      "angle": "参考分包报价、三期付款与作品推荐人要求，了解外包合作前需要明确的事项。",
+      "audience": "准备借助 AI 工具承接小型开发项目的初学者。",
+      "reference_md": "[建站与 POS 外包需求](https://eleduck.com/posts/4lfRK0)｜[外包新人讨论](https://eleduck.com/posts/njfD5g)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-11-08-unverified-01",
+      "title": "无新内容或访问受限",
+      "title_md": "无新内容或访问受限：",
+      "body_md": "Claude Code 窗口内无新版本；Codex 仅有无说明的 0.169.0 alpha 预发布；Cursor Changelog 最新为 11-06；Anthropic、OpenAI、Google 官方窗口内无新稿；AI工具集最新为 11-06；AIbase 页面未解析出日期；V2EX 热议接口返回验证页；r/vibecoding 返回空内容。Apiiro 关于 Claude Code「Don't Ask Again」泄露密码的文章正文由脚本渲染、未能读取，Reddit 关于 Claude Max 额度宣传的帖子仅有外链，均未收录。",
+      "body_text": "Claude Code 窗口内无新版本；Codex 仅有无说明的 0.169.0 alpha 预发布；Cursor Changelog 最新为 11-06；Anthropic、OpenAI、Google 官方窗口内无新稿；AI工具集最新为 11-06；AIbase 页面未解析出日期；V2EX 热议接口返回验证页；r/vibecoding 返回空内容。Apiiro 关于 Claude Code「Don't Ask Again」泄露密码的文章正文由脚本渲染、未能读取，Reddit 关于 Claude Max 额度宣传的帖子仅有外链，均未收录。",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}
