@@ -1,0 +1,518 @@
+{
+  "date": "2026-11-10",
+  "title": "AI 日报 · 2026-11-10（周二）",
+  "window": "时间窗口：11-09 08:00 到 11-10 08:20（台北时间）。已与前 7 期去重，每条均核对正文与日期。",
+  "highlights": [
+    "Claude Fable 5.2 与 Mythos 5.2 发布： 官方称输出比 5.1 快最多 30%，价格降至每百万 token 输入 $8、输出 $40；官方仍建议日常任务先用 Opus 5.5。",
+    "办公 Agent 进入工作群： 千问办公 2.0 可跨多个钉钉群汇总信息，并按规则自动处理被 @ 的任务。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-11-10-news-01",
+          "title": "Claude Fable 5.2 / Mythos 5.2 发布。",
+          "title_md": "Claude Fable 5.2 / Mythos 5.2 发布。",
+          "body_md": "两者是同一底层模型，Fable 带网络安全与生物安全防护、面向所有用户，Mythos 需通过验证计划申请。可选快速模式提速最多 2.5 倍，价格为 $16/$80。本周符合条件的付费订阅用户可获得额外 Fable 用量（1–3 次重置，Pro 与 Team 标准席位最多可用周额度的 50%）。[官方公告](https://www.anthropic.com/claude-fable-and-mythos-5-2)（11-09）｜[Hacker News 讨论](https://news.ycombinator.com/item?id=50429906)（859 分）",
+          "body_text": "两者是同一底层模型，Fable 带网络安全与生物安全防护、面向所有用户，Mythos 需通过验证计划申请。可选快速模式提速最多 2.5 倍，价格为 $16/$80。本周符合条件的付费订阅用户可获得额外 Fable 用量（1–3 次重置，Pro 与 Team 标准席位最多可用周额度的 50%）。官方公告（11-09）｜Hacker News 讨论（859 分）",
+          "source": "Anthropic",
+          "published": "11-09",
+          "meta": "859 分",
+          "annotations": [
+            "1–3 次重置，Pro 与 Team 标准席位最多可用周额度的 50%",
+            "11-09",
+            "859 分"
+          ],
+          "primary_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "links": [
+            {
+              "text": "官方公告",
+              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+            },
+            {
+              "text": "Hacker News 讨论",
+              "url": "https://news.ycombinator.com/item?id=50429906"
+            }
+          ],
+          "summary": "这是 Anthropic 对其最高档模型的一次升级：Fable 5.2 面向所有用户，Mythos 5.2 是同一模型、只对通过验证的安全与生命科学机构开放。官方称速度更快、价格更低，但也明确建议日常编程和知识任务先用 Opus 5.5，遇到更复杂的问题再换 Fable。本周付费订阅用户有额外用量，适合在额度内亲自对比。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-10/2026-11-10-news-01.jpg",
+            "width": 1200,
+            "height": 630,
+            "credit": "图片来源：Anthropic",
+            "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+            "remote_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-10-news-02",
+          "title": "腾讯元器 11-09 停止服务。",
+          "title_md": "腾讯元器 11-09 停止服务。",
+          "body_md": "应用访问、API 调用全部关停，通过它发布到微信渠道的智能体已无法对话；用户须在 2027-01-09 前申请数据导出，未用完的余额可在腾讯云申请退款。[AI工具集快讯](https://ai-bot.cn/daily-ai-news/)（11-09，原始来源 IT之家）",
+          "body_text": "应用访问、API 调用全部关停，通过它发布到微信渠道的智能体已无法对话；用户须在 2027-01-09 前申请数据导出，未用完的余额可在腾讯云申请退款。AI工具集快讯（11-09，原始来源 IT之家）",
+          "source": "AI工具集",
+          "published": "11-09",
+          "meta": "",
+          "annotations": [
+            "11-09，原始来源 IT之家"
+          ],
+          "primary_url": "https://ai-bot.cn/daily-ai-news/",
+          "links": [
+            {
+              "text": "AI工具集快讯",
+              "url": "https://ai-bot.cn/daily-ai-news/"
+            }
+          ],
+          "summary": "腾讯元器是腾讯的智能体搭建平台，现已全面停服，通过它发布到微信渠道的智能体也随之失效。数据导出截止到 2027 年 1 月 9 日，逾期删除。曾用它搭建客服或问答助手的用户，需要尽快备份并寻找替代方案。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-10-news-03",
+          "title": "ChatGPT Enterprise 上架 AWS Marketplace。",
+          "title_md": "ChatGPT Enterprise 上架 AWS Marketplace。",
+          "body_md": "[OpenAI](https://openai.com/index/chatgpt-enterprise-aws-marketplace)（11-10 03:00）",
+          "body_text": "OpenAI（11-10 03:00）",
+          "source": "OpenAI",
+          "published": "11-10 03:00",
+          "meta": "",
+          "annotations": [
+            "11-10 03:00"
+          ],
+          "primary_url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "links": [
+            {
+              "text": "OpenAI",
+              "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+            }
+          ],
+          "summary": "企业现在可以通过 AWS Marketplace 采购 ChatGPT Enterprise。这主要影响已在 AWS 上统一采购和结算的公司，对个人用户没有直接变化。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "原文页面 HTTP 403"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-11-10-tools-01",
+          "title": "Claude Code v2.1.321",
+          "title_md": "Claude Code v2.1.321：",
+          "body_md": "默认 Fable 模型改为 Fable 5.2（1M 上下文）；修复 MCP OAuth 在重定向时把刷新令牌等密钥发往其他主机、只读 Bash 命令在沙盒外运行且不弹确认等问题。[Release](https://github.com/anthropics/claude-code/releases/tag/v2.1.321)（11-10 03:22）",
+          "body_text": "默认 Fable 模型改为 Fable 5.2（1M 上下文）；修复 MCP OAuth 在重定向时把刷新令牌等密钥发往其他主机、只读 Bash 命令在沙盒外运行且不弹确认等问题。Release（11-10 03:22）",
+          "source": "GitHub",
+          "published": "11-10 03:22",
+          "meta": "",
+          "annotations": [
+            "1M 上下文",
+            "11-10 03:22"
+          ],
+          "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+          "links": [
+            {
+              "text": "Release",
+              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321"
+            }
+          ],
+          "summary": "Claude Code 本次更新把默认的 Fable 模型切换到 5.2，并修复了多项与权限和密钥相关的安全问题，例如 MCP 登录过程中密钥可能被发往其他主机。使用 MCP 服务或依赖沙盒限制的用户建议尽快升级。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-10/2026-11-10-tools-01.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+            "remote_url": "https://opengraph.githubassets.com/85f2b1107bb6950f8a3ead18ca0274fe284bf439f13a70dfcab92d2ca3572eac/anthropics/claude-code/releases/tag/v2.1.321"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-10-tools-02",
+          "title": "千问办公 2.0",
+          "title_md": "千问办公 2.0：",
+          "body_md": "新增「协作」空间，数字员工可关联多个钉钉群、文档和 AI 表格，汇总进展、创建待办；「自动任务」支持按指定人消息、群内 @、审批任务触发；手机、电脑、网页三端同步，任务在云端执行。文章为厂商供稿。[量子位](https://www.qbitai.com/2026/11/508694.html)（11-09 16:34）",
+          "body_text": "新增「协作」空间，数字员工可关联多个钉钉群、文档和 AI 表格，汇总进展、创建待办；「自动任务」支持按指定人消息、群内 @、审批任务触发；手机、电脑、网页三端同步，任务在云端执行。文章为厂商供稿。量子位（11-09 16:34）",
+          "source": "量子位",
+          "published": "11-09 16:34",
+          "meta": "",
+          "annotations": [
+            "11-09 16:34"
+          ],
+          "primary_url": "https://www.qbitai.com/2026/11/508694.html",
+          "links": [
+            {
+              "text": "量子位",
+              "url": "https://www.qbitai.com/2026/11/508694.html"
+            }
+          ],
+          "summary": "千问办公 2.0 把 AI 助手放进团队协作空间，可同时读取多个钉钉群、文档和表格，帮团队汇总信息、跟进待办。「自动任务」让它在满足预设条件时主动处理，例如有人在群里 @ 你报缺货时自动查库存。案例来自厂商供稿，实际效果需要自行试用确认。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-10-tools-03",
+          "title": "Seedream 5.5",
+          "title_md": "Seedream 5.5：",
+          "body_md": "字节 Seed 团队的图像创作模型，支持连续修改 100 轮且保持非编辑区不变，可原生生成 RGBA 透明素材，已在即梦、豆包、火山方舟等平台上线。[AI工具集快讯](https://ai-bot.cn/daily-ai-news/)（11-09）",
+          "body_text": "字节 Seed 团队的图像创作模型，支持连续修改 100 轮且保持非编辑区不变，可原生生成 RGBA 透明素材，已在即梦、豆包、火山方舟等平台上线。AI工具集快讯（11-09）",
+          "source": "AI工具集",
+          "published": "11-09",
+          "meta": "",
+          "annotations": [
+            "11-09"
+          ],
+          "primary_url": "https://ai-bot.cn/daily-ai-news/",
+          "links": [
+            {
+              "text": "AI工具集快讯",
+              "url": "https://ai-bot.cn/daily-ai-news/"
+            }
+          ],
+          "summary": "Seedream 5.5 是字节推出的图像模型，重点是多轮修改时不破坏未编辑区域，以及直接生成透明背景素材。做海报、商品图等需要反复调整或抠图的设计工作时，可以在即梦或豆包中试用。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-10-tools-04",
+          "title": "Qoder 匿名编程模型 Qoduck",
+          "title_md": "Qoder 匿名编程模型 Qoduck：",
+          "body_md": "未公开出处与参数，活动期间对个人版用户限时免费，社区反馈速度较快。[AI工具集快讯](https://ai-bot.cn/daily-ai-news/)（11-09）",
+          "body_text": "未公开出处与参数，活动期间对个人版用户限时免费，社区反馈速度较快。AI工具集快讯（11-09）",
+          "source": "AI工具集",
+          "published": "11-09",
+          "meta": "",
+          "annotations": [
+            "11-09"
+          ],
+          "primary_url": "https://ai-bot.cn/daily-ai-news/",
+          "links": [
+            {
+              "text": "AI工具集快讯",
+              "url": "https://ai-bot.cn/daily-ai-news/"
+            }
+          ],
+          "summary": "Qoduck 是阿里旗下 Qoder 平台上线的匿名编程模型，未公布来源和参数。目前个人版用户可限时免费使用，评价主要来自社区测评，适合在自己的小项目上试一试再下结论。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-11-10-projects-01",
+          "title": "拼拼账单",
+          "title_md": "拼拼账单：",
+          "body_md": "作者为小区山姆拼单群用 WorkBuddy 做的小程序，群友自行认领份数，大份商品可拆分，并计算每人应付金额，解决翻聊天记录和手动算账的问题。[V2EX](https://www.v2ex.com/t/1255659)（11-09 19:26）",
+          "body_text": "作者为小区山姆拼单群用 WorkBuddy 做的小程序，群友自行认领份数，大份商品可拆分，并计算每人应付金额，解决翻聊天记录和手动算账的问题。V2EX（11-09 19:26）",
+          "source": "V2EX",
+          "published": "11-09 19:26",
+          "meta": "",
+          "annotations": [
+            "11-09 19:26"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255659",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1255659"
+            }
+          ],
+          "summary": "作者在小区拼单群里遇到认领、凑单、算账的麻烦，于是用 AI 工具做了一个小程序解决。它展示了一个常见思路：把群聊里反复出现的手工流程，变成一个人人可填的页面。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-10/2026-11-10-projects-01.jpg",
+            "width": 1105,
+            "height": 1200,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1255659",
+            "remote_url": "https://blog.scond.me/img/article-studio/2026-11-09-%E4%B8%BA%E4%BA%86%E5%92%8C%E9%82%BB%E5%B1%85%E6%8B%BC%E5%B1%B1%E5%A7%86-%E6%88%91%E7%94%A8-AI-%E5%81%9A%E4%BA%86%E4%B8%AA%E5%B0%8F%E7%A8%8B%E5%BA%8F-2-0/01-3f8ef84fbdefba765e8567461ef06c085cf425572ba7df31e8761b7a14c42a92-85a53154.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-10-projects-02",
+          "title": "Gift Name Picker",
+          "title_md": "Gift Name Picker：",
+          "body_md": "用 Codex 做的交换礼物抽签网站，每位参与者有单独的邀请链接查看结果；作者把 Behance、Dribbble 上喜欢的设计截图交给 Codex 调整风格，礼品推荐页放了联盟链接，作者表示尚不确定能否带来收入。[V2EX](https://www.v2ex.com/t/1255706)（11-10 03:09）｜[网站](https://giftnamepicker.com/)",
+          "body_text": "用 Codex 做的交换礼物抽签网站，每位参与者有单独的邀请链接查看结果；作者把 Behance、Dribbble 上喜欢的设计截图交给 Codex 调整风格，礼品推荐页放了联盟链接，作者表示尚不确定能否带来收入。V2EX（11-10 03:09）｜网站",
+          "source": "V2EX",
+          "published": "11-10 03:09",
+          "meta": "",
+          "annotations": [
+            "11-10 03:09"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255706",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1255706"
+            },
+            {
+              "text": "网站",
+              "url": "https://giftnamepicker.com/"
+            }
+          ],
+          "summary": "这是一个用 Codex 完成的交换礼物抽签网站，作者是第一次做工具站。值得参考的是调整界面风格的方法：把喜欢的设计截图交给 AI 参照修改。作者也坦言这类工具一年只用一两次，能否持续带来收入还不确定。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG；页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-10-projects-03",
+          "title": "钢管厂知识库复盘",
+          "title_md": "钢管厂知识库复盘：",
+          "body_md": "作者为一家工厂整理 2 万多份散落在 6 个地方的图纸和工艺资料，认为技术只占三成，难点在于确认版本、权限过滤和持续维护；所有回答都带原文出处，宁可回答「没找到」。[电鸭](https://eleduck.com/posts/rdf3oV)（11-09 18:07）",
+          "body_text": "作者为一家工厂整理 2 万多份散落在 6 个地方的图纸和工艺资料，认为技术只占三成，难点在于确认版本、权限过滤和持续维护；所有回答都带原文出处，宁可回答「没找到」。电鸭（11-09 18:07）",
+          "source": "电鸭",
+          "published": "11-09 18:07",
+          "meta": "",
+          "annotations": [
+            "11-09 18:07"
+          ],
+          "primary_url": "https://eleduck.com/posts/rdf3oV",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/rdf3oV"
+            }
+          ],
+          "summary": "这是一份来自真实工厂项目的企业知识库复盘。作者认为技术只是一小部分，资料版本、访问权限和后续维护才是项目成败的关键，并分享了把同步步骤嵌入原有流程等做法。计划做企业知识库的人可以把这些坑当作检查清单。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-11-10-cooperation-01",
+          "title": "远程兼职 AI 产品经理",
+          "title_md": "远程兼职 AI 产品经理：",
+          "body_md": "为文旅赛事微信小程序（AI 伴行、AI 创作、社区、商城等模块）梳理需求，交付 Figma 原型、PRD、业务流程图与交互说明；试做不适配按 300 元/有效工作日结算，适配则整包合作，一期节点为 12 月 3 日。[电鸭](https://eleduck.com/posts/pqfA37)（11-10 08:17）",
+          "body_text": "为文旅赛事微信小程序（AI 伴行、AI 创作、社区、商城等模块）梳理需求，交付 Figma 原型、PRD、业务流程图与交互说明；试做不适配按 300 元/有效工作日结算，适配则整包合作，一期节点为 12 月 3 日。电鸭（11-10 08:17）",
+          "source": "电鸭",
+          "published": "11-10 08:17",
+          "meta": "",
+          "annotations": [
+            "AI 伴行、AI 创作、社区、商城等模块",
+            "11-10 08:17"
+          ],
+          "primary_url": "https://eleduck.com/posts/pqfA37",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/pqfA37"
+            }
+          ],
+          "summary": "这是一个远程兼职的产品经理岗位，工作是为带 AI 功能的文旅小程序梳理需求并产出原型和 PRD。帖子写明了试做工期和结算方式，具体合作细节需与发布方沟通确认。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-10-cooperation-02",
+          "title": "远程兼职 UI/UX 设计",
+          "title_md": "远程兼职 UI/UX 设计：",
+          "body_md": "一款 AI 沉浸式粉丝体验应用招小程序 UX/UI、动效与组件规范设计，要求 3 年以上 C 端经验并熟练使用 Figma；长期合作，可按里程碑结算，帖内未写预算。[电鸭](https://eleduck.com/posts/5Bf1wn)（11-09 17:29）",
+          "body_text": "一款 AI 沉浸式粉丝体验应用招小程序 UX/UI、动效与组件规范设计，要求 3 年以上 C 端经验并熟练使用 Figma；长期合作，可按里程碑结算，帖内未写预算。电鸭（11-09 17:29）",
+          "source": "电鸭",
+          "published": "11-09 17:29",
+          "meta": "",
+          "annotations": [
+            "11-09 17:29"
+          ],
+          "primary_url": "https://eleduck.com/posts/5Bf1wn",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/5Bf1wn"
+            }
+          ],
+          "summary": "一款 AI 粉丝体验应用在招远程兼职 UI/UX 设计，内容包括小程序界面、动效和组件规范。岗位对作品集要求较具体，帖内未写预算，可按里程碑结算。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-10-cooperation-03",
+          "title": "Reddit-radar",
+          "title_md": "Reddit-radar：",
+          "body_md": "作者用 AI 监控 Reddit、筛选小需求并整理成每日邮件，自述半个月有 30 人订阅，正在征集改进意见。[电鸭](https://eleduck.com/posts/R3fv8v)（11-09 12:32）",
+          "body_text": "作者用 AI 监控 Reddit、筛选小需求并整理成每日邮件，自述半个月有 30 人订阅，正在征集改进意见。电鸭（11-09 12:32）",
+          "source": "电鸭",
+          "published": "11-09 12:32",
+          "meta": "",
+          "annotations": [
+            "11-09 12:32"
+          ],
+          "primary_url": "https://eleduck.com/posts/R3fv8v",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/R3fv8v"
+            }
+          ],
+          "summary": "作者做了一个用 AI 从 Reddit 筛选小需求的工具，以每日邮件形式推送。帖子也提到，从看到需求到做成有收入的产品，中间还有调研、验证、获客等环节，作者正在征集意见。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-11-10-directions-01",
+      "title": "Claude 模型怎么选",
+      "title_md": "Claude 模型怎么选",
+      "body_md": "- 切入角度：结合官方建议，了解 Opus 5.5、Fable 5.2 与更小模型的分工，以及价格与快速模式的区别。\n  - 参考素材：[官方公告](https://www.anthropic.com/claude-fable-and-mythos-5-2)｜[Claude Code 更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.321)\n  - 适合读者：刚开始使用 Claude 的初学者。",
+      "body_text": "- 切入角度：结合官方建议，了解 Opus 5.5、Fable 5.2 与更小模型的分工，以及价格与快速模式的区别。\n  - 参考素材：官方公告｜Claude Code 更新\n  - 适合读者：刚开始使用 Claude 的初学者。",
+      "source": "Anthropic",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "links": [
+        {
+          "text": "官方公告",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        },
+        {
+          "text": "Claude Code 更新",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-11-10/2026-11-10-directions-01.jpg",
+        "width": 1200,
+        "height": 630,
+        "credit": "图片来源：Anthropic",
+        "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "remote_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "Claude 模型怎么选",
+      "angle": "结合官方建议，了解 Opus 5.5、Fable 5.2 与更小模型的分工，以及价格与快速模式的区别。",
+      "audience": "刚开始使用 Claude 的初学者。",
+      "reference_md": "[官方公告](https://www.anthropic.com/claude-fable-and-mythos-5-2)｜[Claude Code 更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.321)"
+    },
+    {
+      "id": "2026-11-10-directions-02",
+      "title": "让 AI 处理工作群里的重复事务",
+      "title_md": "让 AI 处理工作群里的重复事务",
+      "body_md": "- 切入角度：参考千问办公 2.0 的跨群汇总与自动任务案例，了解规则触发式 Agent 适合哪些办公场景。\n  - 参考素材：[量子位](https://www.qbitai.com/2026/11/508694.html)\n  - 适合读者：日常需要在多个群里收集信息的办公人群。",
+      "body_text": "- 切入角度：参考千问办公 2.0 的跨群汇总与自动任务案例，了解规则触发式 Agent 适合哪些办公场景。\n  - 参考素材：量子位\n  - 适合读者：日常需要在多个群里收集信息的办公人群。",
+      "source": "量子位",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.qbitai.com/2026/11/508694.html",
+      "links": [
+        {
+          "text": "量子位",
+          "url": "https://www.qbitai.com/2026/11/508694.html"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG",
+      "name": "让 AI 处理工作群里的重复事务",
+      "angle": "参考千问办公 2.0 的跨群汇总与自动任务案例，了解规则触发式 Agent 适合哪些办公场景。",
+      "audience": "日常需要在多个群里收集信息的办公人群。",
+      "reference_md": "[量子位](https://www.qbitai.com/2026/11/508694.html)"
+    },
+    {
+      "id": "2026-11-10-directions-03",
+      "title": "从生活小麻烦出发做小工具",
+      "title_md": "从生活小麻烦出发做小工具",
+      "body_md": "- 切入角度：参考拼单记账小程序与交换礼物抽签站，了解如何把一个具体场景做成可用工具。\n  - 参考素材：[拼拼账单](https://www.v2ex.com/t/1255659)｜[Gift Name Picker](https://www.v2ex.com/t/1255706)\n  - 适合读者：想用 AI 动手做第一个小工具的初学者。",
+      "body_text": "- 切入角度：参考拼单记账小程序与交换礼物抽签站，了解如何把一个具体场景做成可用工具。\n  - 参考素材：拼拼账单｜Gift Name Picker\n  - 适合读者：想用 AI 动手做第一个小工具的初学者。",
+      "source": "V2EX",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.v2ex.com/t/1255659",
+      "links": [
+        {
+          "text": "拼拼账单",
+          "url": "https://www.v2ex.com/t/1255659"
+        },
+        {
+          "text": "Gift Name Picker",
+          "url": "https://www.v2ex.com/t/1255706"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-11-10/2026-11-10-directions-03.jpg",
+        "width": 1105,
+        "height": 1200,
+        "credit": "图片来源：V2EX",
+        "source_url": "https://www.v2ex.com/t/1255659",
+        "remote_url": "https://blog.scond.me/img/article-studio/2026-11-09-%E4%B8%BA%E4%BA%86%E5%92%8C%E9%82%BB%E5%B1%85%E6%8B%BC%E5%B1%B1%E5%A7%86-%E6%88%91%E7%94%A8-AI-%E5%81%9A%E4%BA%86%E4%B8%AA%E5%B0%8F%E7%A8%8B%E5%BA%8F-2-0/01-3f8ef84fbdefba765e8567461ef06c085cf425572ba7df31e8761b7a14c42a92-85a53154.jpg"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "从生活小麻烦出发做小工具",
+      "angle": "参考拼单记账小程序与交换礼物抽签站，了解如何把一个具体场景做成可用工具。",
+      "audience": "想用 AI 动手做第一个小工具的初学者。",
+      "reference_md": "[拼拼账单](https://www.v2ex.com/t/1255659)｜[Gift Name Picker](https://www.v2ex.com/t/1255706)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-11-10-unverified-01",
+      "title": "无新内容或访问受限",
+      "title_md": "无新内容或访问受限：",
+      "body_md": "r/ClaudeAI 返回空内容；Google AI Blog、Ben's Bites 窗口内无新稿；Cursor Changelog 最新为 11-06；Hacker News 搜索接口一次返回 400，改用首页接口核验。",
+      "body_text": "r/ClaudeAI 返回空内容；Google AI Blog、Ben's Bites 窗口内无新稿；Cursor Changelog 最新为 11-06；Hacker News 搜索接口一次返回 400，改用首页接口核验。",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}
