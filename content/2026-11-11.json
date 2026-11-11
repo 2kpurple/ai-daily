@@ -1,0 +1,568 @@
+{
+  "date": "2026-11-11",
+  "title": "AI 日报 · 2026-11-11（周三）",
+  "window": "时间窗口：11-10 08:00 到 11-11 08:20（台北时间）。已与前 7 期去重，每条均核对正文与日期。",
+  "highlights": [
+    "Claude 新增表格与白板： Claude Sheets、Claude Whiteboards 进入 beta，Claude Dashboards 正式可用并更名为 Claude Data，所有付费方案可用。",
+    "OpenAI 与 Upwork 的自由职业研究： AI 相关项目的时薪与其他项目相近，但固定价预算更高、工时更多。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-11-11-news-01",
+          "title": "Gemini 4 Carbon 上线。",
+          "title_md": "Gemini 4 Carbon 上线。",
+          "body_md": "Google 称其为目前最强模型，面向长时间 Agent 任务、复杂编程与科研推理；API 价格与 Gemini 4 Argon 相同（每百万 token 输入 $2、输出 $10），并向 Google AI Ultra 订阅用户开放。官方表示多数软件工程与知识工作仍首选 Argon。[Google 博客](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)（11-10）",
+          "body_text": "Google 称其为目前最强模型，面向长时间 Agent 任务、复杂编程与科研推理；API 价格与 Gemini 4 Argon 相同（每百万 token 输入 $2、输出 $10），并向 Google AI Ultra 订阅用户开放。官方表示多数软件工程与知识工作仍首选 Argon。Google 博客（11-10）",
+          "source": "Google 博客",
+          "published": "11-10",
+          "meta": "",
+          "annotations": [
+            "每百万 token 输入 $2、输出 $10",
+            "11-10"
+          ],
+          "primary_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "links": [
+            {
+              "text": "Google 博客",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+            }
+          ],
+          "summary": "Gemini 4 Carbon 是 Google 面向高难度任务的新模型，适合多步骤编程调试、长时间 Agent 工作流和科研推理。官方同时说明，多数日常软件工程和知识工作仍建议使用 Argon，Carbon 会消耗更多 token 来深入推理。初学者可以把它理解为“难题专用”的选项。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-11/2026-11-11-news-01.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：blog.google",
+            "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+            "remote_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-11-news-02",
+          "title": "ChatGPT 推出 Businesses（beta）。",
+          "title_md": "ChatGPT 推出 Businesses（beta）。",
+          "body_md": "商家可通过 Business Hub 认领并维护自己在 ChatGPT 中的信息，查看提及次数、网站点击等汇总数据；美国符合条件的电商与在线服务商家可搭建 Business Agent 与用户对话。[OpenAI](https://openai.com/index/introducing-businesses-chatgpt)（11-10 18:00）",
+          "body_text": "商家可通过 Business Hub 认领并维护自己在 ChatGPT 中的信息，查看提及次数、网站点击等汇总数据；美国符合条件的电商与在线服务商家可搭建 Business Agent 与用户对话。OpenAI（11-10 18:00）",
+          "source": "OpenAI",
+          "published": "11-10 18:00",
+          "meta": "",
+          "annotations": [
+            "beta",
+            "11-10 18:00"
+          ],
+          "primary_url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "links": [
+            {
+              "text": "OpenAI",
+              "url": "https://openai.com/index/introducing-businesses-chatgpt"
+            }
+          ],
+          "summary": "Businesses in ChatGPT 让商家可以认领并更新自己在 ChatGPT 中显示的信息，并查看汇总的提及与点击数据。OpenAI 表示不会把用户对话内容分享给商家。Business Agent 目前仅面向美国符合条件的电商和在线服务商家开放。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "原文页面 HTTP 403"
+        },
+        {
+          "id": "2026-11-11-news-03",
+          "title": "Val Town 宣布停止运营。",
+          "title_md": "Val Town 宣布停止运营。",
+          "body_md": "11-10 起停止新注册，12-10 转为只读，2027-01-10 关闭其余服务，2027-02-01 开源。[公告](https://blog.val.town/winding-down)（11-10）",
+          "body_text": "11-10 起停止新注册，12-10 转为只读，2027-01-10 关闭其余服务，2027-02-01 开源。公告（11-10）",
+          "source": "公告",
+          "published": "11-10",
+          "meta": "",
+          "annotations": [
+            "11-10"
+          ],
+          "primary_url": "https://blog.val.town/winding-down",
+          "links": [
+            {
+              "text": "公告",
+              "url": "https://blog.val.town/winding-down"
+            }
+          ],
+          "summary": "Val Town 是一个在线写代码、直接运行和托管小脚本的平台。公告给出了分阶段的关停时间表，并提供迁移到 Cloudflare、Vercel、Netlify、Render 的指南。在上面部署过项目的用户需要在只读期开始前安排迁移。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-11/2026-11-11-news-03.jpg",
+            "width": 1200,
+            "height": 627,
+            "credit": "图片来源：blog.val.town",
+            "source_url": "https://blog.val.town/winding-down",
+            "remote_url": "https://valdottown--01a1c636170f75bd955ad39917dccd9e.web.val.run/images/winding-down-bird-24619313141.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-11-news-04",
+          "title": "Notion 披露第三方 AI 供应商 Fireworks 安全事件。",
+          "title_md": "Notion 披露第三方 AI 供应商 Fireworks 安全事件。",
+          "body_md": "Notion 称不到 1% 的工作区可能受影响，涉及不带用户与工作区标识的 Notion AI 对话记录，Insights 功能已暂停。[Notion 帮助中心](https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor)（Hacker News 11-10 15:19 上榜）",
+          "body_text": "Notion 称不到 1% 的工作区可能受影响，涉及不带用户与工作区标识的 Notion AI 对话记录，Insights 功能已暂停。Notion 帮助中心（Hacker News 11-10 15:19 上榜）",
+          "source": "Notion 帮助中心",
+          "published": "Hacker News 11-10 15:19 上榜",
+          "meta": "",
+          "annotations": [
+            "Hacker News 11-10 15:19 上榜"
+          ],
+          "primary_url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+          "links": [
+            {
+              "text": "Notion 帮助中心",
+              "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+            }
+          ],
+          "summary": "这是一起由第三方 AI 供应商引发的数据安全事件。Notion 称受影响的是少量不带用户与工作区标识的 AI 对话记录，其他工作区数据未受影响，并已停止通过该供应商提供服务。它提醒使用 AI 办公工具的团队，也要关注服务背后的供应商链条。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：人工复核：帮助中心通用标志图，与正文无关"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-11-11-tools-01",
+          "title": "Claude Sheets / Whiteboards（beta）与 Claude Data",
+          "title_md": "Claude Sheets / Whiteboards（beta）与 Claude Data：",
+          "body_md": "Sheets 可根据一句描述生成带分页、公式、格式和下拉框的表格，并标出每次编辑，可导出 xlsx 或 CSV；Whiteboards 可把口述计划整理成带负责人与日期的时间线，并转成文档或演示稿。网页、桌面与移动端可用。[官方文章](https://claude.com/resources/articles/sheets-whiteboards-data)（11-10）",
+          "body_text": "Sheets 可根据一句描述生成带分页、公式、格式和下拉框的表格，并标出每次编辑，可导出 xlsx 或 CSV；Whiteboards 可把口述计划整理成带负责人与日期的时间线，并转成文档或演示稿。网页、桌面与移动端可用。官方文章（11-10）",
+          "source": "Anthropic",
+          "published": "11-10",
+          "meta": "",
+          "annotations": [
+            "beta",
+            "11-10"
+          ],
+          "primary_url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+          "links": [
+            {
+              "text": "官方文章",
+              "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+            }
+          ],
+          "summary": "Claude 把表格、白板和数据看板放进了对话里，团队可以和 Claude 一起编辑，不用再把结果复制到其他工具。Sheets 目前只具备基础表格功能，复杂需求可以导出到 Excel 继续处理。Claude Data 需要先连接数据仓库或 CRM 等数据源。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-11/2026-11-11-tools-01.jpg",
+            "width": 1200,
+            "height": 630,
+            "credit": "图片来源：Anthropic",
+            "source_url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+            "remote_url": "https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-11-tools-02",
+          "title": "Android「Create My Widget」",
+          "title_md": "Android「Create My Widget」：",
+          "body_md": "用一句描述生成主屏小组件，可从 Gmail、日历和搜索中取数据，例如旅行看板、月度开销或倒计时，未来几周陆续推出。[Google 博客](https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/)（11-11 03:00）",
+          "body_text": "用一句描述生成主屏小组件，可从 Gmail、日历和搜索中取数据，例如旅行看板、月度开销或倒计时，未来几周陆续推出。Google 博客（11-11 03:00）",
+          "source": "Google 博客",
+          "published": "11-11 03:00",
+          "meta": "",
+          "annotations": [
+            "11-11 03:00"
+          ],
+          "primary_url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+          "links": [
+            {
+              "text": "Google 博客",
+              "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
+            }
+          ],
+          "summary": "Create My Widget 让用户用自然语言描述想看的信息，由 Gemini 生成主屏小组件，不需要写代码。数据可以来自 Gmail、日历和搜索。功能会在未来几周分批推出，适用于支持 Gemini Intelligence 的 Android 设备。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-11/2026-11-11-tools-02.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：blog.google",
+            "source_url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+            "remote_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27_Hero_2784x156.width-1300.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-11-tools-03",
+          "title": "cc-clean",
+          "title_md": "cc-clean：",
+          "body_md": "通过 `npx cc-clean@latest` 精简 Claude Code 与 Codex 的本地会话存储，主要移除以 Base64 保存的图片和冗余字段，作者称不影响恢复会话。[V2EX](https://www.v2ex.com/t/1256010)（11-11 02:28）",
+          "body_text": "通过 npx cc-clean@latest 精简 Claude Code 与 Codex 的本地会话存储，主要移除以 Base64 保存的图片和冗余字段，作者称不影响恢复会话。V2EX（11-11 02:28）",
+          "source": "V2EX",
+          "published": "11-11 02:28",
+          "meta": "",
+          "annotations": [
+            "11-11 02:28"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1256010",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1256010"
+            }
+          ],
+          "summary": "Claude Code 和 Codex 用久后会积累大量本地会话文件，其中以 Base64 形式保存的图片占用空间尤其大。cc-clean 的思路是保留文字记录、删除冗余字段，作者称不影响恢复会话。使用前建议先备份会话目录。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-11-11-projects-01",
+          "title": "静日",
+          "title_md": "静日：",
+          "body_md": "作者翻阅 1300 多条倒数日 App 的中文差评，发现约五分之一在抱怨广告，于是做了一个不插广告的倒数日 App，Pro 为一次买断。[V2EX](https://www.v2ex.com/t/1255906)（11-10 16:11）",
+          "body_text": "作者翻阅 1300 多条倒数日 App 的中文差评，发现约五分之一在抱怨广告，于是做了一个不插广告的倒数日 App，Pro 为一次买断。V2EX（11-10 16:11）",
+          "source": "V2EX",
+          "published": "11-10 16:11",
+          "meta": "",
+          "annotations": [
+            "11-10 16:11"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255906",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1255906"
+            }
+          ],
+          "summary": "这是一个从用户差评里找需求的案例：作者先统计同类 App 的中文差评，发现广告是集中的槽点，再据此确定产品定位。案例说明了动手前先验证真实痛点的做法。产品功能和差评数据均来自作者自述。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-11/2026-11-11-projects-01.jpg",
+            "width": 1200,
+            "height": 634,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1255906",
+            "remote_url": "https://quietdays.zhilc.com/promo/v2ex-2026-11.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-11-projects-02",
+          "title": "报销记账小程序",
+          "title_md": "报销记账小程序：",
+          "body_md": "作者经常往返北京与桂林，记账时勾选「报销」，月底导出 JSON 交给 AI 整理成报销单，不再逐条翻订票短信。[V2EX](https://www.v2ex.com/t/1255773)（11-10 10:18）",
+          "body_text": "作者经常往返北京与桂林，记账时勾选「报销」，月底导出 JSON 交给 AI 整理成报销单，不再逐条翻订票短信。V2EX（11-10 10:18）",
+          "source": "V2EX",
+          "published": "11-10 10:18",
+          "meta": "",
+          "annotations": [
+            "11-10 10:18"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1255773",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1255773"
+            }
+          ],
+          "summary": "作者把每月整理报销单这件重复的小事拆成两步：记账时顺手标记，月底导出结构化数据交给 AI 生成报销单。这种“先让数据结构化，再交给 AI 处理”的思路，适合很多日常办公场景。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-11/2026-11-11-projects-02.jpg",
+            "width": 443,
+            "height": 810,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1255773",
+            "remote_url": "https://i.imgur.com/RXEUXo8.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-11-projects-03",
+          "title": "API Key 被盗用案例",
+          "title_md": "API Key 被盗用案例：",
+          "body_md": "一位 WordPress AI 插件开发者称 Anthropic API Key 被他人用掉 $167，超过其设置的 $30 限额，其中一把 Key 从未写进代码，泄漏原因尚未查明。[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1xsudl0/someone_used_167_on_my_anthropic_api_keys_limit/)（11-11 02:20）",
+          "body_text": "一位 WordPress AI 插件开发者称 Anthropic API Key 被他人用掉 $167，超过其设置的 $30 限额，其中一把 Key 从未写进代码，泄漏原因尚未查明。r/ClaudeAI（11-11 02:20）",
+          "source": "Reddit",
+          "published": "11-11 02:20",
+          "meta": "",
+          "annotations": [
+            "11-11 02:20"
+          ],
+          "primary_url": "https://www.reddit.com/r/ClaudeAI/comments/1xsudl0/someone_used_167_on_my_anthropic_api_keys_limit/",
+          "links": [
+            {
+              "text": "r/ClaudeAI",
+              "url": "https://www.reddit.com/r/ClaudeAI/comments/1xsudl0/someone_used_167_on_my_anthropic_api_keys_limit/"
+            }
+          ],
+          "summary": "楼主称自己设置了 $30 的消费上限，实际却被用掉 $167，而且其中一把 Key 从未写进代码，原因至今未查明。帖子列出了他排查过的方向：旧的 .env 文件、聊天记录、终端历史、浏览器插件等。这个案例提醒开发者定期轮换 Key、把密钥移出代码仓库，不要只依赖消费限额。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-11-projects-04",
+          "title": "GitHub Trending 今日榜",
+          "title_md": "GitHub Trending 今日榜：",
+          "body_md": "以下是本期项目及单日新增星数。\n  - [meta/astryx](https://github.com/meta/astryx)（+3108）：Meta 开源的设计系统，强调可供 AI Agent 使用。\n  - [anthropics/skills](https://github.com/anthropics/skills)（+1679）：Anthropic 官方 Agent Skills 仓库。\n  - [mattpocock/skills](https://github.com/mattpocock/skills)（+1225）：面向工程实践的 Skills 合集。",
+          "body_text": "以下是本期项目及单日新增星数。\n  - meta/astryx（+3108）：Meta 开源的设计系统，强调可供 AI Agent 使用。\n  - anthropics/skills（+1679）：Anthropic 官方 Agent Skills 仓库。\n  - mattpocock/skills（+1225）：面向工程实践的 Skills 合集。",
+          "source": "GitHub",
+          "published": "",
+          "meta": "+3108；+1679；+1225",
+          "annotations": [
+            "+3108",
+            "+1679",
+            "+1225"
+          ],
+          "primary_url": "https://github.com/meta/astryx",
+          "links": [
+            {
+              "text": "meta/astryx",
+              "url": "https://github.com/meta/astryx"
+            },
+            {
+              "text": "anthropics/skills",
+              "url": "https://github.com/anthropics/skills"
+            },
+            {
+              "text": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills"
+            }
+          ],
+          "summary": "今天的榜单以 Agent 相关项目为主。Meta 的 Astryx 是在公司内部使用多年的设计系统，强调人和 AI 助手用同一套组件开发界面。两个 Skills 仓库则收录了可复用的 Agent 技能说明，适合想了解 Skills 写法的读者参考。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-11/2026-11-11-projects-04.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/meta/astryx",
+            "remote_url": "https://opengraph.githubassets.com/1/meta/astryx"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-11-11-cooperation-01",
+          "title": "远程兼职 AI 产品技术负责人",
+          "title_md": "远程兼职 AI 产品技术负责人：",
+          "body_md": "一家面向中小企业的 AI 咨询平台招兼职技术负责人，负责阿里云运维、Next.js 与 Python 开发，每周约 12–16 小时，固定月费 4000–5000 元，要求日常使用 AI 编程工具，先做 2–3 天付费试用再签 3 个月。[电鸭](https://eleduck.com/posts/EQfz4W)（11-10 15:37）",
+          "body_text": "一家面向中小企业的 AI 咨询平台招兼职技术负责人，负责阿里云运维、Next.js 与 Python 开发，每周约 12–16 小时，固定月费 4000–5000 元，要求日常使用 AI 编程工具，先做 2–3 天付费试用再签 3 个月。电鸭（11-10 15:37）",
+          "source": "电鸭",
+          "published": "11-10 15:37",
+          "meta": "",
+          "annotations": [
+            "11-10 15:37"
+          ],
+          "primary_url": "https://eleduck.com/posts/EQfz4W",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/EQfz4W"
+            }
+          ],
+          "summary": "这则招聘体现了中小团队对“会用 AI 编程工具、能独立交付和运维”这类兼职技术人的需求。帖子写明了工作时长、固定月费、付费试用流程，以及投递时需要说明的内容。具体情况以原帖为准，合作前建议确认响应时效等约定。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-11-cooperation-02",
+          "title": "远程视频画面修复",
+          "title_md": "远程视频画面修复：",
+          "body_md": "使用剪映或达芬奇做去脏点、降噪与防抖处理，按成片时长 20 元/分钟计费。[电鸭](https://eleduck.com/posts/5Bf1Ga)（11-10 11:01）",
+          "body_text": "使用剪映或达芬奇做去脏点、降噪与防抖处理，按成片时长 20 元/分钟计费。电鸭（11-10 11:01）",
+          "source": "电鸭",
+          "published": "11-10 11:01",
+          "meta": "",
+          "annotations": [
+            "11-10 11:01"
+          ],
+          "primary_url": "https://eleduck.com/posts/5Bf1Ga",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/5Bf1Ga"
+            }
+          ],
+          "summary": "这是一则按成片时长计费的远程视频处理需求，主要用剪映或达芬奇的修复、降噪、防抖功能。帖子写明了计费方式和交付要求，可以帮助了解这类按量结算外包的定价方式。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-11-cooperation-03",
+          "title": "OpenAI 与 Upwork 自由职业研究",
+          "title_md": "OpenAI 与 Upwork 自由职业研究：",
+          "body_md": "63 个工作类别中有 43 个呈现「在 ChatGPT 中常见的任务在 Upwork 上占比下降」的规律；AI 相关项目常把 AI 生成视频、剪辑、动效等任务组合在一起，固定价预算更高、工时更多，时薪与其他项目相近。[OpenAI](https://openai.com/index/ai-effect-on-freelance-work)（11-10 15:00）",
+          "body_text": "63 个工作类别中有 43 个呈现「在 ChatGPT 中常见的任务在 Upwork 上占比下降」的规律；AI 相关项目常把 AI 生成视频、剪辑、动效等任务组合在一起，固定价预算更高、工时更多，时薪与其他项目相近。OpenAI（11-10 15:00）",
+          "source": "OpenAI",
+          "published": "11-10 15:00",
+          "meta": "",
+          "annotations": [
+            "11-10 15:00"
+          ],
+          "primary_url": "https://openai.com/index/ai-effect-on-freelance-work",
+          "links": [
+            {
+              "text": "OpenAI",
+              "url": "https://openai.com/index/ai-effect-on-freelance-work"
+            }
+          ],
+          "summary": "这项研究对比了 ChatGPT 的使用数据和 Upwork 上的招聘需求，观察 AI 普及后自由职业市场的变化。研究认为情况并不是简单的“AI 替代人”，而是客户需求的组合方式和项目范围在改变。需要注意，较高的预算可能部分来自工作量本身更大。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "原文页面 HTTP 403"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-11-11-directions-01",
+      "title": "用 Claude Sheets 生成工作表格",
+      "title_md": "用 Claude Sheets 生成工作表格",
+      "body_md": "- 切入角度：用一句描述生成活动追踪表或预算表，查看公式、下拉框与改动标记，再导出 xlsx。\n  - 参考素材：[官方文章](https://claude.com/resources/articles/sheets-whiteboards-data)\n  - 适合读者：经常整理表格的办公人群。",
+      "body_text": "- 切入角度：用一句描述生成活动追踪表或预算表，查看公式、下拉框与改动标记，再导出 xlsx。\n  - 参考素材：官方文章\n  - 适合读者：经常整理表格的办公人群。",
+      "source": "Anthropic",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "links": [
+        {
+          "text": "官方文章",
+          "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-11-11/2026-11-11-directions-01.jpg",
+        "width": 1200,
+        "height": 630,
+        "credit": "图片来源：Anthropic",
+        "source_url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+        "remote_url": "https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "用 Claude Sheets 生成工作表格",
+      "angle": "用一句描述生成活动追踪表或预算表，查看公式、下拉框与改动标记，再导出 xlsx。",
+      "audience": "经常整理表格的办公人群。",
+      "reference_md": "[官方文章](https://claude.com/resources/articles/sheets-whiteboards-data)"
+    },
+    {
+      "id": "2026-11-11-directions-02",
+      "title": "从用户差评中发现需求",
+      "title_md": "从用户差评中发现需求",
+      "body_md": "- 切入角度：参考静日的做法，了解如何从同类产品的差评中归纳共同问题，再结合自身场景做小工具。\n  - 参考素材：[静日](https://www.v2ex.com/t/1255906)｜[报销记账小程序](https://www.v2ex.com/t/1255773)\n  - 适合读者：想用 AI 做第一个小工具的初学者。",
+      "body_text": "- 切入角度：参考静日的做法，了解如何从同类产品的差评中归纳共同问题，再结合自身场景做小工具。\n  - 参考素材：静日｜报销记账小程序\n  - 适合读者：想用 AI 做第一个小工具的初学者。",
+      "source": "V2EX",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.v2ex.com/t/1255906",
+      "links": [
+        {
+          "text": "静日",
+          "url": "https://www.v2ex.com/t/1255906"
+        },
+        {
+          "text": "报销记账小程序",
+          "url": "https://www.v2ex.com/t/1255773"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-11-11/2026-11-11-directions-02.jpg",
+        "width": 1200,
+        "height": 634,
+        "credit": "图片来源：V2EX",
+        "source_url": "https://www.v2ex.com/t/1255906",
+        "remote_url": "https://quietdays.zhilc.com/promo/v2ex-2026-11.jpg"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "从用户差评中发现需求",
+      "angle": "参考静日的做法，了解如何从同类产品的差评中归纳共同问题，再结合自身场景做小工具。",
+      "audience": "想用 AI 做第一个小工具的初学者。",
+      "reference_md": "[静日](https://www.v2ex.com/t/1255906)｜[报销记账小程序](https://www.v2ex.com/t/1255773)"
+    },
+    {
+      "id": "2026-11-11-directions-03",
+      "title": "AI 如何改变自由职业项目",
+      "title_md": "AI 如何改变自由职业项目",
+      "body_md": "- 切入角度：阅读研究中关于任务组合、项目预算与工时的发现，区分「项目范围变大」与「单价变高」。\n  - 参考素材：[OpenAI × Upwork 研究](https://openai.com/index/ai-effect-on-freelance-work)\n  - 适合读者：关注 AI 对工作方式影响的读者。",
+      "body_text": "- 切入角度：阅读研究中关于任务组合、项目预算与工时的发现，区分「项目范围变大」与「单价变高」。\n  - 参考素材：OpenAI × Upwork 研究\n  - 适合读者：关注 AI 对工作方式影响的读者。",
+      "source": "OpenAI",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "links": [
+        {
+          "text": "OpenAI × Upwork 研究",
+          "url": "https://openai.com/index/ai-effect-on-freelance-work"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "failed",
+      "image_note": "原文页面 HTTP 403",
+      "name": "AI 如何改变自由职业项目",
+      "angle": "阅读研究中关于任务组合、项目预算与工时的发现，区分「项目范围变大」与「单价变高」。",
+      "audience": "关注 AI 对工作方式影响的读者。",
+      "reference_md": "[OpenAI × Upwork 研究](https://openai.com/index/ai-effect-on-freelance-work)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-11-11-unverified-01",
+      "title": "无新内容或访问受限",
+      "title_md": "无新内容或访问受限：",
+      "body_md": "Cursor Changelog 最新为 11-06；Anthropic News 窗口内无新稿；r/vibecoding RSS 返回空内容；OpenAI 文章页命令行请求返回精简页面，改用网页正文与官方 RSS 核验；Hacker News 搜索接口一次返回 400，修正参数后核验。",
+      "body_text": "Cursor Changelog 最新为 11-06；Anthropic News 窗口内无新稿；r/vibecoding RSS 返回空内容；OpenAI 文章页命令行请求返回精简页面，改用网页正文与官方 RSS 核验；Hacker News 搜索接口一次返回 400，修正参数后核验。",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}
