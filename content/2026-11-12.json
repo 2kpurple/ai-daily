@@ -1,0 +1,549 @@
+{
+  "date": "2026-11-12",
+  "title": "AI 日报 · 2026-11-12（周四）",
+  "window": "时间窗口：11-11 08:00 到 11-12 08:20（台北时间）。已与前 7 期去重，每条均核对正文与日期。",
+  "highlights": [
+    "AI 内容误判案： 北京互联网法院认定，平台将用户原创误判为「AI 生成未标识」并作处理，构成违约。",
+    "Qwen4-Max 预览版上线： 已接入千问办公、Qoder 等官方产品，正式版参数与发布时间尚未公布。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-11-12-news-01",
+          "title": "北京互联网法院：平台误判 AI 生成内容未标识构成违约。",
+          "title_md": "北京互联网法院：平台误判 AI 生成内容未标识构成违约。",
+          "body_md": "用户发布的原创文字被平台认定为「包含 AI 生成内容但未标识」，遭隐藏并禁言一天，申诉未果后起诉。法院认为算法认定过程由平台掌控，平台应就认定依据作出解释说明，不能仅以技术秘密为由拒绝，判决解除隐藏并删除违规处理记录。[AIbase](https://www.aibase.com/zh/news/32251)（11-11 16:55）",
+          "body_text": "用户发布的原创文字被平台认定为「包含 AI 生成内容但未标识」，遭隐藏并禁言一天，申诉未果后起诉。法院认为算法认定过程由平台掌控，平台应就认定依据作出解释说明，不能仅以技术秘密为由拒绝，判决解除隐藏并删除违规处理记录。AIbase（11-11 16:55）",
+          "source": "AIbase",
+          "published": "11-11 16:55",
+          "meta": "",
+          "annotations": [
+            "11-11 16:55"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32251",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32251"
+            }
+          ],
+          "summary": "这是一起平台用算法识别 AI 生成内容、结果误判用户原创的诉讼。法院的思路是：算法和审查结果掌握在平台手里，平台应当对认定依据作出合理解释，并提供误判后的救济渠道。对经常在平台发文的人来说，这个案例说明被误判后可以申诉、维权；平时保留草稿和历史版本，也有助于证明自己是原创。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-12-news-02",
+          "title": "Qwen4-Max 预览版上线阿里 Token Plan。",
+          "title_md": "Qwen4-Max 预览版上线阿里 Token Plan。",
+          "body_md": "限时最低 1 折，个人版 Lite 与 Essential 起步价 39 元/月，新客再享 5 折，最低 19.5 元；千问办公、Qoder、千问 App、QwenStudio 已接入。官方未披露参数、基准成绩与正式发布时间。[AIbase](https://www.aibase.com/zh/news/32241)（11-11 11:43）",
+          "body_text": "限时最低 1 折，个人版 Lite 与 Essential 起步价 39 元/月，新客再享 5 折，最低 19.5 元；千问办公、Qoder、千问 App、QwenStudio 已接入。官方未披露参数、基准成绩与正式发布时间。AIbase（11-11 11:43）",
+          "source": "AIbase",
+          "published": "11-11 11:43",
+          "meta": "",
+          "annotations": [
+            "11-11 11:43"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32241",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32241"
+            }
+          ],
+          "summary": "Qwen4 是阿里千问的新一代模型，目前先开放了 Qwen4-Max 预览版，以订阅套餐的形式提供。官方称它在编程和智能体任务上能力更强，但还没有公布参数、基准成绩和正式发布时间。想尝试的读者可以在千问办公、Qoder 等已接入的产品里体验，再决定要不要订阅。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-12/2026-11-12-news-02.jpg",
+            "width": 522,
+            "height": 322,
+            "credit": "图片来源：AIbase",
+            "source_url": "https://www.aibase.com/zh/news/32241",
+            "remote_url": "https://upload.chinaz.com/2026/1111/6392999418126963943118727.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-12-news-03",
+          "title": "ChatGPT 旧语音模式将于 12-11 停用。",
+          "title_md": "ChatGPT 旧语音模式将于 12-11 停用。",
+          "body_md": "Advanced 与 Standard 两版旧语音模式下线后自动切换到 GPT-Live，历史对话保留；部分用户反映新版易打断、上下文衔接较弱。[AIbase](https://www.aibase.com/zh/news/32253)（11-11 17:18）",
+          "body_text": "Advanced 与 Standard 两版旧语音模式下线后自动切换到 GPT-Live，历史对话保留；部分用户反映新版易打断、上下文衔接较弱。AIbase（11-11 17:18）",
+          "source": "AIbase",
+          "published": "11-11 17:18",
+          "meta": "",
+          "annotations": [
+            "11-11 17:18"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32253",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32253"
+            }
+          ],
+          "summary": "GPT-Live 是 ChatGPT 今年 7 月推出的全双工语音模型，可以一边听一边回应，旧语音模式则需要轮流说话。12-11 之后，旧模式会从语音设置中移除，自动切换到新模型。习惯用语音和 ChatGPT 长聊的用户，可以提前体验新模式，看看是否适应。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-12-news-04",
+          "title": "Anthropic 启动 IPO 路演。",
+          "title_md": "Anthropic 启动 IPO 路演。",
+          "body_md": "路演视频提到 Claude 在 AWS Trainium、Google TPU、NVIDIA GPU 与 AMD GPU 四类芯片上训练和提供服务。[Simon Willison](https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/)（11-11 23:11）",
+          "body_text": "路演视频提到 Claude 在 AWS Trainium、Google TPU、NVIDIA GPU 与 AMD GPU 四类芯片上训练和提供服务。Simon Willison（11-11 23:11）",
+          "source": "Simon Willison",
+          "published": "11-11 23:11",
+          "meta": "",
+          "annotations": [
+            "11-11 23:11"
+          ],
+          "primary_url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+          "links": [
+            {
+              "text": "Simon Willison",
+              "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+            }
+          ],
+          "summary": "Anthropic 已经开始 IPO 路演，路演视频里有一些此前没有公开的业务信息。其中提到，Claude 同时运行在四类芯片上。这条信息有助于了解大模型公司如何安排算力；Simon Willison 在博客中整理了视频文字稿的要点。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-11-12-tools-01",
+          "title": "MiniMax H3-Image 开源",
+          "title_md": "MiniMax H3-Image 开源：",
+          "body_md": "可在 10 秒内生成 4096×4096 图像，最多支持 16 张参考图，覆盖文生图、图像参考与编辑。[AI工具集](https://ai-bot.cn/daily-ai-news/)｜[Product Hunt](https://www.producthunt.com/products/minimax)（11-11）",
+          "body_text": "可在 10 秒内生成 4096×4096 图像，最多支持 16 张参考图，覆盖文生图、图像参考与编辑。AI工具集｜Product Hunt（11-11）",
+          "source": "AI工具集",
+          "published": "11-11",
+          "meta": "",
+          "annotations": [
+            "11-11"
+          ],
+          "primary_url": "https://ai-bot.cn/daily-ai-news/",
+          "links": [
+            {
+              "text": "AI工具集",
+              "url": "https://ai-bot.cn/daily-ai-news/"
+            },
+            {
+              "text": "Product Hunt",
+              "url": "https://www.producthunt.com/products/minimax"
+            }
+          ],
+          "summary": "H3-Image 是 MiniMax 开源的图像生成模型，主打高分辨率和快速出图，支持文生图、参考图生成和改图。最多可以参考 16 张图，适合需要多张参考图保持风格一致的设计场景。实际效果和部署门槛还需要自行测试。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "页面未提供可引用的文章主图；原文页面 HTTP 403"
+        },
+        {
+          "id": "2026-11-12-tools-02",
+          "title": "腾讯元宝搜索独立网页版 so.qq.com",
+          "title_md": "腾讯元宝搜索独立网页版 so.qq.com：",
+          "body_md": "默认进入 AI 模式，左侧为 AI 回答、右侧为参考资料；PC 版支持单独检索微信文章与视频号内容。[AIbase](https://www.aibase.com/zh/news/32248)（11-11 14:58）",
+          "body_text": "默认进入 AI 模式，左侧为 AI 回答、右侧为参考资料；PC 版支持单独检索微信文章与视频号内容。AIbase（11-11 14:58）",
+          "source": "AIbase",
+          "published": "11-11 14:58",
+          "meta": "",
+          "annotations": [
+            "11-11 14:58"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32248",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32248"
+            }
+          ],
+          "summary": "腾讯把元宝的 AI 搜索做成了独立网页，回答和参考资料左右并排显示，方便核对出处。它的特点是能单独检索微信文章和视频号内容，这些内容在通用搜索引擎里不容易找到。适合用来查中文资料、了解某个话题在微信生态里的讨论。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-12/2026-11-12-tools-02.jpg",
+            "width": 1000,
+            "height": 432,
+            "credit": "图片来源：AIbase",
+            "source_url": "https://www.aibase.com/zh/news/32248",
+            "remote_url": "https://upload.chinaz.com/2026/1111/6393000589893293182300615.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-12-tools-03",
+          "title": "Adobe MAX 2026 更新",
+          "title_md": "Adobe MAX 2026 更新：",
+          "body_md": "Photoshop 新增「重新调光」，升级后的「移除」可一并清除阴影与倒影；Adobe 预览了 MCP 集成，第三方 AI 代理将能直接操作 Photoshop、Illustrator、Premiere 与 After Effects 的本地工程，计划 2027 年初开放。[AIbase](https://www.aibase.com/zh/news/32243)（11-11 13:55）",
+          "body_text": "Photoshop 新增「重新调光」，升级后的「移除」可一并清除阴影与倒影；Adobe 预览了 MCP 集成，第三方 AI 代理将能直接操作 Photoshop、Illustrator、Premiere 与 After Effects 的本地工程，计划 2027 年初开放。AIbase（11-11 13:55）",
+          "source": "AIbase",
+          "published": "11-11 13:55",
+          "meta": "",
+          "annotations": [
+            "11-11 13:55"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32243",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32243"
+            }
+          ],
+          "summary": "Adobe 在年度大会 MAX 上发布了一批 AI 修图和剪辑功能，比如给照片重新布光、连同阴影倒影一起移除物体。更重要的变化是预览了 MCP 接口，未来外部 AI 代理可以直接编辑 Photoshop、Premiere 等软件的工程文件，并保留图层。该接口计划 2027 年初开放，目前还不能用。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-12/2026-11-12-tools-03.jpg",
+            "width": 710,
+            "height": 528,
+            "credit": "图片来源：AIbase",
+            "source_url": "https://www.aibase.com/zh/news/32243",
+            "remote_url": "https://upload.chinaz.com/2026/1111/6393000212000231015327298.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-11-12-projects-01",
+          "title": "懒人陪娃",
+          "title_md": "懒人陪娃：",
+          "body_md": "一个随机推荐亲子游戏的小程序，收录 64 个无需屏幕的游戏，可按场地、大人体力和孩子年龄筛选；作者称内容由 AI 生成，并亲自带孩子试玩过不少，免费无广告。[V2EX](https://www.v2ex.com/t/1256131)（11-11 12:47）",
+          "body_text": "一个随机推荐亲子游戏的小程序，收录 64 个无需屏幕的游戏，可按场地、大人体力和孩子年龄筛选；作者称内容由 AI 生成，并亲自带孩子试玩过不少，免费无广告。V2EX（11-11 12:47）",
+          "source": "V2EX",
+          "published": "11-11 12:47",
+          "meta": "",
+          "annotations": [
+            "11-11 12:47"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1256131",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1256131"
+            }
+          ],
+          "summary": "这是一位家长为自己做的小程序：输入场地、自己的体力和孩子的年龄，它就推荐一个不用屏幕的亲子游戏。作者说内容由 AI 生成，他自己试玩、筛选过。这个例子说明，从一个具体的生活小麻烦出发，借助 AI 就能做出可用的小工具。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-12-projects-02",
+          "title": "下班叠叠消",
+          "title_md": "下班叠叠消：",
+          "body_md": "作者使用 Codex 完成的第一款微信小游戏，玩法为叠牌三消，含翻面牌与 30 关挑战。[V2EX](https://www.v2ex.com/t/1256211)（11-11 16:39）",
+          "body_text": "作者使用 Codex 完成的第一款微信小游戏，玩法为叠牌三消，含翻面牌与 30 关挑战。V2EX（11-11 16:39）",
+          "source": "V2EX",
+          "published": "11-11 16:39",
+          "meta": "",
+          "annotations": [
+            "11-11 16:39"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1256211",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1256211"
+            }
+          ],
+          "summary": "作者用 Codex 完成了一款叠牌三消的微信小游戏，有 30 关，通关后可以收集桌面摆件。对想尝试用 AI 写小游戏的初学者，这是一个规模不大、可以参照的完整作品。在微信里搜索游戏名就能体验。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：人工复核：小程序码，属扫码推广图"
+        },
+        {
+          "id": "2026-11-12-projects-03",
+          "title": "「大模型千千万，为什么非要用 Claude？」讨论",
+          "title_md": "「大模型千千万，为什么非要用 Claude？」讨论：",
+          "body_md": "楼主对频繁封号、不退款提出疑问，帖子有 198 条回复。[V2EX](https://www.v2ex.com/t/1256081)（11-11 10:41）",
+          "body_text": "楼主对频繁封号、不退款提出疑问，帖子有 198 条回复。V2EX（11-11 10:41）",
+          "source": "V2EX",
+          "published": "11-11 10:41",
+          "meta": "198 条回复",
+          "annotations": [
+            "11-11 10:41"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1256081",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1256081"
+            }
+          ],
+          "summary": "这个帖子讨论的是：国内外模型选择这么多，为什么很多人仍然坚持用 Claude。楼主关注的是封号和退款问题，回复里有各方用户的实际体验。可以借此了解，不同人选择 AI 工具时看重的是能力、价格还是稳定性。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-12-projects-04",
+          "title": "GitHub Trending 今日榜",
+          "title_md": "GitHub Trending 今日榜：",
+          "body_md": "以下是本期项目及单日新增星数。\n  - [shadcn/improve](https://github.com/shadcn/improve)（+361）：用能力最强的模型审计代码库，并写出计划交给成本更低的模型执行。\n  - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)（+787）：面向 AI 编程 Agent 的工程技能集合。\n  - [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)（+708）：供 AI Agent 使用的浏览器自动化命令行工具。",
+          "body_text": "以下是本期项目及单日新增星数。\n  - shadcn/improve（+361）：用能力最强的模型审计代码库，并写出计划交给成本更低的模型执行。\n  - addyosmani/agent-skills（+787）：面向 AI 编程 Agent 的工程技能集合。\n  - vercel-labs/agent-browser（+708）：供 AI Agent 使用的浏览器自动化命令行工具。",
+          "source": "GitHub",
+          "published": "",
+          "meta": "+361；+787；+708",
+          "annotations": [
+            "+361",
+            "+787",
+            "+708"
+          ],
+          "primary_url": "https://github.com/shadcn/improve",
+          "links": [
+            {
+              "text": "shadcn/improve",
+              "url": "https://github.com/shadcn/improve"
+            },
+            {
+              "text": "addyosmani/agent-skills",
+              "url": "https://github.com/addyosmani/agent-skills"
+            },
+            {
+              "text": "vercel-labs/agent-browser",
+              "url": "https://github.com/vercel-labs/agent-browser"
+            }
+          ],
+          "summary": "今天榜单上的项目大多和 AI 编程 Agent 有关。shadcn/improve 的思路是先用强模型做审计、写计划，再交给便宜的模型执行，以此平衡效果和成本；agent-skills 整理了给 Agent 用的工程技能；agent-browser 让 Agent 可以通过命令行操作浏览器。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-12/2026-11-12-projects-04.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/shadcn/improve",
+            "remote_url": "https://opengraph.githubassets.com/368ac19bf74bb52e07a6eaed175e47e29a5afb355fc8e261ea91a5250c23bb59/shadcn/improve"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-11-12-cooperation-01",
+          "title": "深圳兼职全栈：微信小程序与物业后台维护。",
+          "title_md": "深圳兼职全栈：微信小程序与物业后台维护。",
+          "body_md": "一个智能硬件团队寻找常住深圳的开发者，维护 NFC 打卡、积分排行及 OneNET 设备数据展示；稳定期预计每月约 8 小时，维护预算约 1,500 元/月，首次交接与上线联调另行商定。[电鸭](https://eleduck.com/posts/rdf37V)（11-11 09:39）",
+          "body_text": "一个智能硬件团队寻找常住深圳的开发者，维护 NFC 打卡、积分排行及 OneNET 设备数据展示；稳定期预计每月约 8 小时，维护预算约 1,500 元/月，首次交接与上线联调另行商定。电鸭（11-11 09:39）",
+          "source": "电鸭",
+          "published": "11-11 09:39",
+          "meta": "",
+          "annotations": [
+            "11-11 09:39"
+          ],
+          "primary_url": "https://eleduck.com/posts/rdf37V",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/rdf37V"
+            }
+          ],
+          "summary": "这是一份长期维护类的兼职：接手已经上线的小程序和后台，日常排查问题、做少量更新。帖子写明了工作量、预算和地点要求，也要求应聘者提供自己亲自维护过的上线项目。从中可以看到，小团队找兼职开发者时会重点考察哪些经验。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-12-cooperation-02",
+          "title": "儿童生日祝福定制视频的制作咨询",
+          "title_md": "儿童生日祝福定制视频的制作咨询：",
+          "body_md": "楼主参考电商平台上的卡通角色生日祝福定制视频，询问如何用 AI 制作，帖子有 11 条回复。[V2EX](https://www.v2ex.com/t/1256134)（11-11 13:04）",
+          "body_text": "楼主参考电商平台上的卡通角色生日祝福定制视频，询问如何用 AI 制作，帖子有 11 条回复。V2EX（11-11 13:04）",
+          "source": "V2EX",
+          "published": "11-11 13:04",
+          "meta": "11 条回复",
+          "annotations": [
+            "11-11 13:04"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1256134",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1256134"
+            }
+          ],
+          "summary": "楼主看到电商平台上有卡通角色给孩子送生日祝福的定制视频，想知道怎么用 AI 来做。回复里讨论了可能的做法。这类个性化祝福视频的制作流程，可以作为学习 AI 视频工具的练手题目；涉及卡通角色时要注意版权问题。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-12-cooperation-03",
+          "title": "自由开发一年复盘",
+          "title_md": "自由开发一年复盘：",
+          "body_md": "作者主要做 Python 自动化、数据采集、Web 全栈与 AI 内容生产，总结了先出需求确认单、定金加里程碑分期、筛选合作方、写明免费维护期等经验。[电鸭](https://eleduck.com/posts/Ygf2x0)（11-11 10:10）",
+          "body_text": "作者主要做 Python 自动化、数据采集、Web 全栈与 AI 内容生产，总结了先出需求确认单、定金加里程碑分期、筛选合作方、写明免费维护期等经验。电鸭（11-11 10:10）",
+          "source": "电鸭",
+          "published": "11-11 10:10",
+          "meta": "",
+          "annotations": [
+            "11-11 10:10"
+          ],
+          "primary_url": "https://eleduck.com/posts/Ygf2x0",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/Ygf2x0"
+            }
+          ],
+          "summary": "这是一位自由开发者对过去一年的复盘，覆盖自动化、数据采集、全栈开发和 AI 内容生产几个方向。他认为最难的不是技术，而是把需求确认清楚、守住项目边界、筛选合作方。对刚开始独立承接项目的人，这些做法可以直接参考。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-11-12-directions-01",
+      "title": "AI 生成内容标识与误判救济",
+      "title_md": "AI 生成内容标识与误判救济",
+      "body_md": "- 切入角度：了解平台算法认定 AI 内容时的解释义务，以及保留草稿、历史版本等创作过程材料的意义。\n  - 参考素材：[AIbase](https://www.aibase.com/zh/news/32251)\n  - 适合读者：经常在内容平台发布文字的读者。",
+      "body_text": "- 切入角度：了解平台算法认定 AI 内容时的解释义务，以及保留草稿、历史版本等创作过程材料的意义。\n  - 参考素材：AIbase\n  - 适合读者：经常在内容平台发布文字的读者。",
+      "source": "AIbase",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.aibase.com/zh/news/32251",
+      "links": [
+        {
+          "text": "AIbase",
+          "url": "https://www.aibase.com/zh/news/32251"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG",
+      "name": "AI 生成内容标识与误判救济",
+      "angle": "了解平台算法认定 AI 内容时的解释义务，以及保留草稿、历史版本等创作过程材料的意义。",
+      "audience": "经常在内容平台发布文字的读者。",
+      "reference_md": "[AIbase](https://www.aibase.com/zh/news/32251)"
+    },
+    {
+      "id": "2026-11-12-directions-02",
+      "title": "对比大模型订阅价格",
+      "title_md": "对比大模型订阅价格",
+      "body_md": "- 切入角度：比较 Qwen4-Max 预览版、双 11 大模型折扣与各地区官方订阅价格，留意地区规则与使用条款。\n  - 参考素材：[Qwen4](https://www.aibase.com/zh/news/32241)｜[量子位](https://www.qbitai.com/2026/11/509085.html)｜[V2EX](https://www.v2ex.com/t/1256095)\n  - 适合读者：准备购买 AI 订阅的初学者。",
+      "body_text": "- 切入角度：比较 Qwen4-Max 预览版、双 11 大模型折扣与各地区官方订阅价格，留意地区规则与使用条款。\n  - 参考素材：Qwen4｜量子位｜V2EX\n  - 适合读者：准备购买 AI 订阅的初学者。",
+      "source": "AIbase",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.aibase.com/zh/news/32241",
+      "links": [
+        {
+          "text": "Qwen4",
+          "url": "https://www.aibase.com/zh/news/32241"
+        },
+        {
+          "text": "量子位",
+          "url": "https://www.qbitai.com/2026/11/509085.html"
+        },
+        {
+          "text": "V2EX",
+          "url": "https://www.v2ex.com/t/1256095"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-11-12/2026-11-12-directions-02.jpg",
+        "width": 522,
+        "height": 322,
+        "credit": "图片来源：AIbase",
+        "source_url": "https://www.aibase.com/zh/news/32241",
+        "remote_url": "https://upload.chinaz.com/2026/1111/6392999418126963943118727.png"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "对比大模型订阅价格",
+      "angle": "比较 Qwen4-Max 预览版、双 11 大模型折扣与各地区官方订阅价格，留意地区规则与使用条款。",
+      "audience": "准备购买 AI 订阅的初学者。",
+      "reference_md": "[Qwen4](https://www.aibase.com/zh/news/32241)｜[量子位](https://www.qbitai.com/2026/11/509085.html)｜[V2EX](https://www.v2ex.com/t/1256095)"
+    },
+    {
+      "id": "2026-11-12-directions-03",
+      "title": "从生活痛点出发做小程序",
+      "title_md": "从生活痛点出发做小程序",
+      "body_md": "- 切入角度：参考懒人陪娃和下班叠叠消，了解如何把一个具体场景交给 AI 生成内容与代码。\n  - 参考素材：[懒人陪娃](https://www.v2ex.com/t/1256131)｜[下班叠叠消](https://www.v2ex.com/t/1256211)\n  - 适合读者：想用 AI 做第一个小工具的初学者。",
+      "body_text": "- 切入角度：参考懒人陪娃和下班叠叠消，了解如何把一个具体场景交给 AI 生成内容与代码。\n  - 参考素材：懒人陪娃｜下班叠叠消\n  - 适合读者：想用 AI 做第一个小工具的初学者。",
+      "source": "V2EX",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.v2ex.com/t/1256131",
+      "links": [
+        {
+          "text": "懒人陪娃",
+          "url": "https://www.v2ex.com/t/1256131"
+        },
+        {
+          "text": "下班叠叠消",
+          "url": "https://www.v2ex.com/t/1256211"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG；候选图片：人工复核：小程序码，属扫码推广图",
+      "name": "从生活痛点出发做小程序",
+      "angle": "参考懒人陪娃和下班叠叠消，了解如何把一个具体场景交给 AI 生成内容与代码。",
+      "audience": "想用 AI 做第一个小工具的初学者。",
+      "reference_md": "[懒人陪娃](https://www.v2ex.com/t/1256131)｜[下班叠叠消](https://www.v2ex.com/t/1256211)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-11-12-unverified-01",
+      "title": "无新内容或访问受限",
+      "title_md": "无新内容或访问受限：",
+      "body_md": "Hacker News 搜索接口返回 400；Claude Code、Cursor Changelog、Anthropic News 窗口内无新内容；Codex 仅有预发布版与补丁版，无更新说明；电鸭首页出现验证页，改用帖子接口核验正文与时间。",
+      "body_text": "Hacker News 搜索接口返回 400；Claude Code、Cursor Changelog、Anthropic News 窗口内无新内容；Codex 仅有预发布版与补丁版，无更新说明；电鸭首页出现验证页，改用帖子接口核验正文与时间。",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}

@@ -7,5 +7,6 @@
   "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STKB355_SPACE_X_IPO_B.jpg": "人工复核：页面推荐阅读中的其他文章图片",
   "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png": "人工复核：只有产品标志，缺少正文信息",
   "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fchangelog%2Forigin-apps-QQ9ZPw6HtXmhbhtleevXGQ5xw1ncs1.png&w=1920&q=70": "人工复核：图片属于 Changelog 页其他条目（Origin App Marketplace），与 Live Apps 不符",
-  "https://www.notion.com/front-static/meta/help-center.png": "人工复核：帮助中心通用标志图，与正文无关"
+  "https://www.notion.com/front-static/meta/help-center.png": "人工复核：帮助中心通用标志图，与正文无关",
+  "https://i.imgur.com/h3UdG4I.jpeg": "人工复核：小程序码，属扫码推广图"
 }
