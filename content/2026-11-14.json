@@ -1,0 +1,476 @@
+{
+  "date": "2026-11-14",
+  "title": "AI 日报 · 2026-11-14（周六）",
+  "window": "时间窗口：11-13 08:20 到 11-14 08:20（台北时间）。周末官方渠道更新较少，本期为短版；已与前 7 期去重，每条均核对正文与日期。",
+  "highlights": [
+    "ChatGPT Wallet 发布： Agent 可以代用户付款，每笔都需要用户确认，商家看不到真实卡号。",
+    "HTML 幻灯片转可编辑 PPTX： 开源社区出现浏览器本地运行的转换工具，可以先微调再导出。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-11-14-news-01",
+          "title": "ChatGPT Wallet 发布。",
+          "title_md": "ChatGPT Wallet 发布。",
+          "body_md": "用户每次付款前要核对商品、总价和所选的卡，再通过 Face ID 或指纹确认；支付网络生成支付令牌，商家和 Agent 都拿不到真实卡号。由 American Express、Mastercard、Visa 合作推出，先在 dots 中向美国 18 岁以上的 ChatGPT Pro 用户开放。[OpenAI](https://openai.com/index/introducing-chatgpt-wallet)（11-13）",
+          "body_text": "用户每次付款前要核对商品、总价和所选的卡，再通过 Face ID 或指纹确认；支付网络生成支付令牌，商家和 Agent 都拿不到真实卡号。由 American Express、Mastercard、Visa 合作推出，先在 dots 中向美国 18 岁以上的 ChatGPT Pro 用户开放。OpenAI（11-13）",
+          "source": "OpenAI",
+          "published": "11-13",
+          "meta": "",
+          "annotations": [
+            "11-13"
+          ],
+          "primary_url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "links": [
+            {
+              "text": "OpenAI",
+              "url": "https://openai.com/index/introducing-chatgpt-wallet"
+            }
+          ],
+          "summary": "ChatGPT Wallet 是让 AI Agent 在用户批准后代为付款的钱包。每笔购买都要用户核对并用生物识别确认，商家拿到的是支付令牌而不是真实卡号，原有的卡片权益和争议保障仍然有效。目前只在 dots 中向美国的 ChatGPT Pro 用户开放，OpenAI 同时发布了帮助商家接受 Agent 付款的指南。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "原文页面 HTTP 403"
+        },
+        {
+          "id": "2026-11-14-news-02",
+          "title": "Claude Code 辅助完成三元哥德巴赫猜想的形式化证明。",
+          "title_md": "Claude Code 辅助完成三元哥德巴赫猜想的形式化证明。",
+          "body_md": "独立开发者 Charlie Reams 写出约 19.4 万行 Lean4 代码，全部通过机器验证；据报道，过程中发现并修补了 2013 年原证明中的 11 处问题。[AIbase](https://www.aibase.com/zh/news/32317)（11-13 17:48）",
+          "body_text": "独立开发者 Charlie Reams 写出约 19.4 万行 Lean4 代码，全部通过机器验证；据报道，过程中发现并修补了 2013 年原证明中的 11 处问题。AIbase（11-13 17:48）",
+          "source": "AIbase",
+          "published": "11-13 17:48",
+          "meta": "",
+          "annotations": [
+            "11-13 17:48"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32317",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32317"
+            }
+          ],
+          "summary": "形式化证明是把数学推理写成计算机能逐步检查的代码，只要能通过检查就说明推理没有漏洞。据报道，这次借助 Claude Code 写出了约 19.4 万行 Lean4 代码，还找出原证明中的若干问题。这个案例说明编程 Agent 也能用在严谨的科研验证上，具体细节以原报道为准。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-14-news-03",
+          "title": "黄仁勋辞去英伟达总裁、CEO 及董事职务。",
+          "title_md": "黄仁勋辞去英伟达总裁、CEO 及董事职务。",
+          "body_md": "CFO Colette Kress 出任临时 CEO，董事会已开始遴选正式继任者。[量子位](https://www.qbitai.com/2026/11/509995.html)（11-13 17:02）",
+          "body_text": "CFO Colette Kress 出任临时 CEO，董事会已开始遴选正式继任者。量子位（11-13 17:02）",
+          "source": "量子位",
+          "published": "11-13 17:02",
+          "meta": "",
+          "annotations": [
+            "11-13 17:02"
+          ],
+          "primary_url": "https://www.qbitai.com/2026/11/509995.html",
+          "links": [
+            {
+              "text": "量子位",
+              "url": "https://www.qbitai.com/2026/11/509995.html"
+            }
+          ],
+          "summary": "黄仁勋 1993 年联合创办英伟达，执掌公司 33 年。公告称 CFO Colette Kress 临时接任 CEO，董事会正在遴选正式继任者，并首次设立董事会主席。英伟达表示产品路线图和 11 月 17 日的财报安排不变。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-11-14-tools-01",
+          "title": "阿里推出 AI 音乐 App「快乐虾米」",
+          "title_md": "阿里推出 AI 音乐 App「快乐虾米」：",
+          "body_md": "用户用日常语言描述情绪、故事或曲风，AI 生成歌词、作曲、编曲和演唱，支持「做同款」。国内标准会员约 30 元/月，可以生成 150 首。[AIbase](https://www.aibase.com/zh/news/32305)（11-13 15:01）",
+          "body_text": "用户用日常语言描述情绪、故事或曲风，AI 生成歌词、作曲、编曲和演唱，支持「做同款」。国内标准会员约 30 元/月，可以生成 150 首。AIbase（11-13 15:01）",
+          "source": "AIbase",
+          "published": "11-13 15:01",
+          "meta": "",
+          "annotations": [
+            "11-13 15:01"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32305",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32305"
+            }
+          ],
+          "summary": "快乐虾米是阿里推出的 AI 音乐创作 App，用户用日常语言描述想要的歌，就能得到包含歌词、编曲和人声的完整歌曲。它提供纯音乐模式，还可以「做同款」复用别人的创作思路，适合给短视频、播客或 Vlog 配乐。国内标准会员约 30 元/月，可以生成 150 首。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-14/2026-11-14-tools-01.jpg",
+            "width": 612,
+            "height": 571,
+            "credit": "图片来源：AIbase",
+            "source_url": "https://www.aibase.com/zh/news/32305",
+            "remote_url": "https://upload.chinaz.com/2026/1113/6393016630422160964842836.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-14-tools-02",
+          "title": "Codex 0.169.0",
+          "title_md": "Codex 0.169.0：",
+          "body_md": "终端工作区支持多个侧聊标签；可以在终端中添加或编辑自定义模型供应商；可以按名称、提示词或工作目录搜索旧任务。[Release](https://github.com/openai/codex/releases/tag/rust-v0.169.0)（11-13 16:39）",
+          "body_text": "终端工作区支持多个侧聊标签；可以在终端中添加或编辑自定义模型供应商；可以按名称、提示词或工作目录搜索旧任务。Release（11-13 16:39）",
+          "source": "GitHub",
+          "published": "11-13 16:39",
+          "meta": "",
+          "annotations": [
+            "11-13 16:39"
+          ],
+          "primary_url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+          "links": [
+            {
+              "text": "Release",
+              "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0"
+            }
+          ],
+          "summary": "Codex 是 OpenAI 的编程 Agent，这个正式版主要改进终端里的多任务体验：可以同时开多个侧聊标签，也能搜索以前的任务。新增的自定义模型供应商设置，方便通过网关或其他服务商接入模型。在不受信任的目录中，codex exec 默认会继续禁用项目配置，需要用 --trust 明确授权。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-14/2026-11-14-tools-02.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+            "remote_url": "https://opengraph.githubassets.com/02a97479389cf18d651dbdc5b23188e7801125d21dac1db75b043b35f474cf98/openai/codex/releases/tag/rust-v0.169.0"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-14-tools-03",
+          "title": "Claude Code v2.1.325",
+          "title_md": "Claude Code v2.1.325：",
+          "body_md": "以修复为主，涉及安全问题、子 Agent 的模型选择，以及异常退出后恢复会话。[Release](https://github.com/anthropics/claude-code/releases/tag/v2.1.325)（11-14 04:40）",
+          "body_text": "以修复为主，涉及安全问题、子 Agent 的模型选择，以及异常退出后恢复会话。Release（11-14 04:40）",
+          "source": "GitHub",
+          "published": "11-14 04:40",
+          "meta": "",
+          "annotations": [
+            "11-14 04:40"
+          ],
+          "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+          "links": [
+            {
+              "text": "Release",
+              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325"
+            }
+          ],
+          "summary": "这一版 Claude Code 没有大的新功能，主要修复稳定性和安全问题。例如组织策略拦截请求时会提示如何继续，子 Agent 使用独立模型时不再被错误切换，异常退出后恢复的会话不再丢失最近几轮对话。日常使用的用户更新即可。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-14/2026-11-14-tools-03.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+            "remote_url": "https://opengraph.githubassets.com/ca414a63fb742e07df3b58de50ceef171f71b798d2612e6065dc31ed18aad7f5/anthropics/claude-code/releases/tag/v2.1.325"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-11-14-projects-01",
+          "title": "SlideBeaver：HTML 幻灯片转 PPTX／PDF",
+          "title_md": "SlideBeaver：HTML 幻灯片转 PPTX／PDF：",
+          "body_md": "作者常用 Claude、Gemini 或 Cursor 生成单文件 HTML 幻灯片，但交付时通常需要 .pptx 或 PDF，于是做了这个在浏览器本地运行的工具，可以先局部微调再导出。[V2EX](https://www.v2ex.com/t/1256973)｜[工具](https://www.html-to-pptx.com)（11-14 00:57）",
+          "body_text": "作者常用 Claude、Gemini 或 Cursor 生成单文件 HTML 幻灯片，但交付时通常需要 .pptx 或 PDF，于是做了这个在浏览器本地运行的工具，可以先局部微调再导出。V2EX｜工具（11-14 00:57）",
+          "source": "V2EX",
+          "published": "11-14 00:57",
+          "meta": "",
+          "annotations": [
+            "11-14 00:57"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1256973",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1256973"
+            },
+            {
+              "text": "工具",
+              "url": "https://www.html-to-pptx.com"
+            }
+          ],
+          "summary": "很多人用 AI 生成网页形式的幻灯片，但交付时常常需要可编辑的 PPTX 或排版稳定的 PDF。SlideBeaver 在浏览器本地完成转换，导出前可以先改字、挪图。作者介绍了它和 Marp 导出、浏览器打印等做法的区别，适合需要把 AI 做的课件交给别人修改的场景。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG；页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-14-projects-02",
+          "title": "服装批发门店的 AI 实践",
+          "title_md": "服装批发门店的 AI 实践：",
+          "body_md": "一位没学过编程的女装批发店主，借助 AI 编程做了拍照入单、拍照识款、群内店务助理、销售录音复盘和银行流水自动对账等功能（作者自述）。他的原则是：涉及资金的操作先生成确认单，当事人确认后才执行；数据对不上时整份简报不发。[电鸭](https://eleduck.com/posts/3EfREy)（11-13 13:21）",
+          "body_text": "一位没学过编程的女装批发店主，借助 AI 编程做了拍照入单、拍照识款、群内店务助理、销售录音复盘和银行流水自动对账等功能（作者自述）。他的原则是：涉及资金的操作先生成确认单，当事人确认后才执行；数据对不上时整份简报不发。电鸭（11-13 13:21）",
+          "source": "电鸭",
+          "published": "11-13 13:21",
+          "meta": "",
+          "annotations": [
+            "作者自述",
+            "11-13 13:21"
+          ],
+          "primary_url": "https://eleduck.com/posts/3EfREy",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/3EfREy"
+            }
+          ],
+          "summary": "这是一个非技术背景的店主自述的 AI 实践，覆盖入单、识款、对账、客户跟进等日常店务。比起功能清单，更值得参考的是他的边界：涉及资金的操作先出确认单，当事人确认后才执行；数据对不上就不发报告；AI 拿不准的地方交给人复核。文中也坦白了重复登记收款这类踩坑经历。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-14-projects-03",
+          "title": "Browser Hands",
+          "title_md": "Browser Hands：",
+          "body_md": "开源的 Chrome 扩展加本地 MCP Server，让支持 MCP 的 Agent 操作用户正在使用的 Chrome，可以点击、输入、读取页面和截图。[V2EX](https://www.v2ex.com/t/1256953)（11-13 22:40）",
+          "body_text": "开源的 Chrome 扩展加本地 MCP Server，让支持 MCP 的 Agent 操作用户正在使用的 Chrome，可以点击、输入、读取页面和截图。V2EX（11-13 22:40）",
+          "source": "V2EX",
+          "published": "11-13 22:40",
+          "meta": "",
+          "annotations": [
+            "11-13 22:40"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1256953",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1256953"
+            }
+          ],
+          "summary": "Browser Hands 由一个 Chrome 扩展和一个本地 MCP 服务组成，让 Codex、Cursor 等支持 MCP 的 Agent 操作你平时用的浏览器。它不需要云端虚拟机，也不用无头浏览器，能点击、输入、读取页面和截图。因为操作的是已登录的浏览器，使用前要想清楚让 Agent 处理哪些账号和页面。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-14/2026-11-14-projects-03.jpg",
+            "width": 960,
+            "height": 580,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1256953",
+            "remote_url": "https://raw.githubusercontent.com/214140846/browser-hands/main/docs/media/demo.gif"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-11-14-cooperation-01",
+          "title": "ESP32-S3 部署求助",
+          "title_md": "ESP32-S3 部署求助：",
+          "body_md": "发帖人想用 AI 管理手机，已经购买 ESP32-S3，需要有人帮忙完成部署；帖子未写预算和细节。[电鸭](https://eleduck.com/posts/njfD3l)（11-13 19:03）",
+          "body_text": "发帖人想用 AI 管理手机，已经购买 ESP32-S3，需要有人帮忙完成部署；帖子未写预算和细节。电鸭（11-13 19:03）",
+          "source": "电鸭",
+          "published": "11-13 19:03",
+          "meta": "",
+          "annotations": [
+            "11-13 19:03"
+          ],
+          "primary_url": "https://eleduck.com/posts/njfD3l",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/njfD3l"
+            }
+          ],
+          "summary": "这条需求只有一句话：想用 ESP32-S3 开发板配合 AI 管理手机，希望有人帮忙完成部署。帖子没写具体功能、预算和时间，合作前需要先问清目标和交付范围。它反映出不少人对「让 AI 操作手机」有兴趣，但缺少动手能力。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-14-cooperation-02",
+          "title": "AI API 网关的长期兼职技术伙伴",
+          "title_md": "AI API 网关的长期兼职技术伙伴：",
+          "body_md": "项目基于 New API，招募负责平台维护、故障排查和客户接入的技术伙伴；先付费试合作，再商定固定维护费和分成。[电鸭](https://eleduck.com/posts/L5f0z7)（11-13 21:09）",
+          "body_text": "项目基于 New API，招募负责平台维护、故障排查和客户接入的技术伙伴；先付费试合作，再商定固定维护费和分成。电鸭（11-13 21:09）",
+          "source": "电鸭",
+          "published": "11-13 21:09",
+          "meta": "",
+          "annotations": [
+            "11-13 21:09"
+          ],
+          "primary_url": "https://eleduck.com/posts/L5f0z7",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/L5f0z7"
+            }
+          ],
+          "summary": "New API 是一种常见的 AI 模型接口网关，用来统一管理多个模型渠道和用户额度。发帖人负责商务和上游渠道，想找能维护平台、排查故障、协助客户接入的技术伙伴，先付费试合作，再商定维护费和分成。项目还在起步阶段，发帖人表示会如实说明客户和收入情况。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-14-cooperation-03",
+          "title": "AI 视频制作／剪辑岗位（远程）",
+          "title_md": "AI 视频制作／剪辑岗位（远程）：",
+          "body_md": "一家 AI 视频与 AI 短剧公司招聘，月薪 10K–25K，要求熟悉可灵、即梦、Runway、Veo、Sora 等工具，并有剪辑经验。[电鸭](https://eleduck.com/posts/XNfO40)（11-13 17:29）",
+          "body_text": "一家 AI 视频与 AI 短剧公司招聘，月薪 10K–25K，要求熟悉可灵、即梦、Runway、Veo、Sora 等工具，并有剪辑经验。电鸭（11-13 17:29）",
+          "source": "电鸭",
+          "published": "11-13 17:29",
+          "meta": "",
+          "annotations": [
+            "远程",
+            "11-13 17:29"
+          ],
+          "primary_url": "https://eleduck.com/posts/XNfO40",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/XNfO40"
+            }
+          ],
+          "summary": "这是一家 AI 视频和 AI 短剧公司的远程岗位，要求能从创意到成片独立完成，既要会可灵、即梦、Runway 等 AI 视频工具，也要会传统剪辑。薪资范围 10K–25K，有作品集的人优先。这说明 AI 视频岗位在工具能力之外，同样看重剪辑节奏和审美。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-11-14-directions-01",
+      "title": "把 AI 生成的 HTML 幻灯片交付成 PPTX",
+      "title_md": "把 AI 生成的 HTML 幻灯片交付成 PPTX",
+      "body_md": "- 切入角度：比较 HTML 幻灯片和传统 PPT 模板生成的区别，了解导出成可编辑格式时要注意什么。\n  - 参考素材：[V2EX](https://www.v2ex.com/t/1256973)｜[工具](https://www.html-to-pptx.com)\n  - 适合读者：需要做汇报、课件的 AI 办公初学者。",
+      "body_text": "- 切入角度：比较 HTML 幻灯片和传统 PPT 模板生成的区别，了解导出成可编辑格式时要注意什么。\n  - 参考素材：V2EX｜工具\n  - 适合读者：需要做汇报、课件的 AI 办公初学者。",
+      "source": "V2EX",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.v2ex.com/t/1256973",
+      "links": [
+        {
+          "text": "V2EX",
+          "url": "https://www.v2ex.com/t/1256973"
+        },
+        {
+          "text": "工具",
+          "url": "https://www.html-to-pptx.com"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG；页面未提供可引用的文章主图",
+      "name": "把 AI 生成的 HTML 幻灯片交付成 PPTX",
+      "angle": "比较 HTML 幻灯片和传统 PPT 模板生成的区别，了解导出成可编辑格式时要注意什么。",
+      "audience": "需要做汇报、课件的 AI 办公初学者。",
+      "reference_md": "[V2EX](https://www.v2ex.com/t/1256973)｜[工具](https://www.html-to-pptx.com)"
+    },
+    {
+      "id": "2026-11-14-directions-02",
+      "title": "小门店引入 AI 时该守住的规矩",
+      "title_md": "小门店引入 AI 时该守住的规矩",
+      "body_md": "- 切入角度：从服装批发店的案例看，涉及资金的操作要人工确认，数据要校验。\n  - 参考素材：[电鸭](https://eleduck.com/posts/3EfREy)\n  - 适合读者：想用 AI 提升门店效率的店主和初学者。",
+      "body_text": "- 切入角度：从服装批发店的案例看，涉及资金的操作要人工确认，数据要校验。\n  - 参考素材：电鸭\n  - 适合读者：想用 AI 提升门店效率的店主和初学者。",
+      "source": "电鸭",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://eleduck.com/posts/3EfREy",
+      "links": [
+        {
+          "text": "电鸭",
+          "url": "https://eleduck.com/posts/3EfREy"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "页面未提供可引用的文章主图",
+      "name": "小门店引入 AI 时该守住的规矩",
+      "angle": "从服装批发店的案例看，涉及资金的操作要人工确认，数据要校验。",
+      "audience": "想用 AI 提升门店效率的店主和初学者。",
+      "reference_md": "[电鸭](https://eleduck.com/posts/3EfREy)"
+    },
+    {
+      "id": "2026-11-14-directions-03",
+      "title": "Agent 代付款怎样保护用户",
+      "title_md": "Agent 代付款怎样保护用户",
+      "body_md": "- 切入角度：逐笔确认、支付令牌、生物识别这三层保护分别管什么。\n  - 参考素材：[OpenAI](https://openai.com/index/introducing-chatgpt-wallet)\n  - 适合读者：关心 AI 购物安全的普通用户。",
+      "body_text": "- 切入角度：逐笔确认、支付令牌、生物识别这三层保护分别管什么。\n  - 参考素材：OpenAI\n  - 适合读者：关心 AI 购物安全的普通用户。",
+      "source": "OpenAI",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "links": [
+        {
+          "text": "OpenAI",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "failed",
+      "image_note": "原文页面 HTTP 403",
+      "name": "Agent 代付款怎样保护用户",
+      "angle": "逐笔确认、支付令牌、生物识别这三层保护分别管什么。",
+      "audience": "关心 AI 购物安全的普通用户。",
+      "reference_md": "[OpenAI](https://openai.com/index/introducing-chatgpt-wallet)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-11-14-unverified-01",
+      "title": "无新内容或被拦截",
+      "title_md": "无新内容或被拦截：",
+      "body_md": "Cursor Changelog 最新一条为 11-06；Anthropic News、Google AI Blog 窗口内无新内容；Product Hunt 产品页被 Cloudflare 拦截；OpenAI 文章页改用网页读取核验。",
+      "body_text": "Cursor Changelog 最新一条为 11-06；Anthropic News、Google AI Blog 窗口内无新内容；Product Hunt 产品页被 Cloudflare 拦截；OpenAI 文章页改用网页读取核验。",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}
