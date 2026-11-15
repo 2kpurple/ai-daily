@@ -1,0 +1,403 @@
+{
+  "date": "2026-11-15",
+  "title": "AI 日报 · 2026-11-15（周日）",
+  "window": "时间窗口：11-14 08:00 到 11-15 08:15（台北时间）。周末官方渠道更新较少，本期为短版；已与前 7 期去重，每条均核对正文与日期。",
+  "highlights": [
+    "DeepSeek 开放全家桶应用 API： 联网搜索、文件、语音识别与合成等能力均可单独调用、分别计费。",
+    "一张图拆成可编辑图层： 社区出现能把平面图拆成透明图层并导出 PSD 的在线工具。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-11-15-news-01",
+          "title": "DeepSeek 开放全家桶应用 API。",
+          "title_md": "DeepSeek 开放全家桶应用 API。",
+          "body_md": "联网搜索、深度思考搜索、文件上传、链接阅读，以及首次开放的语音识别和语音合成，都提供独立接口，可以单独调用、分别计费。语音识别五折后为 0.39 元/小时，语音合成为 1.5 元/万字符，Search/Fetch 每千次成功调用 5 元，OCR 每千页 1.5 元；官方同时开源了一个可导入历史对话的轻量聊天前端 Demo。[量子位](https://www.qbitai.com/2026/11/510003.html)（11-14 10:39）",
+          "body_text": "联网搜索、深度思考搜索、文件上传、链接阅读，以及首次开放的语音识别和语音合成，都提供独立接口，可以单独调用、分别计费。语音识别五折后为 0.39 元/小时，语音合成为 1.5 元/万字符，Search/Fetch 每千次成功调用 5 元，OCR 每千页 1.5 元；官方同时开源了一个可导入历史对话的轻量聊天前端 Demo。量子位（11-14 10:39）",
+          "source": "量子位",
+          "published": "11-14 10:39",
+          "meta": "",
+          "annotations": [
+            "11-14 10:39"
+          ],
+          "primary_url": "https://www.qbitai.com/2026/11/510003.html",
+          "links": [
+            {
+              "text": "量子位",
+              "url": "https://www.qbitai.com/2026/11/510003.html"
+            }
+          ],
+          "summary": "DeepSeek 把自家 App 背后的联网搜索、文件解析、语音识别与合成等能力拆成独立接口开放给开发者，可以按需组合、分别计费。语音识别五折后每小时 0.39 元，适合做会议记录、语音助手、文档处理类应用。按量付费的接口仍需关注调用量和成本，复刻 App 需要开发者自行搭建前端。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-15-news-02",
+          "title": "千问 App「健康档案」接入动态血糖仪。",
+          "title_md": "千问 App「健康档案」接入动态血糖仪。",
+          "body_md": "用户授权后可同步血糖数据，千问结合饮食、运动、作息等情况解读血糖变化。[AIbase](https://www.aibase.com/zh/news/32323)（11-14）",
+          "body_text": "用户授权后可同步血糖数据，千问结合饮食、运动、作息等情况解读血糖变化。AIbase（11-14）",
+          "source": "AIbase",
+          "published": "11-14",
+          "meta": "",
+          "annotations": [
+            "11-14"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32323",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32323"
+            }
+          ],
+          "summary": "千问 App 的「健康档案」新增动态血糖仪接入，授权后可以同步血糖曲线，并结合用户的饮食、运动和作息给出解读。这是大模型助手连接个人健康设备的一个例子。相关解读属于健康建议，不能代替医生诊断。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-15/2026-11-15-news-02.jpg",
+            "width": 329,
+            "height": 330,
+            "credit": "图片来源：AIbase",
+            "source_url": "https://www.aibase.com/zh/news/32323",
+            "remote_url": "https://upload.chinaz.com/2026/1114/6393026418147003977352040.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-11-15-tools-01",
+          "title": "LayerSplit：一张图拆成透明图层并导出 PSD",
+          "title_md": "LayerSplit：一张图拆成透明图层并导出 PSD：",
+          "body_md": "上传平面图片后，每个元素拆成带名称的透明图层，被遮挡部分和背景会尽量补全；可以导出单层 PNG、ZIP 或分层 PSD。目前只有英文界面，首次免费（作者自述）。[V2EX](https://www.v2ex.com/t/1257020)｜[工具](https://layersplit.com/)（11-14 12:55）",
+          "body_text": "上传平面图片后，每个元素拆成带名称的透明图层，被遮挡部分和背景会尽量补全；可以导出单层 PNG、ZIP 或分层 PSD。目前只有英文界面，首次免费（作者自述）。V2EX｜工具（11-14 12:55）",
+          "source": "V2EX",
+          "published": "11-14 12:55",
+          "meta": "",
+          "annotations": [
+            "作者自述",
+            "11-14 12:55"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1257020",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1257020"
+            },
+            {
+              "text": "工具",
+              "url": "https://layersplit.com/"
+            }
+          ],
+          "summary": "LayerSplit 能把一张导出的海报或 banner 拆成单独命名的透明图层，被挡住的部分和背景会尽量补全。适合源文件丢失、只想替换其中一个元素或一行字的情况，可以导出 PSD 后在 Photoshop、Photopea 中继续编辑。目前只有英文界面，补全效果需结合具体图片检验。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-15/2026-11-15-tools-01.jpg",
+            "width": 1200,
+            "height": 675,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1257020",
+            "remote_url": "https://layersplit.com/samples/sneaker/original.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-15-tools-02",
+          "title": "照片对口型说唱短片工具",
+          "title_md": "照片对口型说唱短片工具：",
+          "body_md": "上传一张照片并写一句主题，自动生成歌词、伴奏和人声，让照片中的角色对口型演唱 5–15 秒；作者称口型部分使用 Seedance 2.0 系列模型。[V2EX](https://www.v2ex.com/t/1257110)｜[网站](https://rapvideo-ai.io)（11-14 22:10）",
+          "body_text": "上传一张照片并写一句主题，自动生成歌词、伴奏和人声，让照片中的角色对口型演唱 5–15 秒；作者称口型部分使用 Seedance 2.0 系列模型。V2EX｜网站（11-14 22:10）",
+          "source": "V2EX",
+          "published": "11-14 22:10",
+          "meta": "",
+          "annotations": [
+            "11-14 22:10"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1257110",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1257110"
+            },
+            {
+              "text": "网站",
+              "url": "https://rapvideo-ai.io"
+            }
+          ],
+          "summary": "这个网站把歌词生成、伴奏、人声和视频对口型串成一条流程，上传一张照片并写一句主题即可生成 5–15 秒的说唱短片。作者提到歌词节奏和口型对齐仍是难点，生成结果可能出现偏差。注册赠送的积分可以试做一条短片。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-15/2026-11-15-tools-02.jpg",
+            "width": 1200,
+            "height": 589,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1257110",
+            "remote_url": "https://i.imgur.com/SZKQrNp.jpeg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-11-15-projects-01",
+          "title": "Lucky Step：陪孩子玩大富翁时做的随机数 App",
+          "title_md": "Lucky Step：陪孩子玩大富翁时做的随机数 App：",
+          "body_md": "提供数字滚动、幸运转盘、翻牌三种动画，免费、离线可用；作者称这是第一款独立上架的 iOS App，用 React Native、Expo 和 Codex 开发。[V2EX](https://www.v2ex.com/t/1257089)（11-14 19:49）",
+          "body_text": "提供数字滚动、幸运转盘、翻牌三种动画，免费、离线可用；作者称这是第一款独立上架的 iOS App，用 React Native、Expo 和 Codex 开发。V2EX（11-14 19:49）",
+          "source": "V2EX",
+          "published": "11-14 19:49",
+          "meta": "",
+          "annotations": [
+            "11-14 19:49"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1257089",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1257089"
+            }
+          ],
+          "summary": "一位家长为陪孩子玩大富翁做了一个带动画的随机数 App，也能用于聚会游戏、随机选人等场景。作者称这是他第一款独立上架的 iOS App，使用 React Native、Expo 和 Codex 开发。这个案例展示了从身边小需求出发做出一款完整应用的过程。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-15/2026-11-15-projects-01.jpg",
+            "width": 552,
+            "height": 1200,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1257089",
+            "remote_url": "https://assets.muzhistudy.com/guide/lucky-step-iphone-rolling-zh-cn.webp"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-15-projects-02",
+          "title": "通宵运行的 Agent 任务被系统更新中断",
+          "title_md": "通宵运行的 Agent 任务被系统更新中断：",
+          "body_md": "发帖人睡前安排了一整晚的 Agent 自动任务，醒来发现 Windows 自动更新重启了电脑，帖子引发 31 条讨论。[V2EX](https://www.v2ex.com/t/1257008)（11-14 11:02）",
+          "body_text": "发帖人睡前安排了一整晚的 Agent 自动任务，醒来发现 Windows 自动更新重启了电脑，帖子引发 31 条讨论。V2EX（11-14 11:02）",
+          "source": "V2EX",
+          "published": "11-14 11:02",
+          "meta": "",
+          "annotations": [
+            "11-14 11:02"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1257008",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1257008"
+            }
+          ],
+          "summary": "发帖人让 Agent 整夜自动执行任务，结果被 Windows 自动更新重启打断。这类长时间任务除了模型本身，还依赖电脑的更新、休眠和断电设置。准备让 Agent 无人值守运行时，可以先检查这些系统设置并保留可恢复的进度。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-15-projects-03",
+          "title": "GitHub Trending 今日榜",
+          "title_md": "GitHub Trending 今日榜：",
+          "body_md": "以下是本期项目及单日新增星数。\n  - [claude-trading-skills](https://github.com/tradermonty/claude-trading-skills)（+553）：面向股票投资者的 Claude Code skills。\n  - [univer](https://github.com/dream-num/univer)（+495）：可用于自建 AI 办公应用的 Office SDK。\n  - [plannotator](https://github.com/backnotprop/plannotator)（+408）：对 Agent 的计划进行批注和审阅。",
+          "body_text": "以下是本期项目及单日新增星数。\n  - claude-trading-skills（+553）：面向股票投资者的 Claude Code skills。\n  - univer（+495）：可用于自建 AI 办公应用的 Office SDK。\n  - plannotator（+408）：对 Agent 的计划进行批注和审阅。",
+          "source": "GitHub",
+          "published": "",
+          "meta": "+553；+495；+408",
+          "annotations": [
+            "+553",
+            "+495",
+            "+408"
+          ],
+          "primary_url": "https://github.com/tradermonty/claude-trading-skills",
+          "links": [
+            {
+              "text": "claude-trading-skills",
+              "url": "https://github.com/tradermonty/claude-trading-skills"
+            },
+            {
+              "text": "univer",
+              "url": "https://github.com/dream-num/univer"
+            },
+            {
+              "text": "plannotator",
+              "url": "https://github.com/backnotprop/plannotator"
+            }
+          ],
+          "summary": "本期 GitHub Trending 中有三个与 AI 相关的项目：面向股票投资者的 Claude Code skills、可用于搭建 AI 办公应用的 Office SDK，以及对 Agent 计划进行批注审阅的工具。星数是当日新增，反映短期关注度，不代表项目成熟度。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-15/2026-11-15-projects-03.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/tradermonty/claude-trading-skills",
+            "remote_url": "https://opengraph.githubassets.com/9c53cb05caf33f04662a25412f61e2e68b0a1fd8079bdaada43a278f882f8c6d/tradermonty/claude-trading-skills"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-11-15-cooperation-01",
+          "title": "新能源服务公司的企业管理系统开发",
+          "title_md": "新能源服务公司的企业管理系统开发：",
+          "body_md": "一家澳大利亚风电运维公司招募全栈开发者，从零开发涵盖人事、资质证书、资产、工单、工时审批、HSE、库存成本和数据看板的管理平台，要求熟悉 React、Next.js、TypeScript、PostgreSQL 及 AI 辅助开发工具；帖子未写预算。[电鸭](https://eleduck.com/posts/4lfRY3)（11-14 12:39）",
+          "body_text": "一家澳大利亚风电运维公司招募全栈开发者，从零开发涵盖人事、资质证书、资产、工单、工时审批、HSE、库存成本和数据看板的管理平台，要求熟悉 React、Next.js、TypeScript、PostgreSQL 及 AI 辅助开发工具；帖子未写预算。电鸭（11-14 12:39）",
+          "source": "电鸭",
+          "published": "11-14 12:39",
+          "meta": "",
+          "annotations": [
+            "11-14 12:39"
+          ],
+          "primary_url": "https://eleduck.com/posts/4lfRY3",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/4lfRY3"
+            }
+          ],
+          "summary": "一家澳大利亚风电运维公司计划从零开发覆盖人事、资质、资产、工单、工时和安全管理的企业平台，并明确要求熟悉 AI 辅助开发工具。帖子未写预算，项目范围较大，更接近长期合作。可以从中了解传统行业对 AI 辅助开发管理系统的实际需求。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-11-15-directions-01",
+      "title": "DeepSeek 开放的应用能力能做什么",
+      "title_md": "DeepSeek 开放的应用能力能做什么",
+      "body_md": "- 切入角度：把联网搜索、文件解析、语音识别与合成对应到会议记录、语音助手、文档处理等常见场景，并对照价格。\n  - 参考素材：[量子位](https://www.qbitai.com/2026/11/510003.html)\n  - 适合读者：想了解 AI 接口能力的初学者。",
+      "body_text": "- 切入角度：把联网搜索、文件解析、语音识别与合成对应到会议记录、语音助手、文档处理等常见场景，并对照价格。\n  - 参考素材：量子位\n  - 适合读者：想了解 AI 接口能力的初学者。",
+      "source": "量子位",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.qbitai.com/2026/11/510003.html",
+      "links": [
+        {
+          "text": "量子位",
+          "url": "https://www.qbitai.com/2026/11/510003.html"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG",
+      "name": "DeepSeek 开放的应用能力能做什么",
+      "angle": "把联网搜索、文件解析、语音识别与合成对应到会议记录、语音助手、文档处理等常见场景，并对照价格。",
+      "audience": "想了解 AI 接口能力的初学者。",
+      "reference_md": "[量子位](https://www.qbitai.com/2026/11/510003.html)"
+    },
+    {
+      "id": "2026-11-15-directions-02",
+      "title": "没有源文件时如何修改海报",
+      "title_md": "没有源文件时如何修改海报",
+      "body_md": "- 切入角度：用图层拆分工具处理一张电商 banner，观察被遮挡部分的补全效果和导出格式。\n  - 参考素材：[V2EX](https://www.v2ex.com/t/1257020)｜[工具](https://layersplit.com/)\n  - 适合读者：需要改图但不熟悉设计软件的办公人群。",
+      "body_text": "- 切入角度：用图层拆分工具处理一张电商 banner，观察被遮挡部分的补全效果和导出格式。\n  - 参考素材：V2EX｜工具\n  - 适合读者：需要改图但不熟悉设计软件的办公人群。",
+      "source": "V2EX",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.v2ex.com/t/1257020",
+      "links": [
+        {
+          "text": "V2EX",
+          "url": "https://www.v2ex.com/t/1257020"
+        },
+        {
+          "text": "工具",
+          "url": "https://layersplit.com/"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-11-15/2026-11-15-directions-02.jpg",
+        "width": 1200,
+        "height": 675,
+        "credit": "图片来源：V2EX",
+        "source_url": "https://www.v2ex.com/t/1257020",
+        "remote_url": "https://layersplit.com/samples/sneaker/original.jpg"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "没有源文件时如何修改海报",
+      "angle": "用图层拆分工具处理一张电商 banner，观察被遮挡部分的补全效果和导出格式。",
+      "audience": "需要改图但不熟悉设计软件的办公人群。",
+      "reference_md": "[V2EX](https://www.v2ex.com/t/1257020)｜[工具](https://layersplit.com/)"
+    },
+    {
+      "id": "2026-11-15-directions-03",
+      "title": "让 Agent 通宵运行前要检查什么",
+      "title_md": "让 Agent 通宵运行前要检查什么",
+      "body_md": "- 切入角度：从系统更新导致任务中断的案例出发，梳理更新、休眠和断点恢复等设置。\n  - 参考素材：[V2EX](https://www.v2ex.com/t/1257008)\n  - 适合读者：开始尝试长时间运行 Agent 任务的初学者。",
+      "body_text": "- 切入角度：从系统更新导致任务中断的案例出发，梳理更新、休眠和断点恢复等设置。\n  - 参考素材：V2EX\n  - 适合读者：开始尝试长时间运行 Agent 任务的初学者。",
+      "source": "V2EX",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.v2ex.com/t/1257008",
+      "links": [
+        {
+          "text": "V2EX",
+          "url": "https://www.v2ex.com/t/1257008"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG",
+      "name": "让 Agent 通宵运行前要检查什么",
+      "angle": "从系统更新导致任务中断的案例出发，梳理更新、休眠和断点恢复等设置。",
+      "audience": "开始尝试长时间运行 Agent 任务的初学者。",
+      "reference_md": "[V2EX](https://www.v2ex.com/t/1257008)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-11-15-unverified-01",
+      "title": "无新内容",
+      "title_md": "无新内容：",
+      "body_md": "Cursor Changelog 最新一条为 11-06；Anthropic News、OpenAI、Google AI Blog、Ben's Bites 窗口内无新内容；HN 过滤订阅只有 1 条旧内容；AI工具集未找到 11-14/15 的快讯。",
+      "body_text": "Cursor Changelog 最新一条为 11-06；Anthropic News、OpenAI、Google AI Blog、Ben's Bites 窗口内无新内容；HN 过滤订阅只有 1 条旧内容；AI工具集未找到 11-14/15 的快讯。",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}
