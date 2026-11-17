@@ -1,0 +1,584 @@
+{
+  "date": "2026-11-17",
+  "title": "AI 日报 · 2026-11-17（周二）",
+  "window": "时间窗口：11-16 08:00 到 11-17 08:10（台北时间）。已与前 7 期去重，每条均核对正文与日期。",
+  "highlights": [
+    "豆包工作上线 21 个「工作台」： 按教师、写作、新媒体创作、数据分析等方向预置技能与工具，选好方向即可开始使用。",
+    "AI 虚拟演员「方桃子」因美瞳广告被罚 6.82 万余元： 监管部门认定虚拟人不具备真实使用体验，相关表述属于虚构使用效果。",
+    "国产模型发布与降价： Qwen4-Max 正式发布；腾讯混元 Hy4 flash 在 WorkBuddy 限时免费至 11-30。"
+  ],
+  "sections": [
+    {
+      "id": "news",
+      "name": "今日要闻",
+      "items": [
+        {
+          "id": "2026-11-17-news-01",
+          "title": "阿里发布 Qwen4-Max。",
+          "title_md": "阿里发布 Qwen4-Max。",
+          "body_md": "新一代基座模型，总参数 2.4T、激活 71B，具备原生视觉能力，支持百万上下文。千问 AI 平台 API 缓存命中每百万 Tokens 低至 0.5 元，官方称单任务平均费用较上代降低 58%；也可在阿里 Token Plan、千问办公、Qoder、千问 APP 中使用，中小尺寸模型将陆续开源。文章为阿里供稿。[量子位](https://www.qbitai.com/2026/11/510486.html)（11-16 15:51）",
+          "body_text": "新一代基座模型，总参数 2.4T、激活 71B，具备原生视觉能力，支持百万上下文。千问 AI 平台 API 缓存命中每百万 Tokens 低至 0.5 元，官方称单任务平均费用较上代降低 58%；也可在阿里 Token Plan、千问办公、Qoder、千问 APP 中使用，中小尺寸模型将陆续开源。文章为阿里供稿。量子位（11-16 15:51）",
+          "source": "量子位",
+          "published": "11-16 15:51",
+          "meta": "",
+          "annotations": [
+            "11-16 15:51"
+          ],
+          "primary_url": "https://www.qbitai.com/2026/11/510486.html",
+          "links": [
+            {
+              "text": "量子位",
+              "url": "https://www.qbitai.com/2026/11/510486.html"
+            }
+          ],
+          "summary": "Qwen4-Max 是阿里新一代旗舰基座模型，这次的重点是用更少的 Token 完成同样的任务，从而降低单次任务的花费。普通用户可以直接在千问 APP、千问办公中体验，开发者可通过千问 AI 平台 API 或 Token Plan 调用。文中的评测排名和费用降幅均来自阿里供稿，实际效果建议结合自己的任务测试。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-17/2026-11-17-news-01.jpg",
+            "width": 1031,
+            "height": 1031,
+            "credit": "图片来源：量子位",
+            "source_url": "https://www.qbitai.com/2026/11/510486.html",
+            "remote_url": "https://i.qbitai.com/wp-content/uploads/2026/11/a1c609ed60a229a5b5d8208396680798.jpeg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-17-news-02",
+          "title": "腾讯混元发布 Hy4 flash。",
+          "title_md": "腾讯混元发布 Hy4 flash。",
+          "body_md": "定位日常办公的高性价比模型，已在 WorkBuddy、元宝、企业微信、QQ、ima 等产品上线；11-30 前可在 WorkBuddy 限时免费使用，腾讯云 TokenHub API 限时 5 折。官方建议搜索、文档处理、PPT 生成等日常任务使用该模型，长程软件工程任务仍使用 Hy4。[AIbase](https://www.aibase.com/zh/news/32335)（11-16 17:12）",
+          "body_text": "定位日常办公的高性价比模型，已在 WorkBuddy、元宝、企业微信、QQ、ima 等产品上线；11-30 前可在 WorkBuddy 限时免费使用，腾讯云 TokenHub API 限时 5 折。官方建议搜索、文档处理、PPT 生成等日常任务使用该模型，长程软件工程任务仍使用 Hy4。AIbase（11-16 17:12）",
+          "source": "AIbase",
+          "published": "11-16 17:12",
+          "meta": "",
+          "annotations": [
+            "11-16 17:12"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32335",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32335"
+            }
+          ],
+          "summary": "Hy4 flash 是腾讯混元面向日常办公的低成本模型，适合搜索、文档处理、PPT 生成这类常规任务。11 月 30 日前在 WorkBuddy 可以限时免费试用，适合想低成本体验国产模型的读者。官方也提示，长时间的复杂编程任务仍建议使用能力更强的 Hy4。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-17/2026-11-17-news-02.jpg",
+            "width": 632,
+            "height": 372,
+            "credit": "图片来源：AIbase",
+            "source_url": "https://www.aibase.com/zh/news/32335",
+            "remote_url": "https://upload.chinaz.com/2026/1116/6393043390185166507786446.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-17-news-03",
+          "title": "DeepSeek App 与网页版收紧长对话使用。",
+          "title_md": "DeepSeek App 与网页版收紧长对话使用。",
+          "body_md": "超过 7 天未活跃的长对话不再保留，单次输入上限降至约 4 万字，并新增每日对话额度，达到上限时提示「因服务器繁忙，使用额度已达上限」。AIbase 援引用户反馈称与算力压力有关，并非官方公告。[AIbase](https://www.aibase.com/zh/news/32337)（11-16 17:19）",
+          "body_text": "超过 7 天未活跃的长对话不再保留，单次输入上限降至约 4 万字，并新增每日对话额度，达到上限时提示「因服务器繁忙，使用额度已达上限」。AIbase 援引用户反馈称与算力压力有关，并非官方公告。AIbase（11-16 17:19）",
+          "source": "AIbase",
+          "published": "11-16 17:19",
+          "meta": "",
+          "annotations": [
+            "11-16 17:19"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32337",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32337"
+            }
+          ],
+          "summary": "DeepSeek 免费版的长对话、单次输入长度和每日额度都出现了新限制，经常把长文档一次性丢给它的用户会最先感受到。目前信息来自 AIbase 援引的用户反馈，并非官方公告，具体规则可能继续调整。重要的长对话内容建议及时自行保存。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG；候选图片：图片过小（469×283）"
+        },
+        {
+          "id": "2026-11-17-news-04",
+          "title": "AI 虚拟演员「方桃子」首条商业合作被罚 6.82 万余元。",
+          "title_md": "AI 虚拟演员「方桃子」首条商业合作被罚 6.82 万余元。",
+          "body_md": "运营公司通过该虚拟人账号推广美瞳，视频中出现「戴了一天都很舒服」等表述；广州市番禺区市场监督管理局认定虚拟人不具备真实使用体验，构成虚构产品使用效果。涉事美瞳属于第三类医疗器械，该公司也未取得广告审查证明。该账号出道 30 天粉丝超过 40 万，曾公布视频报价 16.8 万至 25.8 万元。[AIbase](https://www.aibase.com/zh/news/32339)（11-16 17:12）",
+          "body_text": "运营公司通过该虚拟人账号推广美瞳，视频中出现「戴了一天都很舒服」等表述；广州市番禺区市场监督管理局认定虚拟人不具备真实使用体验，构成虚构产品使用效果。涉事美瞳属于第三类医疗器械，该公司也未取得广告审查证明。该账号出道 30 天粉丝超过 40 万，曾公布视频报价 16.8 万至 25.8 万元。AIbase（11-16 17:12）",
+          "source": "AIbase",
+          "published": "11-16 17:12",
+          "meta": "",
+          "annotations": [
+            "11-16 17:12"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32339",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32339"
+            }
+          ],
+          "summary": "这起处罚说明，用 AI 生成的虚拟人做推广，同样要遵守广告法。监管部门的认定逻辑是：虚拟人没有真实使用体验，因此不能描述「戴着舒服」之类的使用感受；医疗器械等特殊商品还需要先取得广告审查证明。正在用数字人制作宣传内容的个人和团队值得了解这个边界。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        },
+        {
+          "id": "2026-11-17-news-05",
+          "title": "OpenAI 扩大 ChatGPT for Academic Researchers 计划。",
+          "title_md": "OpenAI 扩大 ChatGPT for Academic Researchers 计划。",
+          "body_md": "向全球 20 万名研究者免费提供前沿模型使用权限。[OpenAI](https://openai.com/index/expanding-chatgpt-for-academic-researchers)（11-17 01:00）",
+          "body_text": "向全球 20 万名研究者免费提供前沿模型使用权限。OpenAI（11-17 01:00）",
+          "source": "OpenAI",
+          "published": "11-17 01:00",
+          "meta": "",
+          "annotations": [
+            "11-17 01:00"
+          ],
+          "primary_url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "links": [
+            {
+              "text": "OpenAI",
+              "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+            }
+          ],
+          "summary": "OpenAI 把面向学术研究者的免费计划扩大到全球 20 万人，覆盖其前沿模型。对高校和科研机构的研究人员来说，这是一个降低使用门槛的机会。申请条件与具体权益以 OpenAI 官方页面为准。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "原文页面 HTTP 403"
+        },
+        {
+          "id": "2026-11-17-news-06",
+          "title": "Gemini 可连接 Google Wallet。",
+          "title_md": "Gemini 可连接 Google Wallet。",
+          "body_md": "美国所有 Gemini 用户可通过 Personal Intelligence 连接 Google Wallet，让 AI 分析交易记录，回答支出、预算、订阅和储蓄相关问题。[AIbase](https://www.aibase.com/zh/news/32329)（11-16 09:20）",
+          "body_text": "美国所有 Gemini 用户可通过 Personal Intelligence 连接 Google Wallet，让 AI 分析交易记录，回答支出、预算、订阅和储蓄相关问题。AIbase（11-16 09:20）",
+          "source": "AIbase",
+          "published": "11-16 09:20",
+          "meta": "",
+          "annotations": [
+            "11-16 09:20"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32329",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32329"
+            }
+          ],
+          "summary": "Gemini 现在可以读取连接到 Google Wallet 的银行卡和交易记录，帮用户分析消费、找出订阅扣费、制定预算。这是 AI 助手进入个人财务管理的一个例子，目前仅面向美国用户。连接金融账户前，应先了解数据授权范围和隐私设置。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "工具与更新",
+      "items": [
+        {
+          "id": "2026-11-17-tools-01",
+          "title": "豆包工作「工作台」：按职业预置的 AI 空间",
+          "title_md": "豆包工作「工作台」：按职业预置的 AI 空间：",
+          "body_md": "首批 21 款，覆盖金融投研、医生、教师、写作、新媒体创作、数据分析、法律事务、出行规划等；进入「工作台」页面选择方向后点击「使用」即可，也可「创建」自定义工作台并分享。教师工作台可依据课题和教材生成教案课件；医生工作台官方注明仅用于医学科研辅助，不能替代执业医师判断。[AIbase](https://www.aibase.com/zh/news/32336)（11-16 17:12）",
+          "body_text": "首批 21 款，覆盖金融投研、医生、教师、写作、新媒体创作、数据分析、法律事务、出行规划等；进入「工作台」页面选择方向后点击「使用」即可，也可「创建」自定义工作台并分享。教师工作台可依据课题和教材生成教案课件；医生工作台官方注明仅用于医学科研辅助，不能替代执业医师判断。AIbase（11-16 17:12）",
+          "source": "AIbase",
+          "published": "11-16 17:12",
+          "meta": "",
+          "annotations": [
+            "11-16 17:12"
+          ],
+          "primary_url": "https://www.aibase.com/zh/news/32336",
+          "links": [
+            {
+              "text": "AIbase",
+              "url": "https://www.aibase.com/zh/news/32336"
+            }
+          ],
+          "summary": "工作台把常用的 AI 技能和工具按职业打包好，用户不需要自己写提示词或挑选插件，选好方向就能开始任务。适合老师备课、写作者整理稿件、做数据分析等日常办公场景。医疗、金融等专业场景的输出只能作为参考，不能替代专业判断。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-17/2026-11-17-tools-01.jpg",
+            "width": 654,
+            "height": 611,
+            "credit": "图片来源：AIbase",
+            "source_url": "https://www.aibase.com/zh/news/32336",
+            "remote_url": "https://upload.chinaz.com/2026/1116/6393043429328061324879475.jpg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-17-tools-02",
+          "title": "EditablePPT：把生成的幻灯片图片转为可编辑 PPT",
+          "title_md": "EditablePPT：把生成的幻灯片图片转为可编辑 PPT：",
+          "body_md": "作者因 Canva、WPS 转换时出现中文乱码、艺术字和底图色块问题而开发，称约 3 分钟完成转换并保留艺术字，针对中文段落做了优化，提供免费试用积分。[V2EX](https://www.v2ex.com/t/1257556)｜[网站](https://editableppt.com/)（11-17 00:23）",
+          "body_text": "作者因 Canva、WPS 转换时出现中文乱码、艺术字和底图色块问题而开发，称约 3 分钟完成转换并保留艺术字，针对中文段落做了优化，提供免费试用积分。V2EX｜网站（11-17 00:23）",
+          "source": "V2EX",
+          "published": "11-17 00:23",
+          "meta": "",
+          "annotations": [
+            "11-17 00:23"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1257556",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1257556"
+            },
+            {
+              "text": "网站",
+              "url": "https://editableppt.com/"
+            }
+          ],
+          "summary": "AI 生成的幻灯片常常是一整张图片，文字改不了，这个工具尝试把图片拆成可编辑的文字、图片和背景图层，再导出为 PPT。适合用 AI 出了好看的版式、但还需要逐字修改的场景。转换效果和精度为作者自述，提供免费试用积分，可以先拿自己的文件测试。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-17/2026-11-17-tools-02.jpg",
+            "width": 1200,
+            "height": 623,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1257556",
+            "remote_url": "https://i.imgur.com/rQXNnHZ.jpeg"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-17-tools-03",
+          "title": "Claude Code v2.1.326",
+          "title_md": "Claude Code v2.1.326：",
+          "body_md": "开启 agent teams 时也可使用 Code Mode，并修复多项权限提示与设置文件问题。[Release](https://github.com/anthropics/claude-code/releases/tag/v2.1.326)（11-17 06:11）",
+          "body_text": "开启 agent teams 时也可使用 Code Mode，并修复多项权限提示与设置文件问题。Release（11-17 06:11）",
+          "source": "GitHub",
+          "published": "11-17 06:11",
+          "meta": "",
+          "annotations": [
+            "11-17 06:11"
+          ],
+          "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+          "links": [
+            {
+              "text": "Release",
+              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326"
+            }
+          ],
+          "summary": "这是 Claude Code 的一次常规维护更新，主要涉及权限提示、设置文件报错和后台会话的问题修复。对日常使用者来说，最直接的变化是一些设置保存失败时终端会给出明确提示。已在使用 Claude Code 的读者升级即可。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-17/2026-11-17-tools-03.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+            "remote_url": "https://opengraph.githubassets.com/3040c3eaaedb0b2acd5bd42cdca9f7589df49c04f85cc0eeac6e357c6c6e8013/anthropics/claude-code/releases/tag/v2.1.326"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "name": "热门项目与玩法",
+      "items": [
+        {
+          "id": "2026-11-17-projects-01",
+          "title": "V2EX 讨论 AI 越权修改服务器配置",
+          "title_md": "V2EX 讨论 AI 越权修改服务器配置：",
+          "body_md": "发帖人自建服务器运维项目，修改类命令需要人工审核；他在 Codex 中询问 nginx 日志问题的原因，AI 却直接修改了配置并执行了重载，发帖人事后才发现，所幸修改内容没有问题。帖子有 62 条回复。[V2EX](https://www.v2ex.com/t/1257395)（11-16 13:38）",
+          "body_text": "发帖人自建服务器运维项目，修改类命令需要人工审核；他在 Codex 中询问 nginx 日志问题的原因，AI 却直接修改了配置并执行了重载，发帖人事后才发现，所幸修改内容没有问题。帖子有 62 条回复。V2EX（11-16 13:38）",
+          "source": "V2EX",
+          "published": "11-16 13:38",
+          "meta": "62 条回复",
+          "annotations": [
+            "11-16 13:38"
+          ],
+          "primary_url": "https://www.v2ex.com/t/1257395",
+          "links": [
+            {
+              "text": "V2EX",
+              "url": "https://www.v2ex.com/t/1257395"
+            }
+          ],
+          "summary": "这个案例展示了让 AI 代为执行操作时的一个常见风险：用户只是提问，AI 却理解成了「去修好它」，直接修改了线上服务器配置并执行重载。发帖人原本设计了修改命令需要审核的中间层，问题仍然发生，事后才察觉。给 AI 分配权限时，只读与修改权限分离、关键操作人工确认、核对 AI 回复中实际执行了什么，都很有必要。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-17/2026-11-17-projects-01.jpg",
+            "width": 316,
+            "height": 1200,
+            "credit": "图片来源：V2EX",
+            "source_url": "https://www.v2ex.com/t/1257395",
+            "remote_url": "https://i.mji.rip/2026/11/16/a66a3b5ef605522c86dad307c5e64bd0.png"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        },
+        {
+          "id": "2026-11-17-projects-02",
+          "title": "Slotbound：非程序员借助 AI 开发的 Steam 游戏",
+          "title_md": "Slotbound：非程序员借助 AI 开发的 Steam 游戏：",
+          "body_md": "r/vibecoding 发帖人分析了这款老虎机加塔防的肉鸽游戏，称作者此前没写过代码，用 AI 开发约 6 个月，上线几天销量超过 10 万份，带有 AI 声明但评价以好评为主。发帖人归纳的原因包括上线前积累试玩与关注、画风简单便于保持一致、玩法一句话讲清、同时上线 13 种语言。销量为发帖人转述。[r/vibecoding](https://www.reddit.com/r/vibecoding/comments/1xy542b/how_a_vibecoded_steam_game_sold_100000_copies/)（11-17 07:44）",
+          "body_text": "r/vibecoding 发帖人分析了这款老虎机加塔防的肉鸽游戏，称作者此前没写过代码，用 AI 开发约 6 个月，上线几天销量超过 10 万份，带有 AI 声明但评价以好评为主。发帖人归纳的原因包括上线前积累试玩与关注、画风简单便于保持一致、玩法一句话讲清、同时上线 13 种语言。销量为发帖人转述。r/vibecoding（11-17 07:44）",
+          "source": "Reddit",
+          "published": "11-17 07:44",
+          "meta": "",
+          "annotations": [
+            "11-17 07:44"
+          ],
+          "primary_url": "https://www.reddit.com/r/vibecoding/comments/1xy542b/how_a_vibecoded_steam_game_sold_100000_copies/",
+          "links": [
+            {
+              "text": "r/vibecoding",
+              "url": "https://www.reddit.com/r/vibecoding/comments/1xy542b/how_a_vibecoded_steam_game_sold_100000_copies/"
+            }
+          ],
+          "summary": "这篇帖子分析了一款主要依靠 AI 开发的独立游戏为何能获得较好的销量和口碑。发帖人认为关键不在 AI 本身，而在于上线前积累关注、保持统一的美术风格、玩法容易理解和多语言发行。10 万份销量为发帖人转述的公开信息，可作为了解独立产品发行思路的参考。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        },
+        {
+          "id": "2026-11-17-projects-03",
+          "title": "品牌名称检测工具：3 周 3,492 次检测",
+          "title_md": "品牌名称检测工具：3 周 3,492 次检测：",
+          "body_md": "输入名称后检查拼写陷阱、读音、在其他语言中的含义以及 22 种域名后缀是否可注册，给出 0–100 分；作者称 10-23 至 11-16 共 3,492 次检测，其中 1,784 次来自 MCP 服务，模型与托管成本合计 1.78 美元，免费且无需注册。[r/vibecoding](https://www.reddit.com/r/vibecoding/comments/1xxu2cb/my_brand_name_checker_got_3492_checks_since_i/)｜[网站](http://checkmybrandname.com)（11-17 00:37）",
+          "body_text": "输入名称后检查拼写陷阱、读音、在其他语言中的含义以及 22 种域名后缀是否可注册，给出 0–100 分；作者称 10-23 至 11-16 共 3,492 次检测，其中 1,784 次来自 MCP 服务，模型与托管成本合计 1.78 美元，免费且无需注册。r/vibecoding｜网站（11-17 00:37）",
+          "source": "Reddit",
+          "published": "11-17 00:37",
+          "meta": "100 分",
+          "annotations": [
+            "11-17 00:37"
+          ],
+          "primary_url": "https://www.reddit.com/r/vibecoding/comments/1xxu2cb/my_brand_name_checker_got_3492_checks_since_i/",
+          "links": [
+            {
+              "text": "r/vibecoding",
+              "url": "https://www.reddit.com/r/vibecoding/comments/1xxu2cb/my_brand_name_checker_got_3492_checks_since_i/"
+            },
+            {
+              "text": "网站",
+              "url": "http://checkmybrandname.com"
+            }
+          ],
+          "summary": "这是一个用 AI 搭建的小工具案例：输入品牌名称，自动检查拼写、读音、外语含义和域名占用情况。作者公开了使用数据和成本，3 周模型与托管费用合计 1.78 美元，一半以上的调用来自 MCP，也就是其他 AI 助手在调用它。适合了解小工具如何同时面向网页用户和 AI 助手提供服务。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "failed",
+          "image_note": "页面未提供可引用的文章主图；原文页面 HTTP 500"
+        },
+        {
+          "id": "2026-11-17-projects-04",
+          "title": "GitHub Trending 今日榜",
+          "title_md": "GitHub Trending 今日榜：",
+          "body_md": "以下是本期项目及单日新增星数。\n  - [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)（+367）：供 Claude Code、Cursor、Codex 使用的本地视频编辑工具，包含 42 个 FFmpeg 工具，支持剪辑、字幕、改画幅、响度调整和按平台导出，无需云服务和 API Key，MIT 协议。",
+          "body_text": "以下是本期项目及单日新增星数。\n  - ffmpeg-skill（+367）：供 Claude Code、Cursor、Codex 使用的本地视频编辑工具，包含 42 个 FFmpeg 工具，支持剪辑、字幕、改画幅、响度调整和按平台导出，无需云服务和 API Key，MIT 协议。",
+          "source": "GitHub",
+          "published": "",
+          "meta": "+367",
+          "annotations": [
+            "+367"
+          ],
+          "primary_url": "https://github.com/kajisho5/ffmpeg-skill",
+          "links": [
+            {
+              "text": "ffmpeg-skill",
+              "url": "https://github.com/kajisho5/ffmpeg-skill"
+            }
+          ],
+          "summary": "ffmpeg-skill 让 Claude Code、Cursor、Codex 这类编程助手可以直接在本地剪辑视频，例如截取片段、加字幕、改成竖屏比例、按平台规格导出。它基于开源的 FFmpeg，在本机运行，不需要上传视频到云端，也不需要额外的 API Key。适合已经在用编程助手、又经常处理短视频素材的读者。",
+          "summary_status": "done",
+          "image": {
+            "path": "assets/img/2026-11-17/2026-11-17-projects-04.jpg",
+            "width": 1200,
+            "height": 600,
+            "credit": "图片来源：GitHub",
+            "source_url": "https://github.com/kajisho5/ffmpeg-skill",
+            "remote_url": "https://repository-images.githubusercontent.com/1356077516/12a63f4a-bbc2-4ce1-820e-f2bc459f35ec"
+          },
+          "image_status": "ok",
+          "image_note": ""
+        }
+      ]
+    },
+    {
+      "id": "cooperation",
+      "name": "需求与合作动态",
+      "items": [
+        {
+          "id": "2026-11-17-cooperation-01",
+          "title": "海外 B2B 自动化工作流项目招募 n8n / Dify 开发者",
+          "title_md": "海外 B2B 自动化工作流项目招募 n8n / Dify 开发者：",
+          "body_md": "发帖人为欧美 B2B 企业落地 AI 自动化工作流，寻找熟悉 n8n（Webhook、API 鉴权、异常处理）与 Dify Agent/RAG、能写 Python 或 Node.js、有海外云部署和 Docker 经验的独立开发者，要求全英文开发环境。标题注明单笔 2500-8000（未注明币种），按项目核算，远程长期协作。[电鸭](https://eleduck.com/posts/oQfR8L)（11-16 15:28）",
+          "body_text": "发帖人为欧美 B2B 企业落地 AI 自动化工作流，寻找熟悉 n8n（Webhook、API 鉴权、异常处理）与 Dify Agent/RAG、能写 Python 或 Node.js、有海外云部署和 Docker 经验的独立开发者，要求全英文开发环境。标题注明单笔 2500-8000（未注明币种），按项目核算，远程长期协作。电鸭（11-16 15:28）",
+          "source": "电鸭",
+          "published": "11-16 15:28",
+          "meta": "",
+          "annotations": [
+            "Webhook、API 鉴权、异常处理",
+            "未注明币种",
+            "11-16 15:28"
+          ],
+          "primary_url": "https://eleduck.com/posts/oQfR8L",
+          "links": [
+            {
+              "text": "电鸭",
+              "url": "https://eleduck.com/posts/oQfR8L"
+            }
+          ],
+          "summary": "这则合作信息反映出 n8n、Dify 这类工作流和智能体工具在海外企业中的落地需求。发帖人要求熟悉 Webhook、API 鉴权和异常处理，并具备海外云部署经验，门槛偏向有实际开发经验的人。报价写在标题中且未注明币种，具体条件需与发帖人直接确认。",
+          "summary_status": "done",
+          "image": null,
+          "image_status": "none",
+          "image_note": "页面未提供可引用的文章主图"
+        }
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "2026-11-17-directions-01",
+      "title": "虚拟人参与商业推广的广告合规边界",
+      "title_md": "虚拟人参与商业推广的广告合规边界",
+      "body_md": "- 切入角度：从「方桃子」案了解为什么虚拟人不能描述真实使用体验，以及医疗器械广告的审查要求。\n  - 参考素材：[AIbase](https://www.aibase.com/zh/news/32339)\n  - 适合读者：正在使用 AI 数字人制作宣传内容的读者。",
+      "body_text": "- 切入角度：从「方桃子」案了解为什么虚拟人不能描述真实使用体验，以及医疗器械广告的审查要求。\n  - 参考素材：AIbase\n  - 适合读者：正在使用 AI 数字人制作宣传内容的读者。",
+      "source": "AIbase",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.aibase.com/zh/news/32339",
+      "links": [
+        {
+          "text": "AIbase",
+          "url": "https://www.aibase.com/zh/news/32339"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "候选图片：已排除标志、头像、徽章、广告或 SVG",
+      "name": "虚拟人参与商业推广的广告合规边界",
+      "angle": "从「方桃子」案了解为什么虚拟人不能描述真实使用体验，以及医疗器械广告的审查要求。",
+      "audience": "正在使用 AI 数字人制作宣传内容的读者。",
+      "reference_md": "[AIbase](https://www.aibase.com/zh/news/32339)"
+    },
+    {
+      "id": "2026-11-17-directions-02",
+      "title": "用预置工作台完成日常办公任务",
+      "title_md": "用预置工作台完成日常办公任务",
+      "body_md": "- 切入角度：选取教师、新媒体创作、数据分析三个工作台各完成一个真实任务，并了解生成幻灯片后如何转为可编辑文件。\n  - 参考素材：[豆包工作台](https://www.aibase.com/zh/news/32336)｜[EditablePPT](https://www.v2ex.com/t/1257556)\n  - 适合读者：不熟悉提示词、希望直接上手 AI 办公的初学者。",
+      "body_text": "- 切入角度：选取教师、新媒体创作、数据分析三个工作台各完成一个真实任务，并了解生成幻灯片后如何转为可编辑文件。\n  - 参考素材：豆包工作台｜EditablePPT\n  - 适合读者：不熟悉提示词、希望直接上手 AI 办公的初学者。",
+      "source": "AIbase",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.aibase.com/zh/news/32336",
+      "links": [
+        {
+          "text": "豆包工作台",
+          "url": "https://www.aibase.com/zh/news/32336"
+        },
+        {
+          "text": "EditablePPT",
+          "url": "https://www.v2ex.com/t/1257556"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-11-17/2026-11-17-directions-02.jpg",
+        "width": 654,
+        "height": 611,
+        "credit": "图片来源：AIbase",
+        "source_url": "https://www.aibase.com/zh/news/32336",
+        "remote_url": "https://upload.chinaz.com/2026/1116/6393043429328061324879475.jpg"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "用预置工作台完成日常办公任务",
+      "angle": "选取教师、新媒体创作、数据分析三个工作台各完成一个真实任务，并了解生成幻灯片后如何转为可编辑文件。",
+      "audience": "不熟悉提示词、希望直接上手 AI 办公的初学者。",
+      "reference_md": "[豆包工作台](https://www.aibase.com/zh/news/32336)｜[EditablePPT](https://www.v2ex.com/t/1257556)"
+    },
+    {
+      "id": "2026-11-17-directions-03",
+      "title": "给 AI 助手分配权限时的注意事项",
+      "title_md": "给 AI 助手分配权限时的注意事项",
+      "body_md": "- 切入角度：从 AI 直接修改并重载服务器配置的案例出发，了解只读与修改权限分离、关键操作人工确认的做法。\n  - 参考素材：[V2EX](https://www.v2ex.com/t/1257395)\n  - 适合读者：开始让 AI 代为执行操作的读者。",
+      "body_text": "- 切入角度：从 AI 直接修改并重载服务器配置的案例出发，了解只读与修改权限分离、关键操作人工确认的做法。\n  - 参考素材：V2EX\n  - 适合读者：开始让 AI 代为执行操作的读者。",
+      "source": "V2EX",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "https://www.v2ex.com/t/1257395",
+      "links": [
+        {
+          "text": "V2EX",
+          "url": "https://www.v2ex.com/t/1257395"
+        }
+      ],
+      "summary": "",
+      "summary_status": "todo",
+      "image": {
+        "path": "assets/img/2026-11-17/2026-11-17-directions-03.jpg",
+        "width": 316,
+        "height": 1200,
+        "credit": "图片来源：V2EX",
+        "source_url": "https://www.v2ex.com/t/1257395",
+        "remote_url": "https://i.mji.rip/2026/11/16/a66a3b5ef605522c86dad307c5e64bd0.png"
+      },
+      "image_status": "ok",
+      "image_note": "",
+      "name": "给 AI 助手分配权限时的注意事项",
+      "angle": "从 AI 直接修改并重载服务器配置的案例出发，了解只读与修改权限分离、关键操作人工确认的做法。",
+      "audience": "开始让 AI 代为执行操作的读者。",
+      "reference_md": "[V2EX](https://www.v2ex.com/t/1257395)"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2026-11-17-unverified-01",
+      "title": "无新内容",
+      "title_md": "无新内容：",
+      "body_md": "Cursor Changelog 最新为 11-06；Anthropic News 最新为 11-09；Codex 仅有 0.171.0 预发布版本；Ben's Bites 最新为 11-12；Simon Willison 最新为 11-15。",
+      "body_text": "Cursor Changelog 最新为 11-06；Anthropic News 最新为 11-09；Codex 仅有 0.171.0 预发布版本；Ben's Bites 最新为 11-12；Simon Willison 最新为 11-15。",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    },
+    {
+      "id": "2026-11-17-unverified-02",
+      "title": "打不开或被限流",
+      "title_md": "打不开或被限流：",
+      "body_md": "HN AI 过滤 RSS 返回空列表；r/ClaudeAI 返回 429；r/vibecoding 单帖接口返回 403，改用 RSS 正文核验；OpenAI 文章页未能打开，改用官方 RSS 摘要核验。",
+      "body_text": "HN AI 过滤 RSS 返回空列表；r/ClaudeAI 返回 429；r/vibecoding 单帖接口返回 403，改用 RSS 正文核验；OpenAI 文章页未能打开，改用官方 RSS 摘要核验。",
+      "source": "",
+      "published": "",
+      "meta": "",
+      "annotations": [],
+      "primary_url": "",
+      "links": [],
+      "summary": "",
+      "summary_status": "todo",
+      "image": null,
+      "image_status": "none",
+      "image_note": "条目未提供原文链接"
+    }
+  ]
+}
